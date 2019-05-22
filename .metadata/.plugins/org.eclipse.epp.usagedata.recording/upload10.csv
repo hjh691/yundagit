@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539076116
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539085942
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539094572
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1543539150310
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539152067
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1543539157417
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539159614
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1543539168861
+started,bundle,org.eclipse.wst.html.ui,1.0.602.v201202091936,"org.eclipse.wst.html.ui",1543539169010
+started,bundle,org.eclipse.mylyn.java.tasks,3.6.0.v20110608-1400,"org.eclipse.mylyn.java.tasks",1543539169071
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539170116
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1543539172999
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539174997
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539192027
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1543539193446
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/btn_left_menu_bg into a drawable",1543539196568
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/state_connected into a drawable",1543539196573
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/ima_bat_55 into a drawable",1543539196577
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/btn_save_bg into a drawable",1543539196581
+error,log,,,"main_title_bar.xml: Color value '@color/title_text_color' must start with #",1543539196594
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539196704
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539213401
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539226590
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539240707
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539263874
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539267464
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539268865
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/btn_left_menu_bg into a drawable",1543539274913
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/state_connected into a drawable",1543539274917
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/ima_bat_55 into a drawable",1543539274920
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/btn_save_bg into a drawable",1543539274923
+error,log,,,"main_title_bar.xml: Color value '@color/title_text_color' must start with #",1543539274936
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539285525
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539324212
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539331776
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543539342748
+started,bundle,org.eclipse.pde.core,3.7.1.v20120103_r372,"org.eclipse.pde.core",1543539407674
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1543539409668
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543539440590
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543539451484
+started,bundle,org.eclipse.wst.jsdt.manipulation,1.0.300.v201104272153,"org.eclipse.wst.jsdt.manipulation",1543539458792
+started,bundle,org.eclipse.wst.jsdt.core,1.1.102.v201111090634,"org.eclipse.wst.jsdt.core",1543539459068
+started,bundle,org.eclipse.wst.jsdt.ui,1.1.102.v201201131900,"org.eclipse.wst.jsdt.ui",1543539459170
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1543539459438
+opened,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539464971
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539465139
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/btn_left_menu_pressed into a drawable",1543539472528
+error,log,,,"main_title_bar.xml: Failed to parse file D:\\Users\\xxxx\\workspace\\SubstationTemperature\\res\\drawable\\btn_left_menu_bg.xml",1543539472530
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/state_connected into a drawable",1543539472533
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/ima_bat_55 into a drawable",1543539472537
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/btn_save_bg into a drawable",1543539472540
+error,log,,,"main_title_bar.xml: Color value '@color/title_text_color' must start with #",1543539472627
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543539488305
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539494976
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543539499921
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1543539517123
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1543539529309
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539532905
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/state_connected into a drawable",1543539536667
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/ima_bat_55 into a drawable",1543539536672
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/btn_save_bg into a drawable",1543539536675
+error,log,,,"main_title_bar.xml: Color value '@color/title_text_color' must start with #",1543539536688
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539536799
+closed,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539548537
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539549839
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539582136
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543539584630
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539613344
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543539619529
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539631429
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/state_connected into a drawable",1543539636149
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/ima_bat_55 into a drawable",1543539636152
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/btn_save_bg into a drawable",1543539636159
+error,log,,,"main_title_bar.xml: Color value '@color/title_text_color' must start with #",1543539636172
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/state_connected into a drawable",1543539636342
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/ima_bat_55 into a drawable",1543539636346
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/btn_save_bg into a drawable",1543539636349
+error,log,,,"main_title_bar.xml: Color value '@color/title_text_color' must start with #",1543539636363
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/state_connected into a drawable",1543539639274
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/ima_bat_55 into a drawable",1543539639278
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/btn_save_bg into a drawable",1543539639281
+error,log,,,"main_title_bar.xml: Color value '@color/title_text_color' must start with #",1543539639293
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/state_connected into a drawable",1543539639479
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/ima_bat_55 into a drawable",1543539639504
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/btn_save_bg into a drawable",1543539639507
+error,log,,,"main_title_bar.xml: Color value '@color/title_text_color' must start with #",1543539639520
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543539678539
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539708598
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543539720179
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.refresh",1543539722764
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539727986
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/state_connected into a drawable",1543539728140
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/ima_bat_55 into a drawable",1543539728143
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/btn_save_bg into a drawable",1543539728146
+error,log,,,"main_title_bar.xml: Color value '@color/title_text_color' must start with #",1543539728158
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543539736012
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539742720
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543539747023
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/state_connected into a drawable",1543539747230
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/ima_bat_55 into a drawable",1543539747233
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/btn_save_bg into a drawable",1543539747237
+error,log,,,"main_title_bar.xml: Color value '@color/title_text_color' must start with #",1543539747254
+started,bundle,org.eclipse.equinox.p2.garbagecollector,1.0.200.v20110815-1419,"org.eclipse.equinox.p2.garbagecollector",1543539751524
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539752279
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543539752286
+closed,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539752321
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543539754486
+opened,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539772086
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539772145
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/state_connected into a drawable",1543539778312
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/ima_bat_55 into a drawable",1543539778315
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/btn_save_bg into a drawable",1543539778320
+error,log,,,"main_title_bar.xml: Color value '@color/title_text_color' must start with #",1543539778333
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543539781991
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/state_connected into a drawable",1543539799791
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/ima_bat_55 into a drawable",1543539799794
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/btn_save_bg into a drawable",1543539799797
+error,log,,,"main_title_bar.xml: Color value '@color/title_text_color' must start with #",1543539799810
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539823527
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543539832343
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539832373
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543539846325
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539846378
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543539858758
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.buildProject",1543539865030
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543539865314
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/state_connected into a drawable",1543539866749
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/ima_bat_55 into a drawable",1543539866752
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/btn_save_bg into a drawable",1543539866770
+error,log,,,"main_title_bar.xml: Color value '@color/title_text_color' must start with #",1543539866872
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/state_connected into a drawable",1543539867329
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/ima_bat_55 into a drawable",1543539867381
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/btn_save_bg into a drawable",1543539867397
+error,log,,,"main_title_bar.xml: Color value '@color/title_text_color' must start with #",1543539867409
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543539867604
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1543539872074
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543539878867
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543539880188
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543539881055
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543539882380
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543539885990
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543539891432
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543539911604
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539912759
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539933877
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539970982
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543539984161
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1543540003178
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543540006113
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1543540029645
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1543540040777
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540070704
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540094784
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.cleanAction",1543540094793
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540095358
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540096855
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543540102105
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/state_connected into a drawable",1543540103641
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/ima_bat_55 into a drawable",1543540103652
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/btn_save_bg into a drawable",1543540103665
+error,log,,,"main_title_bar.xml: Color value '@color/title_text_color' must start with #",1543540103683
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543540103813
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/state_connected into a drawable",1543540120613
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/ima_bat_55 into a drawable",1543540120643
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/btn_save_bg into a drawable",1543540120656
+error,log,,,"main_title_bar.xml: Color value '@color/title_text_color' must start with #",1543540120674
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543540132833
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1543540176392
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1543540183815
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543540188183
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543540196412
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.refresh",1543540198906
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1543540204449
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543540230336
+opened,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543540235517
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543540235684
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/state_connected into a drawable",1543540243086
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/btn_save_bg into a drawable",1543540243105
+error,log,,,"main_title_bar.xml: Color value '@color/title_text_color' must start with #",1543540243129
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543540263241
+opened,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543540267203
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543540267298
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/state_connected into a drawable",1543540274958
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/btn_save_bg into a drawable",1543540274976
+error,log,,,"main_title_bar.xml: Color value '@color/title_text_color' must start with #",1543540274995
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540328392
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540332982
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540350207
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540371023
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1543540372586
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543540376198
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540376311
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540387899
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540388964
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540405499
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540411968
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540414582
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540432651
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540443202
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540463009
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540468023
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1543540486064
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540490669
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540516326
+error,log,,,"Could not obtain indentation",1543540516341
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543540578547
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543540580774
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1543540615773
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1543540663432
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540671776
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540673256
+error,log,,,"Unhandled event loop exception",1543540673284
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540675439
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540676313
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540679286
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540680770
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540705564
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540709536
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540726973
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540728786
+error,log,,,"Unhandled event loop exception",1543540728798
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543540732492
+closed,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543540732492
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543540736543
+opened,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543540736942
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543540737122
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/state_connected into a drawable",1543540744917
+error,log,,,"main_title_bar.xml: Failed to convert @drawable/btn_save_bg into a drawable",1543540744935
+error,log,,,"main_title_bar.xml: Color value '@color/title_text_color' must start with #",1543540744951
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543540748111
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543540753881
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540762306
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540764146
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.cleanAction",1543540764180
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540764532
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540764879
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1543540786717
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543540797070
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.cut",1543540809961
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1543540822316
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1543540824285
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540830597
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540832203
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.cleanAction",1543540832214
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540832784
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543540833010
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1543540839075
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543540850638
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543540856760
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1543540876427

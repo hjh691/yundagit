@@ -1,0 +1,81 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content" 
+    android:background="@drawable/back_bule" 
+    android:orientation="horizontal" > 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5px"
+        android:layout_marginRight="20px"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal" >
+    <ImageView 
+      	android:id="@+id/connect_iv"
+        android:layout_width="35px"
+        android:layout_height="35px"
+        android:layout_gravity="center"
+        android:src="@drawable/lamp_g"/>            
+    <TextView  
+        android:id="@+id/text_ssid"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:textColor="#000000" 
+        android:gravity="center"
+        android:text="lxdz603001"
+        android:layout_gravity="center"
+        android:textSize="24px"
+        android:layout_marginLeft="5px"
+        android:textStyle="bold" />  
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+		
+            <RelativeLayout
+       			android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+       			android:layout_marginBottom="2px"
+       			android:layout_marginLeft="5px">
+           		<ImageView
+               		android:id="@+id/bat_top_iv"
+               		android:layout_width="wrap_content"
+               		android:layout_height="wrap_content"
+               		android:src="@drawable/bat_top" />
+       			<ImageView
+       			    android:id="@+id/bat_back_iv"
+       			    android:layout_width="wrap_content"
+       			    android:layout_height="wrap_content"
+       			    android:layout_below="@+id/bat_top_iv"
+       			    android:src="@drawable/bat_empty" />
+       			<ImageView
+       			    android:id="@+id/bat_iv"
+       			    android:layout_width="wrap_content"
+       			    android:layout_height="wrap_content"
+       			    android:layout_above="@+id/bat_bottom"
+       			    android:src="@drawable/bat_level_90" />
+       			<TextView  
+       			    style="@style/textshadow"
+        			android:id="@+id/bat_value"  
+        			android:layout_width="wrap_content"  
+        			android:layout_height="wrap_content"  
+        			android:textColor="#FFFFFF" 
+        			android:gravity="center"
+        			android:layout_centerInParent="true"
+        			android:layout_above="@+id/bat_bottom"
+        			android:textSize="20px"
+        			android:text="90"
+        			android:textStyle="bold" />  			
+        		<ImageView
+        	    	android:id="@+id/bat_bottom"
+        	    	android:layout_width="wrap_content"
+        	    	android:layout_height="wrap_content"
+        	    	android:layout_below="@+id/bat_back_iv"
+        	    	android:src="@drawable/bat_bottom" />
+        	</RelativeLayout>
+ 
+    </LinearLayout>    
+  </LinearLayout> 
+</LinearLayout>  

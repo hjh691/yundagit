@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  -->
+    <color name="lx_dark_green">#416c50</color> <!-- 深绿色 -->
+    <color name="lx_light_green">#4da36b</color> <!-- 亮绿色 -->
+    <color name="lx_light_gray">#ebebeb</color> <!-- 浅灰色 -->
+    <color name="lx_middle_gray">#999999</color> <!-- 中等深度灰色，一般拥有局部容器布局的标题背景 -->
+    <color name="lx_orange_color">#fa825b</color> <!-- 橘黄色 -->
+	<color name="lx_white_color">#ffffff</color> <!-- 橘黄色 -->
+
+    <!-- 标题栏文本颜色 -->
+    <color name="title_text_color">#ffffff</color> <!-- 白色 -->
+
+
+    <!-- 菜单颜色 -->
+    <color name="left_menu_item_text_normal">#000000</color>
+    <color name="left_menu_item_text_pressed">#ffffff</color>
+    <color name="left_menu_item_bg_normal">#ffffff</color>
+    <color name="left_menu_item_bg_pressed">@color/lx_dark_green</color>
+    <color name="left_menu_item_line">@color/lx_light_gray</color>
+
+    <!-- A、B、C三个相位使用的颜色 -->
+    <color name="phase_a_yellow">#fbbb3f</color>
+    <color name="phase_b_green">#34c64a</color>
+    <color name="phase_c_red">#f6605a</color>
+    
+    <!-- 隔离线颜色 -->
+    <color name="separate_line_color">#979797</color>
+    
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_conner">#ff0000ff</color>
+    <color name="viewfinder_mask">#80000000</color>
+    <color name="result_view">#c0000000</color>
+    <color name="possible_result_points">#c0ff2400</color>
+
+</resources>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/manageDataRootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+    <!-- 标题栏 -->
+
+    <LinearLayout
+        android:id="@+id/titlBarRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <include layout="@layout/title_bar" />
+    </LinearLayout>
+    <!-- 表格头 -->
+
+    <LinearLayout
+        android:id="@+id/listViewHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titlBarRelativeLayout"
+        android:layout_marginTop="5.0dip"
+        android:background="#ebebeb"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txt_xm"
+            style="@style/listview_item_textview_style"
+            android:gravity="center"
+            android:text="电表编号" />
+
+        <TextView
+            style="@style/listview_item_textview_style"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:text="测试时间" />
+
+        <!--
+             <TextView
+            style="@style/listview_item_textview_style"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="用户名" />
+        -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/separateLine"
+        android:layout_width="match_parent"
+        android:layout_height="1.0dip"
+        android:layout_below="@id/listViewHeader"
+        android:background="@color/lx_dark_green"
+        android:orientation="horizontal" />
+
+    <!-- 这里是筛选数据的布局容器，它的位置是页面最底部 -->
+
+    <LinearLayout
+        android:id="@+id/filterLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5.0dip"
+        android:background="@drawable/ca_view_container_dark_bg"
+        android:orientation="vertical" >
+
+        <!-- 查询条件选择：关键字字段、大于或等于选择、关键字输入框 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="34.0dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/view_style_common"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/row_height_1"
+                android:layout_weight="2.5"
+                android:text="筛选条件" />
+
+            <Spinner
+                android:id="@+id/spi1"
+                style="@style/view_style_common"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/row_height_1"
+                android:layout_weight="3"
+                android:background="@color/lx_light_gray"
+                android:entries="@array/filter_fild_array"
+                android:hint="请选择关键字" />
+
+            <Spinner
+                android:id="@+id/spi2"
+                style="@style/view_style_common"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/row_height_1"
+                android:layout_weight="1.2"
+                android:background="@color/lx_light_gray"
+                android:entries="@array/filter_character"
+                android:gravity="center" />
+
+            <EditText
+                android:id="@+id/text_que"
+                style="@style/view_style_common"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/row_height_1"
+                android:layout_centerInParent="true"
+                android:layout_weight="4"
+                android:background="@color/lx_light_gray"
+                android:textColor="#4f4f4f" />
+
+            <!--
+            <Spinner
+                style="@style/ca_input_style"
+                android:layout_width="match_parent"
+                android:entries="@array/filter_fild_array"
+                android:textSize="@dimen/text_size_commom"
+                android:hint="请选择关键字" />
+
+            <Spinner
+                style="@style/ca_input_style"
+                android:textSize="@dimen/text_size_commom"
+                android:layout_width="match_parent"
+                android:entries="@array/filter_character" />
+
+            <EditText
+                style="@style/ca_input_style"
+                android:layout_width="match_parent" 
+                android:layout_centerInParent="true"/>
+            -->
+        </LinearLayout>
+
+        <!-- 其实时间和截至时间的选择 -->
+
+
+        <!-- 宽度为68.0dip的原因是两倍行高+4.0dip的外边距+4.0dip的内边距 -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="68.0dip"
+            android:orientation="horizontal" >
+
+            <!-- 筛选按钮 -->
+
+            <LinearLayout
+                android:id="@+id/filterBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/queryDataBtn"
+                    style="@style/button_green_style"
+                    android:text=" 筛  选 " />
+
+                <Button
+                    android:id="@+id/moreBtn"
+                    style="@style/button_green_style"
+                    android:text=" 更  多 " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/filterDateLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@id/filterBtn"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/view_style_common"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/row_height_1"
+                        android:layout_weight="2.5"
+                        android:text="起始日期" />
+
+                    <!-- 起始日期设定，点击呼出日期时间设定对话框 -->
+
+                    <TextView
+                        android:id="@+id/startDatePickerTV"
+                        style="@style/ca_input_style"
+                        android:layout_width="0dp"
+                        android:layout_weight="6"
+                        android:clickable="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/view_style_common"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/row_height_1"
+                        android:layout_weight="2.5"
+                        android:text="截至日期" />
+
+                    <TextView
+                        android:id="@+id/endDatePickerTV"
+                        style="@style/ca_input_style"
+                        android:layout_width="0dp"
+                        android:layout_weight="6"
+                        android:clickable="true" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- 第三方开源控件，可侧滑列表项的ListView -->
+    <!-- 它的位置是在隔离线separateLine的下面，筛选数据容器filterLayout的上面，所以它的声明放在了最后 -->
+
+    <com.baoyz.swipemenulistview.SwipeMenuListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/filterLayout"
+        android:layout_below="@id/separateLine" />
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ca_view_container_dark_bg"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/deleteAllDataBtn"
+        style="@style/button_green_style"
+        android:text="全部删除" />
+
+    <Button
+        android:id="@+id/backupDataBtn"
+        style="@style/button_green_style"
+        android:text="备份数据" />
+
+    <Button
+        android:id="@+id/upLoadDataBtn"
+        style="@style/button_green_style"
+        android:text="上传数据" />
+
+    <Button
+        android:id="@+id/backManageDataBtn"
+        style="@style/button_green_style"
+        android:text="返回" />
+
+</LinearLayout>

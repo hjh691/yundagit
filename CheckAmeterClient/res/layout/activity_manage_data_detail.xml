@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/dataDetailTitleBarOutterLayout"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <include layout="@layout/title_bar" />
+    </LinearLayout>
+
+    <!-- 导航条：导航栏项目，这里多套了一层LinearLayout，允许将来在里面放置一些动画效果的图片，或者其它组件，方便扩展 -->
+
+    <LinearLayout
+        android:id="@+id/dataDetailNavBarTopContainer"
+        android:layout_width="match_parent"
+        android:layout_height="40.0dip"
+        android:layout_below="@id/dataDetailTitleBarOutterLayout"
+        android:background="#fff3f3f3"
+        android:orientation="horizontal" >
+
+        <!-- 导航栏控件，自定义控件，需要在view包中声明 -->
+
+        <com.lx.checkameterclient.view.NavigationBarHScrollView
+            android:id="@+id/dataDetailNavBarHScrollView"
+            style="@style/navigation_bar_style" >
+
+            <!-- 导航容器布局 -->
+
+            <LinearLayout
+                android:id="@+id/dataDetailNavBarLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#50535a"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="10.0dip"
+                android:paddingRight="10.0dip" />
+        </com.lx.checkameterclient.view.NavigationBarHScrollView>
+    </LinearLayout>
+
+    <!-- 底部工具条 -->
+
+    <LinearLayout
+        android:id="@+id/bootomToolBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5.0dip"
+        android:background="@drawable/ca_view_container_dark_bg"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/saveDataBtn"
+            style="@style/button_green_style"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="保存修改" />
+
+        <Button
+            android:id="@+id/browsePictureBtn"
+            style="@style/button_green_style"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="浏览图片(录像)" />
+
+        <Button
+            android:id="@+id/browseVedioBtn"
+            style="@style/button_green_style"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="浏览录像"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <!-- 页面内容区域的ViewPager控件 -->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/dataDetailViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bootomToolBarLayout"
+        android:layout_below="@id/dataDetailNavBarTopContainer" />
+
+</RelativeLayout>

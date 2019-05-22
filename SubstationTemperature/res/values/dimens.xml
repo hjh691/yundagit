@@ -1,0 +1,30 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+	<!-- 首页标题栏 -->
+	<dimen name="title_bar_height">44.0dip</dimen>
+	<dimen name="title_bar_btn_height">28.0dip</dimen>
+	<dimen name="title_bar_btn_margin_size">4.0dip</dimen>
+	<dimen name="title_bar_btn_width">40.0dip</dimen>
+	<dimen name="title_bar_btn_padding_size">4.0dip</dimen>
+	<!--  文本通用字体大小 -->
+	<dimen name="text_size_commom">16.0dp</dimen>
+    <dimen name="text_size_commom_2">24.0dp</dimen>
+    
+     <!-- 1倍、2倍、3倍的行高 -->
+    <dimen name="row_height_1">30.0dip</dimen>
+    <dimen name="row_height_2">60.0dip</dimen>
+    <dimen name="row_height_3">90.0dip</dimen>
+    <dimen name="row_height_4">40.0dip</dimen>
+    
+    <!-- 侧滑菜单 -->
+    <dimen name="slidingmenu_offset">120.0dip</dimen>
+    <dimen name="shadow_width">15.0dip</dimen>
+    
+     <!--  标题栏标题字体大小 -->
+    <dimen name="title_bar_text_size">14.0dp</dimen>
+    <dimen name="text_size_20">20.0dp</dimen>
+    <dimen name="text_size_18">18.0dp</dimen>
+</resources>

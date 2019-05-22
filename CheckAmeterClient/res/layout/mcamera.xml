@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:layout_marginTop="5.0dip"
+        android:layout_weight="8"
+        android:background="@drawable/ca_view_container_dark_bg"
+        android:orientation="vertical" >
+        
+        <RelativeLayout
+            android:id="@+id/video_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+    <SurfaceView
+        android:id="@+id/arc_hf_video_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:layout_centerHorizontal="true"/>
+      <ImageView 
+        android:id="@+id/autofoucs"
+        android:layout_width="50px"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_height="50px"/>
+
+    <TextView
+        android:id="@+id/arc_hf_video_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="40px"
+        android:textColor="#ffff0000"
+        android:textSize="35px"
+        android:textStyle="bold" >
+    </TextView>
+    </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5.0dip"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:background="@drawable/ca_view_container_dark_bg" >
+
+        <ImageView
+            android:id="@+id/arc_hf_img_btnGridShow"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:src="@drawable/picture" />
+
+        <ImageView
+            android:id="@+id/arc_hf_img_start"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:src="@drawable/shortme" />
+
+        <ImageView
+            android:id="@+id/arc_hf_video_start"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:src="@drawable/capture_stop" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,310 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lay_histraydata"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.substationtemperature.MainActivity$PlaceholderFragment" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<!--  <include layout="@layout/main_title_bar" /> -->
+
+	<LinearLayout
+	    android:id="@+id/lay_char_chose"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="@dimen/title_bar_btn_margin_size"
+		    android:layout_marginRight="@dimen/title_bar_btn_margin_size"
+		    android:background="@drawable/ca_view_container_dark_bg"
+		    android:orientation="vertical" >
+
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content" >
+
+			    <TextView
+			        android:id="@+id/txt_histraychar_zhandian"
+			        style="@style/ca_label_style"
+			        android:layout_weight="2"
+			        android:text="@string/station"
+			        android:textColor="@color/lx_white_color" />
+
+			    <Spinner
+			        android:id="@+id/spn_histraychar_zhandian"
+			        style="@style/ca_input_style"
+			        android:layout_width="0dp"
+			        android:layout_height="35dp"
+			        android:layout_weight="6" />
+			</LinearLayout>
+
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content" >
+
+			    <TextView
+			        android:id="@+id/txt_histraychar_celiangdian"
+			        style="@style/ca_label_style"
+			        android:layout_weight="2"
+			        android:text="@string/sensor"
+			        android:textColor="@color/lx_white_color" />
+
+			    <Spinner
+			        android:id="@+id/spn_histraychar_celiangdian"
+			        style="@style/ca_input_style"
+			        android:layout_width="0dp"
+			        android:layout_height="35dp"
+			        android:layout_weight="6" />
+			</LinearLayout>
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content" >
+
+				<TextView
+				    android:id="@+id/chb_cld2"
+				    style="@style/ca_label_style"
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="2"
+				    android:button="@drawable/checkbox"
+				    android:text="测量点2"
+				    android:textColor="@color/lx_white_color" />
+
+			    <Spinner
+			        android:id="@+id/spn_histraychar_celiangdian1"
+			        style="@style/ca_input_style"
+			        android:layout_width="0dp"
+			        android:layout_height="35dp"
+			        android:layout_weight="6" />
+			</LinearLayout>
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content" >
+
+			    <TextView
+				    android:id="@+id/chb_cld3"
+				    style="@style/ca_label_style"
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="2"
+				    android:button="@drawable/checkbox"
+				    android:text="测量点3"
+				    android:textColor="@color/lx_white_color" />
+
+			    <Spinner
+			        android:id="@+id/spn_histraychar_celiangdian2"
+			        style="@style/ca_input_style"
+			        android:layout_width="0dp"
+			        android:layout_height="35dp"
+			        android:layout_weight="6" />
+			</LinearLayout>
+
+		</LinearLayout>
+
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="80dp"
+	        android:layout_marginLeft="@dimen/title_bar_btn_margin_size"
+	        android:layout_marginRight="@dimen/title_bar_btn_margin_size"
+	        android:background="@drawable/ca_view_container_dark_bg"
+	        android:orientation="horizontal" >
+
+	        <LinearLayout
+	            android:id="@+id/histraychar_filterBtn"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentBottom="true"
+	            android:layout_alignParentRight="true"
+	            android:layout_alignParentTop="true"
+	            android:layout_gravity="center"
+	            android:orientation="vertical" >
+
+	            <Button
+	                android:id="@+id/histraychar_queryDataBtn"
+	                style="@style/button_green_style"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:text="@string/query" />
+
+	        </LinearLayout>
+
+	        <LinearLayout
+	            android:id="@+id/filterDateLayout"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_toLeftOf="@id/histraychar_filterBtn"
+	            android:orientation="vertical" >
+
+	            <LinearLayout
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal" >
+
+	                <TextView
+	                    style="@style/view_style_common"
+	                    android:layout_width="0dp"
+	                    android:layout_height="@dimen/row_height_1"
+	                    android:layout_weight="2"
+	                    android:text="@string/starttime" />
+
+	                <TextView
+	                    android:id="@+id/txt_histraychar_startdate"
+	                    style="@style/ca_input_style"
+	                    android:layout_width="0dp"
+	                    android:layout_weight="4.2"
+	                    android:clickable="true" />
+
+	            </LinearLayout>
+	             <LinearLayout
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal" >
+
+	                <TextView
+	                    style="@style/view_style_common"
+	                    android:layout_width="0dp"
+	                    android:layout_height="@dimen/row_height_1"
+	                    android:layout_weight="2"
+	                    android:text="@string/endtime" />
+
+	                <TextView
+	                    android:id="@+id/txt_histraychar_enddate"
+	                    style="@style/ca_input_style"
+	                    android:layout_width="0dp"
+	                    android:layout_weight="4.2"
+	                    android:clickable="true" />
+	            </LinearLayout>
+
+	          
+	        </LinearLayout>
+	    </RelativeLayout>
+
+	</LinearLayout>
+
+    <!-- 查询条件选择：关键字字段、大于或等于选择、关键字输入框 -->
+
+       <!--  <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="34.0dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/view_style_common"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/row_height_1"
+                android:layout_weight="2.5"
+                android:text="筛选条件" />
+
+            <Spinner
+                android:id="@+id/spi1"
+                style="@style/view_style_common"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/row_height_1"
+                android:layout_weight="3"
+                android:background="@color/lx_light_gray"
+                android:entries="@array/filter_fild_array"
+                android:hint="请选择关键字" />
+
+            <Spinner
+                android:id="@+id/spi2"
+                style="@style/view_style_common"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/row_height_1"
+                android:layout_weight="1.2"
+                android:background="@color/lx_light_gray"
+                android:entries="@array/filter_character"
+                android:gravity="center" />
+
+            <EditText
+                android:id="@+id/text_que"
+                style="@style/view_style_common"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/row_height_1"
+                android:layout_centerInParent="true"
+                android:layout_weight="4"
+                android:background="@color/lx_light_gray"
+                android:textColor="#4f4f4f" />
+
+           
+            <Spinner
+                style="@style/ca_input_style"
+                android:layout_width="match_parent"
+                android:entries="@array/filter_fild_array"
+                android:textSize="@dimen/text_size_commom"
+                android:hint="请选择关键字" />
+
+            <Spinner
+                style="@style/ca_input_style"
+                android:textSize="@dimen/text_size_commom"
+                android:layout_width="match_parent"
+                android:entries="@array/filter_character" />
+
+            <EditText
+                style="@style/ca_input_style"
+                android:layout_width="match_parent" 
+                android:layout_centerInParent="true"/>
+            -->
+       
+
+        <!-- 其实时间和截至时间的选择 -->
+
+
+        <!-- 宽度为68.0dip的原因是两倍行高+4.0dip的外边距+4.0dip的内边距 -->
+
+	<ScrollView
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="@dimen/title_bar_btn_margin_size"
+	    android:layout_marginRight="@dimen/title_bar_btn_margin_size"
+	    android:orientation="vertical" >
+
+	    <LinearLayout
+	        android:id="@+id/layout_chart"
+	        android:layout_width="match_parent"
+	        android:layout_height="280dp"
+	        android:orientation="vertical" >
+
+	    </LinearLayout>
+<!--  
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:background="@drawable/ca_view_container_dark_bg"
+	        android:gravity="center"
+	        android:orientation="vertical" >
+
+	        <com.example.substationtemperature.view.SegmentControl
+	            xmlns:segmentcontrol="http://schemas.android.com/apk/res-auto"
+	            android:id="@+id/xiangbie"
+	            android:layout_width="wrap_content"
+	            android:layout_height="34dip"
+	            android:layout_gravity="center"
+	            android:layout_marginBottom="10dip"
+	            android:layout_marginTop="10dip"
+	            android:background="@color/separate_line_color"
+	            android:textSize="20sp"
+	            app:colors="#4da36b"
+	            app:cornerRadius="1dip"
+	            app:direction="horizon"
+	            app:horizonGap="10.0dip"
+	            segmentcontrol:texts="A相|B相|C相|合相"
+	            segmentcontrol:verticalGap="8dip" />
+
+	    </LinearLayout>
+	    -->
+	</LinearLayout>
+	</ScrollView>
+</LinearLayout>

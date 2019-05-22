@@ -1,0 +1,3 @@
+
+var ismobile=0;
+

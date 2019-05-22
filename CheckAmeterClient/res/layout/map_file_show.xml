@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lx_light_green"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txt_ver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="文件列表"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/left_menu_item_text_pressed" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="文件数量：:" />
+
+            <TextView
+                android:id="@+id/txt_filenum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="000000000001" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/arc_hf_file_show"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="20dp"
+        android:columnWidth="200px"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth" />
+
+</LinearLayout>

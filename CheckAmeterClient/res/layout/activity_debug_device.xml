@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 设备调试 -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_bar" />
+    <!-- 第一组容器：电压、电流、角度、其他 -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5.0dip"
+                android:background="@drawable/ca_view_container_dark_bg"
+                android:orientation="vertical" >
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="1,2,3" >
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            style="@style/ca_label_dark_style_2"
+                            android:text="" />
+
+                        <TextView
+                            style="@style/ca_label_dark_style_2"
+                            android:text="电压:V" />
+
+                        <TextView
+                            style="@style/ca_label_dark_style_2"
+                            android:text="电流:A" />
+
+                        <TextView
+                            style="@style/ca_label_dark_style_2"
+                            android:text="角度:°" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/ca_label_dark_style_2"
+                            android:text="A相" />
+
+                        <TextView
+                            android:id="@+id/ua"
+                            style="@style/ca_label_dark_style_2"
+                            android:text="0.000"
+                            android:textColor="@color/phase_a_yellow" />
+
+                        <TextView
+                            android:id="@+id/ia"
+                            style="@style/ca_label_dark_style_2"
+                            android:text="0.000"
+                            android:textColor="@color/phase_a_yellow" />
+
+                        <TextView
+                            android:id="@+id/ja"
+                            style="@style/ca_label_dark_style_2"
+                            android:text="0.000"
+                            android:textColor="@color/phase_a_yellow" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/ca_label_dark_style_2"
+                            android:text="B相" />
+
+                        <TextView
+                            android:id="@+id/ub"
+                            style="@style/ca_label_dark_style_2"
+                            android:text="0.000"
+                            android:textColor="@color/phase_b_green" />
+
+                        <TextView
+                            android:id="@+id/ib"
+                            style="@style/ca_label_dark_style_2"
+                            android:text="0.000"
+                            android:textColor="@color/phase_b_green" />
+
+                        <TextView
+                            android:id="@+id/jb"
+                            style="@style/ca_label_dark_style_2"
+                            android:text="0.000"
+                            android:textColor="@color/phase_b_green" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/ca_label_dark_style_2"
+                            android:text="C相" />
+
+                        <TextView
+                            android:id="@+id/uc"
+                            style="@style/ca_label_dark_style_2"
+                            android:text="0.000"
+                            android:textColor="@color/phase_c_red" />
+
+                        <TextView
+                            android:id="@+id/ic"
+                            style="@style/ca_label_dark_style_2"
+                            android:text="0.000"
+                            android:textColor="@color/phase_c_red" />
+
+                        <TextView
+                            android:id="@+id/jc"
+                            style="@style/ca_label_dark_style_2"
+                            android:text="0.000"
+                            android:textColor="@color/phase_c_red" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+            <!-- ========== 第二组容器 ============ -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5.0dip"
+                android:background="@drawable/ca_view_container_dark_bg"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <!--
+                     <TextView
+                    style="@style/ca_label_dark_style_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="项目选择" />
+                -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+<!-- 
+                    <TextView
+                        style="@style/ca_label_dark_style_2"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="电压量程" />
+
+                    <Spinner
+                        style="@style/ca_input_style"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:entries="@array/debugDeviceVoltRangeArray" />
+ -->
+                    <TextView
+                        style="@style/ca_label_dark_style_2"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="脉冲倍数" />
+
+                    <Spinner
+                        android:id="@+id/spi4"
+                        style="@style/ca_input_style"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:entries="@array/pulseMultipleArray" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5.0dip"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <com.lx.checkameterclient.view.SegmentControl
+                        xmlns:segmentcontrol="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/segmentcontrol_xm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="26dip"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dip"
+                        android:layout_marginTop="10dip"
+                        android:textSize="14sp"
+                        segmentcontrol:colors="#4da36b"
+                        segmentcontrol:cornerRadius="1dip"
+                        segmentcontrol:direction="horizon"
+                        segmentcontrol:horizonGap="10.0dip"
+                        segmentcontrol:texts="Ua|Ub|Uc|Ia|Ib|Ic|Ja|Jb|Jc"
+                        segmentcontrol:verticalGap="8dip" />
+
+                </LinearLayout>
+
+                <!--
+                     <TextView
+                    style="@style/ca_label_dark_style_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="档位选择" />
+                -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5.0dip"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/but_dy"
+                        style="@style/button_green_style"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:text="电压保存" />
+
+                    <Button
+                        android:id="@+id/but_dl"
+                        style="@style/button_green_style"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:text="电流保存" />
+
+                </LinearLayout>
+
+                <com.lx.checkameterclient.view.SegmentControl
+                    xmlns:segmentcontrol="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/segmentcontrol_dw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dip"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:textSize="14sp"
+                    segmentcontrol:colors="#4da36b"
+                    segmentcontrol:cornerRadius="1dip"
+                    segmentcontrol:direction="horizon"
+                    segmentcontrol:horizonGap="10.0dip"
+                    segmentcontrol:texts="100%|10%|5%"
+                    segmentcontrol:verticalGap="8dip" />
+
+                <!-- *********************操作区增减**************************** -->
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" >
+
+                    <!-- *********************操作区增幅提示**************************** -->
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/ca_label_dark_style_2"
+                            android:text="10%" />
+
+                        <TextView
+                            style="@style/ca_label_dark_style_2"
+                            android:text="1%" />
+
+                        <TextView
+                            style="@style/ca_label_dark_style_2"
+                            android:text="0.1%" />
+
+                        <TextView
+                            style="@style/ca_label_dark_style_2"
+                            android:text="0.01%" />
+                    </TableRow>
+                    <!-- *********************操作区增加按钮**************************** -->
+
+                    <TableRow>
+
+                        <ImageButton
+                            android:id="@+id/ibut_tj4u"
+                            style="@style/arrow_up_button_style" />
+
+                        <ImageButton
+                            android:id="@+id/ibut_tj3u"
+                            style="@style/arrow_up_button_style" />
+
+                        <ImageButton
+                            android:id="@+id/ibut_tj2u"
+                            style="@style/arrow_up_button_style" />
+
+                        <ImageButton
+                            android:id="@+id/ibut_tj1u"
+                            style="@style/arrow_up_button_style" />
+
+                    </TableRow>
+                    <!-- *********************操作区消减按钮**************************** -->
+
+                    <TableRow>
+
+                        <ImageButton
+                            android:id="@+id/ibut_tj4"
+                            style="@style/arrow_down_button_style" />
+
+                        <ImageButton
+                            android:id="@+id/ibut_tj3"
+                            style="@style/arrow_down_button_style" />
+
+                        <ImageButton
+                            android:id="@+id/ibut_tj2"
+                            style="@style/arrow_down_button_style" />
+
+                        <ImageButton
+                            android:id="@+id/ibut_tj1"
+                            style="@style/arrow_down_button_style" />
+
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

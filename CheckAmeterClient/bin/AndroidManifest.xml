@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lx.checkameterclient"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="17" />
+    <!-- 以下是使用zxing组件扫描所需的权限 -->
+    <uses-permission android:name="android.permission.FLASHLIGHT" />  
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.HARDWARE_TEST" />
+    <!-- 以下是悬浮窗口所需的权限 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- 操作Wifi网卡权限 -->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"></uses-permission>     
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>     
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>     
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <!-- 网络操作权限 -->>
+    <uses-permission  android:name="android.permission.INTERNET"/>
+    <!-- 以下是使用SD卡读写所需的权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!-- 操作mic权限 -->
+    <uses-permission
+		android:name="android.permission.RECORD_AUDIO">
+	</uses-permission>
+	
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<!-- 蓝牙操作权限 -->
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    
+    <application
+        android:name="com.lx.checkameterclient.MainApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+           <!--  <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> -->
+        </activity>
+        <activity android:name="ManageDataActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="DebugDeviceActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="HelpActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="ManageDataDetailActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="TestRatioActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name="com.zxing.activity.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            
+        </activity>
+        <activity android:name="com.lx.checkameterclient.view.FileShow"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="GuideActivity"></activity>
+        <service android:name="com.lx.checkameter.socket.mSocketClient"/>
+        <activity android:name="com.lx.checkameter.socket.BluetoothActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.lx.checkameter.socket.Bluetoothclient"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

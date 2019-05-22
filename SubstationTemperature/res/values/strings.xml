@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">金凯澳WCTM温度在线监测系统</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="name_ver">金凯澳WCTM温度在线监测系统</string>
+	<string name="realdata">实时数据</string>
+	<string name="histraydata">历史数据</string>
+	<string name="ok">确定</string>
+	<string name="cancle">取消</string>
+	<string name="starttime">开始时间</string>
+	<string name="endtime">截止时间</string>
+	<string name="station">站点</string>
+	<string name="sensor">测量点</string>
+	<string name="query"> 查 询</string>
+	<string name="more"> 更 多</string>
+<!-- 站点名称 -->
+    <string-array name="stationname">
+        <item>凌云册110kV</item>
+        <item>紫荆关110kV </item>
+        <item>上陈驿35kV</item>
+    </string-array>
+<!-- 测量点名称 -->
+    <string-array name="metername">
+        <item>z-01-01</item>
+        <item>c-01-02 </item>
+        <item>r-01-02</item>
+    </string-array>
+    
+ <string name="pull_to_refresh">下拉可以刷新</string>
+ <string name="release_to_refresh">释放立即刷新</string>
+ <string name="refreshing">正在刷新…</string>
+ <string name="not_updated_yet">暂未更新过</string>
+ <string name="updated_at">上次更新于%1$s前</string>
+ <string name="updated_just_now">刚刚更新</string>
+ <string name="time_error">时间有问题</string>
+
+    
+</resources>

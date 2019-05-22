@@ -1,0 +1,276 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1543804648271
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1543804652040
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1543804652448
+error,log,,,"fragment_main.xml: android.widget.TextView cannot be cast to android.view.ViewGroup",1543804655972
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543804690178
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543804696018
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543804719569
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543804727908
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543804750631
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543804757607
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543804757749
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543804764119
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543804767016
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543804773868
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543804790008
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543804802887
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543804808070
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543804826868
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543804848870
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543804891606
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1543804912097
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1543804915906
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543804927622
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543804949811
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543804950044
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543804984821
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543804985023
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543805021596
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543805033737
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543805036620
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543805067783
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543805076862
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543805077090
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543805079506
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543805127416
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1543805130872
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543805133405
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543805182562
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1543805184576
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543805187499
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543805226409
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543805231540
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543805231739
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543805237295
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1543805243733
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543805255025
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543805257653
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543805259800
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543805263932
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543805271176
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543805278201
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543805285496
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543805287568
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543805295758
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543805300421
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543805300629
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543805302774
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543805302969
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1543805306089
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543805308526
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543805318459
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543805320628
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543805325472
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543805332388
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543805335565
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543805461046
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543805472399
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543805476676
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543805476863
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1543805494444
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543805499283
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543805508562
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543805510715
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1543805622303
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543805623991
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1543805636231
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1543805638452
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543805642262
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543805661018
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543805661157
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543805664562
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1543805713568
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543805716275
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1543805744294
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543805749890
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543805755140
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543805829701
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.newWizard",1543805829723
+opened,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543805833541
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543805833605
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543805883995
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543805888055
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543805920520
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543805922961
+error,log,,,"Exception in checkAndLoadTargetData.",1543805922988
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543805926319
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543805928247
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543805930151
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543805930178
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543805930273
+error,log,,,"Parsing Data for android-22 failed",1543805931473
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543805935082
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543805978761
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806055744
+error,log,,,"Exception in checkAndLoadTargetData.",1543806055754
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806055793
+error,log,,,"An internal error occurred during: ""Synchronizing Task List"".",1543806055826
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806057885
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806059020
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806059073
+error,log,,,"Parsing Data for android-19 failed",1543806059118
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806059151
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806060990
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806068251
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806092674
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806098869
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806113986
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806121737
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806169661
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543806187610
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806192895
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806195828
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543806200779
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543806226012
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806307585
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806307744
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543806308078
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543806310472
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806315213
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806315420
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806321130
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806321314
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806371437
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806382455
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806382657
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806391689
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543806403711
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543806445564
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543806482125
+opened,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543806561224
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543806561836
+error,log,,,"Failed to update a TargetChangeListener.",1543806575180
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806633527
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806635714
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543806635733
+error,log,,,"Exception in checkAndLoadTargetData.",1543806635737
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806635757
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806637065
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806638118
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806638179
+error,log,,,"Parsing Data for android-19 failed",1543806638188
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806640600
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806649948
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806681324
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806687659
+error,log,,,"Exception in checkAndLoadTargetData.",1543806687674
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806688876
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806693395
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806694888
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806696041
+error,log,,,"Parsing Data for android-22 failed",1543806696051
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806698385
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806701726
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543806710297
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806740558
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806740618
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806743006
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806743167
+error,log,,,"Exception in checkAndLoadTargetData.",1543806743171
+error,log,,,"Unhandled event loop exception",1543806743172
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806743201
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806744610
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806745448
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806745589
+error,log,,,"Parsing Data for android-17 failed",1543806745594
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806745616
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806746641
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543806753154
+closed,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543806753154
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543806759205
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806761747
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806765804
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543806767071
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543806772568
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806799835
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806804109
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806810321
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806813422
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806818437
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806822680
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1543806835216
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543806847243
+closed,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543806858186
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543806862039
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543806889954
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543806895957
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1543806906773
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543806909661
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1543806909661
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806917711
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543806921668
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543806995497
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543807028743
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543807033397
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543807033426
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543807036979
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543807036994
+opened,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.manifest.ManifestEditor",1543807038227
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.manifest.ManifestEditor",1543807038469
+started,bundle,org.eclipse.jst.j2ee.core,1.2.102.v201202090300,"org.eclipse.jst.j2ee.core",1543807039788
+started,bundle,org.eclipse.jem,2.0.501.v201111030500,"org.eclipse.jem",1543807039819
+started,bundle,org.eclipse.wst.common.frameworks.ui,1.2.100.v201105122000,"org.eclipse.wst.common.frameworks.ui",1543807040202
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543807040354
+closed,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.manifest.ManifestEditor",1543807040354
+error,log,,,"Failed to get ProjectResource for the framework",1543807040391
+error,log,,,"",1543807040394
+error,log,,,"Failed to get ProjectResource for the framework",1543807040401
+error,log,,,"",1543807040405
+error,log,,,"Failed to get ProjectResource for the framework",1543807040409
+error,log,,,"",1543807040415
+error,log,,,"Failed to get ProjectResource for the framework",1543807040419
+error,log,,,"",1543807040421
+error,log,,,"Failed to get ProjectResource for the framework",1543807040425
+error,log,,,"",1543807040451
+error,log,,,"Failed to get ProjectResource for the framework",1543807040455
+error,log,,,"",1543807040463
+error,log,,,"Failed to get ProjectResource for the framework",1543807040467
+error,log,,,"",1543807040469
+started,bundle,org.eclipse.jst.j2ee,1.1.503.v201202090300,"org.eclipse.jst.j2ee",1543807040472
+error,log,,,"Failed to get ProjectResource for the framework",1543807040475
+error,log,,,"",1543807040478
+started,bundle,org.eclipse.jem.workbench,2.0.400.v201104251400,"org.eclipse.jem.workbench",1543807040577
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543807042197
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543807052613
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1543807054314
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1543807058245
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543807081919
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1543807081920
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543807112500
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543807114020
+error,log,,,"Exception in checkAndLoadTargetData.",1543807114029
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543807114105
+error,log,,,"An internal error occurred during: ""Decoration Calculation"".",1543807114156
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543807115592
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543807117716
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543807117739
+error,log,,,"Parsing Data for android-19 failed",1543807117751
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543807117871
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543807119549
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543807132243
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543807136096
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1543807136186
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1543807136344
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543807165206
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543807176348
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543807177612
+opened,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543807198694
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543807200105
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543807266909
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543807269027
+error,log,,,"Exception in checkAndLoadTargetData.",1543807269033
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543807269158
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543807270657
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543807271854
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543807272140
+error,log,,,"Parsing Data for android-19 failed",1543807272173
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543807272383
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543807273919
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543807316753
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543807326244
+error,log,,,"Exception in checkAndLoadTargetData.",1543807326249
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543807326302
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543807328083
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543807329203
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543807329300

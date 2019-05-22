@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">三相用电检查仪客户端</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- 电表制式下拉列表数据 -->
+    <string-array name="ameterStandardArray">
+        <item>三相四线有功</item>
+        <item>三相四线无功 </item>
+        <item>三相三线有功</item>
+        <item>三相三线无功</item>
+    </string-array>
+
+    <!-- 电表等级下拉列表数据 -->
+    <string-array name="ameterGradeArray">
+        <item>0.1</item>
+        <item>0.2</item>
+        <item>0.2s</item>
+        <item>0.5</item>
+        <item>0.5s</item>
+        <item>1.0</item>  
+        <item>1.5</item>
+        <item>2.5</item>
+        <item>5.0</item>
+    </string-array>
+
+    <!-- 电压量程下拉列表数据 -->
+    <string-array name="voltRangeArray">
+        <item>380V</item>
+        <item>220V</item>
+        <item>100V</item>
+        <item>57.7V</item>
+    </string-array>
+
+    <!-- 电流量程下拉列表数据 -->
+    <string-array name="amphereRangeArray">
+        <item>钳表5A</item>
+        <item>钳表50A</item>
+        <item>钳表100A</item>
+        <item>钳表500A</item>
+    </string-array>
+
+    <!-- 脉冲方式下拉列表数据 -->
+    <string-array name="pulseModeAsrray">
+        <item>高频</item>
+        <item>低频</item>
+    </string-array>
+    <!-- 误差类型下拉列表数据 -->
+    <string-array name="error_type">
+        <item>有功(主电能表)误差</item>
+        <item>无功(副电能表)误差</item>
+    </string-array>
+
+    <!-- 波形显示下拉列表数据 -->
+    <string-array name="waveViewerArray">
+        <item>电压波形</item>
+        <item>电流波形</item>
+        <item>综合显示</item>
+    </string-array>
+
+    <!-- 设备调试电压量程下拉列表数据 -->
+    <string-array name="debugDeviceVoltRangeArray">
+        <item>380v</item>
+        <item>220v</item>
+        <item>100v</item>
+        <item>57.7v</item>
+    </string-array>
+
+    <!-- 设备调试电压量程下拉列表数据 -->
+    <string-array name="pulseMultipleArray">
+        <item>x1</item>
+        <item>x10</item>
+    </string-array>
+
+    <!-- 数据管理数据列表下面的数据筛选中下拉列表数据 -->
+    <string-array name="filter_fild_array">
+        <item>全部</item>
+        <item>电表编号</item>
+        <item>测试时间</item>
+        <item>用户名称</item>
+        <item>用户地址</item>
+        <item>线路</item>
+        <item>台站</item>
+        <item>检验员</item>
+        <item>校核员</item>
+    </string-array>
+
+    <!-- 数据管理数据列表下面的数据筛选中下拉列表数据 -->
+    <string-array name="filter_character">
+        <item>=</item>
+        <item>&gt;</item>
+        <item>&gt;=</item>
+        <item>&lt;</item>
+        <item>&lt;=</item>
+    </string-array>
+    <string name="arc_hf_file_rename">输入新名字</string>
+<!-- <string-array name="filter_character">
+        <item>等于</item>
+        <item>大于</item>
+        <item>大于等于</item>
+        <item>小于</item>
+        <item>小于等于</item>
+    </string-array> -->
+    <string name="name_ver">用电检查仪V</string>
+</resources>

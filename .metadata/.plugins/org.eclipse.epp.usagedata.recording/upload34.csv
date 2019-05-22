@@ -1,0 +1,254 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543978497699
+error,log,,,"left_menu_fragment.xml: Color value '@color/left_menu_connect_item_text_color' must start with #",1543978504515
+error,log,,,"left_menu_fragment.xml: Color value '@color/left_menu_connect_item_text_color' must start with #",1543978504523
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543978508992
+started,bundle,org.eclipse.compare,3.5.202.R37x_v20111109-0800,"org.eclipse.compare",1543978521245
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1543978522728
+started,bundle,org.eclipse.wst.common.frameworks.ui,1.2.100.v201105122000,"org.eclipse.wst.common.frameworks.ui",1543978533446
+started,bundle,org.eclipse.wst.common.core,1.2.0.v200908252030,"org.eclipse.wst.common.core",1543978533451
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543978535207
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543978546176
+started,bundle,org.eclipse.wst.jsdt.manipulation,1.0.300.v201104272153,"org.eclipse.wst.jsdt.manipulation",1543978546649
+started,bundle,org.eclipse.wst.jsdt.core,1.1.102.v201111090634,"org.eclipse.wst.jsdt.core",1543978546881
+started,bundle,org.eclipse.wst.jsdt.ui,1.1.102.v201201131900,"org.eclipse.wst.jsdt.ui",1543978546977
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1543978547318
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543978548403
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543978549597
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543978568566
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543978568610
+closed,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543978568610
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543978570332
+error,log,,,"left_menu_fragment.xml: Color value '@color/left_menu_connect_item_text_color' must start with #",1543978574958
+error,log,,,"left_menu_fragment.xml: Color value '@color/left_menu_connect_item_text_color' must start with #",1543978574970
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543978575081
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543978608381
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543978629954
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543978638249
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543978649847
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1543978659935
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1543978667399
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1543978686986
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1543978690591
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1543978696689
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543978701764
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1543978714305
+started,bundle,org.eclipse.wst.xsl.debug.ui,1.0.200.v201101281837,"org.eclipse.wst.xsl.debug.ui",1543978732024
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543978734521
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543978736786
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.cleanAction",1543978736794
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543978743732
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1543978749886
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543978754581
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1543978765610
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543978776548
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543978782489
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543978807912
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543978819242
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543978860682
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543978905363
+opened,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543978909615
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543978909759
+error,log,,,"left_menu_fragment.xml: Color value '@color/left_menu_connect_item_text_color' must start with #",1543978916983
+error,log,,,"left_menu_fragment.xml: Color value '@color/left_menu_connect_item_text_color' must start with #",1543978916991
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543978934061
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543978969261
+opened,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543978970526
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543978971185
+error,log,,,"left_menu_fragment.xml: Color value '@color/left_menu_connect_item_text_color' must start with #",1543978977611
+error,log,,,"left_menu_fragment.xml: Color value '@color/left_menu_connect_item_text_color' must start with #",1543978977618
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1543979001166
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543979014416
+started,bundle,org.eclipse.jdt.junit.core,3.7.0.v20110928-1453,"org.eclipse.jdt.junit.core",1543979019908
+started,bundle,org.eclipse.cdt.debug.core,7.1.0.201202111925,"org.eclipse.cdt.debug.core",1543979019977
+started,bundle,org.eclipse.cdt.debug.ui,7.1.2.201202111925,"org.eclipse.cdt.debug.ui",1543979019990
+started,bundle,org.eclipse.wst.server.core,1.1.304.v20120208_1420,"org.eclipse.wst.server.core",1543979020046
+started,bundle,org.eclipse.wst.server.ui,1.3.0.v20120210_1439,"org.eclipse.wst.server.ui",1543979020076
+started,bundle,org.eclipse.wst.common.frameworks,1.2.102.v201201190400,"org.eclipse.wst.common.frameworks",1543979020196
+started,bundle,org.eclipse.jem.util,2.1.100.v201103021400,"org.eclipse.jem.util",1543979020214
+started,bundle,org.eclipse.wst.common.emfworkbench.integration,1.2.101.v201107140600,"org.eclipse.wst.common.emfworkbench.integration",1543979020220
+started,bundle,org.eclipse.wst.common.modulecore,1.2.103.v201201190400,"org.eclipse.wst.common.modulecore",1543979020270
+started,bundle,com.android.ide.eclipse.ndk,23.0.6.1720515,"com.android.ide.eclipse.ndk",1543979020296
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979021531
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979023158
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.cleanAction",1543979023173
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1543979029903
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543979032575
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543979048831
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1543979105451
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1543979110628
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979117977
+started,bundle,org.eclipse.jst.j2ee.core,1.2.102.v201202090300,"org.eclipse.jst.j2ee.core",1543979122026
+started,bundle,org.eclipse.jem,2.0.501.v201111030500,"org.eclipse.jem",1543979122058
+started,bundle,org.eclipse.jst.j2ee,1.1.503.v201202090300,"org.eclipse.jst.j2ee",1543979122168
+closed,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543979122224
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979122376
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1543979122385
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979126011
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979129032
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.cleanAction",1543979129043
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543979129853
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543979137727
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543979165913
+error,log,,,"left_menu_fragment.xml: Color value '@color/left_menu_connect_item_text_color' must start with #",1543979167506
+error,log,,,"left_menu_fragment.xml: Color value '@color/left_menu_connect_item_text_color' must start with #",1543979167515
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979173606
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979174954
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.cleanAction",1543979174963
+error,log,,,"left_menu_fragment.xml: Color value '@color/left_menu_connect_item_text_color' must start with #",1543979175169
+error,log,,,"left_menu_fragment.xml: Color value '@color/left_menu_connect_item_text_color' must start with #",1543979175175
+error,log,,,"left_menu_fragment.xml: Color value '@color/left_menu_connect_item_text_color' must start with #",1543979177464
+error,log,,,"left_menu_fragment.xml: Color value '@color/left_menu_connect_item_text_color' must start with #",1543979177471
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1543979189760
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543979202316
+opened,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543979204106
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543979204276
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543979213341
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1543979221021
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543979236023
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.refresh",1543979238213
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979244147
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979245609
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.cleanAction",1543979245619
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1543979252072
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543979288825
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543979291706
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543979331947
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543979373274
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979378231
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979380612
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979388964
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979391014
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543979393558
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543979395708
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979395827
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979397784
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543979399534
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543979402698
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979402820
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979406587
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543979424139
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543979428355
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979428521
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979431051
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543979438956
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543979454929
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979460390
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979477157
+error,log,,,"left_menu_fragment.xml: Failed to parse file D:\\Users\\xxxx\\workspace\\SubstationTemperature\\res\\color\\navigation_bar_item_text_color.xml",1543979477337
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543979505990
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543979506330
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543979514337
+opened,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543979517129
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543979517262
+error,log,,,"left_menu_fragment.xml: Failed to parse file D:\\Users\\xxxx\\workspace\\SubstationTemperature\\res\\color\\navigation_bar_item_text_color.xml",1543979524413
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543979527206
+closed,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543979527206
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543979534014
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979546724
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979547765
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.cleanAction",1543979547776
+error,log,,,"left_menu_fragment.xml: Failed to parse file D:\\Users\\xxxx\\workspace\\SubstationTemperature\\res\\color\\navigation_bar_item_text_color.xml",1543979547956
+error,log,,,"left_menu_fragment.xml: Failed to parse file D:\\Users\\xxxx\\workspace\\SubstationTemperature\\res\\color\\navigation_bar_item_text_color.xml",1543979551307
+error,log,,,"left_menu_fragment.xml: Failed to parse file D:\\Users\\xxxx\\workspace\\SubstationTemperature\\res\\color\\navigation_bar_item_text_color.xml",1543979551616
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543979562689
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.refresh",1543979571527
+error,log,,,"left_menu_fragment.xml: Failed to parse file D:\\Users\\xxxx\\workspace\\SubstationTemperature\\res\\color\\navigation_bar_item_text_color.xml",1543979572651
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979577431
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979578448
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.cleanAction",1543979578459
+error,log,,,"left_menu_fragment.xml: Failed to parse file D:\\Users\\xxxx\\workspace\\SubstationTemperature\\res\\color\\navigation_bar_item_text_color.xml",1543979578651
+error,log,,,"left_menu_fragment.xml: Failed to parse file D:\\Users\\xxxx\\workspace\\SubstationTemperature\\res\\color\\navigation_bar_item_text_color.xml",1543979581738
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543979593193
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543979595418
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979595550
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979610324
+error,log,,,"left_menu_fragment.xml: Failed to parse file D:\\Users\\xxxx\\workspace\\SubstationTemperature\\res\\color\\navigation_bar_item_text_color.xml",1543979610471
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979616087
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979618852
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979621542
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979651386
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543979663600
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543979674370
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979674529
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979683659
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979716704
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543979716900
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1543979760379
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543980044738
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1543980046839
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543980049990
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543980050183
+error,log,,,"left_menu_fragment.xml: Dimension ""20"" in attribute ""layout_marginLeft"" is missing unit!",1543980066489
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543980069527
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543980069900
+error,log,,,"left_menu_fragment.xml: Dimension ""20"" in attribute ""layout_marginLeft"" is missing unit!",1543980070012
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543980094699
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1543980307433
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543980309967
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543980326928
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543980379716
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.newWizard",1543980379743
+opened,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543980381873
+activated,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543980382214
+closed,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543980386424
+error,log,,,"Failed to update a TargetChangeListener.",1543980390405
+closed,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543980396171
+closed,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543980401602
+closed,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543980408117
+closed,editor,com.android.ide.eclipse.adt,23.0.6.1720515,"com.android.ide.eclipse.editors.CommonXmlEditor",1543980410958
+error,log,,,"Unhandled event loop exception",1543980415686
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543980490703
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543980494935
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1543980494954
+error,log,,,"Exception in checkAndLoadTargetData.",1543980494962
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543980497676
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543980501509
+closed,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1543980509210
+error,log,,,"Exception in checkAndLoadTargetData.",1543980556528
+error,log,,,"An internal error has occurred.",1543980557960
+error,log,,,"Parsing Data for android-19 failed",1543980559753
+error,log,,,"An internal error has occurred.",1543980559786
+error,log,,,"Exception in checkAndLoadTargetData.",1543980614876
+error,log,,,"An internal error occurred during: ""Synchronizing Task List"".",1543980614895
+error,log,,,"An internal error has occurred.",1543980614976
+error,log,,,"An internal error has occurred.",1543980615065
+error,log,,,"Parsing Data for android-17 failed",1543980616427
+error,log,,,"Parsing Data for android-22 failed",1543980616831
+stopped,bundle,org.eclipse.jst.ws.axis.creation.ui,1.0.700.v201104070312,"org.eclipse.jst.ws.axis.creation.ui",1543980617132
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.ui,1.0.505.v201004211805,"org.eclipse.jst.ws.axis.consumption.ui",1543980617156
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.core,1.0.407.v201104071820,"org.eclipse.jst.ws.axis.consumption.core",1543980617161
+stopped,bundle,org.eclipse.jst.ws.axis2.creation.ui,1.0.104.v201004211805,"org.eclipse.jst.ws.axis2.creation.ui",1543980617172
+stopped,bundle,org.eclipse.jst.ws.axis2.consumption.ui,1.0.103.v201004211805,"org.eclipse.jst.ws.axis2.consumption.ui",1543980617180
+stopped,bundle,org.eclipse.jst.ws.axis2.creation.core,1.0.106.v201004211805,"org.eclipse.jst.ws.axis2.creation.core",1543980617181
+stopped,bundle,org.eclipse.jst.ws.axis2.consumption.core,1.0.105.v201004211805,"org.eclipse.jst.ws.axis2.consumption.core",1543980617183
+stopped,bundle,org.eclipse.jst.ws.axis2.ui,1.0.303.v201003110431,"org.eclipse.jst.ws.axis2.ui",1543980617185
+stopped,bundle,org.eclipse.jst.ws.axis2.core,1.0.204.v201004211805,"org.eclipse.jst.ws.axis2.core",1543980617187
+stopped,bundle,org.eclipse.jst.ws.cxf.creation.ui,1.0.100.v201104022153,"org.eclipse.jst.ws.cxf.creation.ui",1543980617200
+stopped,bundle,org.eclipse.jst.ws.creation.ui,1.0.609.v201103082016,"org.eclipse.jst.ws.creation.ui",1543980617213
+stopped,bundle,org.eclipse.jst.ws.cxf.consumption.ui,1.0.0.v201003222311,"org.eclipse.jst.ws.cxf.consumption.ui",1543980617215
+activated,perspective,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.JavaPerspective",1543980646262
+started,bundle,org.eclipse.osgi,3.7.2.v20120110-1415,"org.eclipse.osgi",1543980646264
+started,bundle,org.eclipse.equinox.simpleconfigurator,1.0.200.v20110815-1438,"org.eclipse.equinox.simpleconfigurator",1543980646266
+started,bundle,com.ibm.icu,4.4.2.v20110823,"com.ibm.icu",1543980646267
+started,bundle,org.eclipse.compare.core,3.5.200.I20110208-0800,"org.eclipse.compare.core",1543980646268
+started,bundle,org.eclipse.core.contenttype,3.4.100.v20110423-0524,"org.eclipse.core.contenttype",1543980646269
+started,bundle,org.eclipse.core.databinding.observable,1.4.0.I20110222-0800,"org.eclipse.core.databinding.observable",1543980646271
+started,bundle,org.eclipse.core.expressions,3.4.300.v20110228,"org.eclipse.core.expressions",1543980646273
+started,bundle,org.eclipse.core.filebuffers,3.5.200.v20110928-1504,"org.eclipse.core.filebuffers",1543980646274
+started,bundle,org.eclipse.core.filesystem,1.3.100.v20110423-0524,"org.eclipse.core.filesystem",1543980646275
+started,bundle,org.eclipse.core.jobs,3.5.101.v20120113-1953,"org.eclipse.core.jobs",1543980646276
+started,bundle,org.eclipse.core.net,1.2.100.I20110511-0800,"org.eclipse.core.net",1543980646278
+started,bundle,org.eclipse.core.resources,3.7.101.v20120125-1505,"org.eclipse.core.resources",1543980646279
+started,bundle,org.eclipse.core.runtime,3.7.0.v20110110,"org.eclipse.core.runtime",1543980646280
+started,bundle,org.eclipse.core.runtime.compatibility,3.2.100.v20100505,"org.eclipse.core.runtime.compatibility",1543980646282
+started,bundle,org.eclipse.core.runtime.compatibility.auth,3.2.200.v20110110,"org.eclipse.core.runtime.compatibility.auth",1543980646283
+started,bundle,org.eclipse.debug.core,3.7.1.v20111129-2031,"org.eclipse.debug.core",1543980646284
+started,bundle,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui",1543980646287
+started,bundle,org.eclipse.emf.common,2.7.0.v20120127-1122,"org.eclipse.emf.common",1543980646288
+started,bundle,org.eclipse.epp.mpc.ui,1.1.1.I20110907-0947,"org.eclipse.epp.mpc.ui",1543980646660
+started,bundle,org.eclipse.epp.usagedata.gathering,1.3.1.R201106061540,"org.eclipse.epp.usagedata.gathering",1543980646661
+started,bundle,org.eclipse.epp.usagedata.recording,1.3.1.R201106061540,"org.eclipse.epp.usagedata.recording",1543980646662
+started,bundle,org.eclipse.equinox.app,1.3.100.v20110321,"org.eclipse.equinox.app",1543980646663
+started,bundle,org.eclipse.equinox.common,3.6.0.v20110523,"org.eclipse.equinox.common",1543980646664
+started,bundle,org.eclipse.equinox.ds,1.3.1.R37x_v20110701,"org.eclipse.equinox.ds",1543980646665

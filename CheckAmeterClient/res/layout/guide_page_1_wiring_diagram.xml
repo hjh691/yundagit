@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/row_height_1"
+        android:layout_margin="10dip"
+        android:background="@color/lx_light_green"
+        android:gravity="center"
+        android:text="接线示意图"
+        android:textColor="@color/lx_white_color"
+        android:textSize="@dimen/text_size_commom" />
+
+    <LinearLayout
+        android:id="@+id/middleContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_below="@id/topContainer"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/diagramImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dip"
+            android:background="@drawable/there_phase_there_wire" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/guide_footer_bar_height"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:background="@color/lx_light_green"
+        android:orientation="horizontal" >
+
+
+        <Button
+            android:id="@+id/goToMainBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/row_height_1"
+            android:background="@color/lx_light_green"
+            android:gravity="right|center_vertical"
+            android:paddingRight="20.0dip"
+            android:text="点击开始校验"
+            android:textColor="@color/lx_white_color"
+            android:textSize="@dimen/text_size_commom" />
+    </LinearLayout>
+
+</LinearLayout>

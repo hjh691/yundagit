@@ -1,0 +1,276 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.jst.common.project.facet.core,1.4.200.v201103170302,"org.eclipse.jst.common.project.facet.core",1550731290021
+started,bundle,org.eclipse.jst.ws.jaxrs.core,1.0.301.v201108240656,"org.eclipse.jst.ws.jaxrs.core",1550731290022
+started,bundle,org.eclipse.jst.ws.jaxws.utils,1.0.100.v201201031437,"org.eclipse.jst.ws.jaxws.utils",1550731290023
+started,bundle,org.eclipse.ltk.core.refactoring,3.5.201.r372_v20111101-0700,"org.eclipse.ltk.core.refactoring",1550731290024
+started,bundle,org.eclipse.ltk.ui.refactoring,3.6.0.v20110928-1453,"org.eclipse.ltk.ui.refactoring",1550731290025
+started,bundle,org.eclipse.mylyn.bugzilla.core,3.6.5.v20120123-0100,"org.eclipse.mylyn.bugzilla.core",1550731290027
+started,bundle,org.eclipse.mylyn.bugzilla.ui,3.6.0.v20110608-1400,"org.eclipse.mylyn.bugzilla.ui",1550731290027
+started,bundle,org.eclipse.mylyn.commons.identity,0.8.0.v20110608-1400,"org.eclipse.mylyn.commons.identity",1550731290029
+started,bundle,org.eclipse.mylyn.commons.net,3.6.0.v20110608-1400,"org.eclipse.mylyn.commons.net",1550731290029
+started,bundle,org.eclipse.mylyn.commons.ui,3.6.1.v20110720-0100,"org.eclipse.mylyn.commons.ui",1550731290030
+started,bundle,org.eclipse.mylyn.context.core,3.6.1.v20110720-0100,"org.eclipse.mylyn.context.core",1550731290031
+started,bundle,org.eclipse.mylyn.context.ui,3.6.1.v20120112-0100,"org.eclipse.mylyn.context.ui",1550731290036
+started,bundle,org.eclipse.mylyn.monitor.ui,3.6.0.v20110608-1400,"org.eclipse.mylyn.monitor.ui",1550731290037
+started,bundle,org.eclipse.mylyn.tasks.ui,3.6.5.v20120215-0100,"org.eclipse.mylyn.tasks.ui",1550731290067
+started,bundle,org.eclipse.mylyn.team.ui,3.6.1.v20110825-0100,"org.eclipse.mylyn.team.ui",1550731290068
+started,bundle,org.eclipse.pde.launching,3.6.0.v20110506,"org.eclipse.pde.launching",1550731290069
+started,bundle,org.eclipse.pde.ui,3.6.100.v20120103_r372,"org.eclipse.pde.ui",1550731290092
+started,bundle,org.eclipse.search,3.7.0.v20110928-1504,"org.eclipse.search",1550731290117
+started,bundle,org.eclipse.team.core,3.6.0.I20110525-0800,"org.eclipse.team.core",1550731290118
+started,bundle,org.eclipse.team.cvs.core,3.3.400.I20110510-0800,"org.eclipse.team.cvs.core",1550731290119
+started,bundle,org.eclipse.team.cvs.ui,3.3.401.v20120126-1227,"org.eclipse.team.cvs.ui",1550731290124
+started,bundle,org.eclipse.team.ui,3.6.101.R37x_v20111109-0800,"org.eclipse.team.ui",1550731290125
+started,bundle,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui",1550731290127
+started,bundle,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console",1550731290127
+started,bundle,org.eclipse.ui.editors,3.7.0.v20110928-1504,"org.eclipse.ui.editors",1550731290127
+started,bundle,org.eclipse.ui.forms,3.5.101.v20111011-1919,"org.eclipse.ui.forms",1550731290129
+started,bundle,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.ide",1550731290139
+started,bundle,org.eclipse.ui.net,1.2.100.v20111208-1155,"org.eclipse.ui.net",1550731290140
+started,bundle,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views",1550731290141
+started,bundle,org.eclipse.ui.views.log,1.0.200.v20110404,"org.eclipse.ui.views.log",1550731290142
+started,bundle,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"org.eclipse.ui.workbench",1550731290143
+started,bundle,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.workbench.texteditor",1550731290145
+started,bundle,org.eclipse.update.scheduler,3.2.300.v20100512,"org.eclipse.update.scheduler",1550731290146
+started,bundle,org.eclipse.wst.common.project.facet.core,1.4.201.v201201101553,"org.eclipse.wst.common.project.facet.core",1550731290147
+started,bundle,org.eclipse.wst.common.uriresolver,1.1.401.v201004280700,"org.eclipse.wst.common.uriresolver",1550731290148
+started,bundle,org.eclipse.wst.dtd.ui,1.0.600.v201103171359,"org.eclipse.wst.dtd.ui",1550731290150
+started,bundle,org.eclipse.wst.sse.core,1.1.602.v201112071516,"org.eclipse.wst.sse.core",1550731290151
+started,bundle,org.eclipse.wst.sse.ui,1.3.2.v201201041522,"org.eclipse.wst.sse.ui",1550731290153
+started,bundle,org.eclipse.wst.validation,1.2.303.v201202090300,"org.eclipse.wst.validation",1550731290153
+started,bundle,org.eclipse.wst.web,1.1.501.v201201190400,"org.eclipse.wst.web",1550731290154
+started,bundle,org.eclipse.wst.xml.core,1.1.602.v201201091944,"org.eclipse.wst.xml.core",1550731290160
+started,bundle,org.eclipse.wst.xml.ui,1.1.202.v201112071516,"org.eclipse.wst.xml.ui",1550731290168
+started,bundle,org.eclipse.wst.xsl.core,1.1.100.v201102270516,"org.eclipse.wst.xsl.core",1550731290169
+started,bundle,org.eclipse.wst.xsl.exslt.core,1.0.0.v201005240426,"org.eclipse.wst.xsl.exslt.core",1550731290170
+started,bundle,org.eclipse.wst.xsl.ui,1.1.200.v201103082057,"org.eclipse.wst.xsl.ui",1550731290180
+started,bundle,org.eclipse.cdt.dsf,2.2.0.201202111925,"org.eclipse.cdt.dsf",1550731290181
+started,bundle,org.eclipse.cdt.dsf.gdb,4.0.2.201202111925,"org.eclipse.cdt.dsf.gdb",1550731290183
+started,bundle,org.eclipse.cdt.dsf.gdb.ui,2.2.1.201202111925,"org.eclipse.cdt.dsf.gdb.ui",1550731290193
+started,bundle,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.adt",1550731290194
+started,bundle,com.android.ide.eclipse.base,23.0.7.2120684,"com.android.ide.eclipse.base",1550731290195
+os,sysinfo,,,"win32",1550731290200
+arch,sysinfo,,,"x86_64",1550731290200
+ws,sysinfo,,,"win32",1550731290200
+locale,sysinfo,,,"zh_CN",1550731290200
+processors,sysinfo,,,"2",1550731290200
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1550731290200
+java.runtime.version,sysinfo,,,"1.8.0_192-b12",1550731290200
+java.specification.name,sysinfo,,,"Java Platform API Specification",1550731290200
+java.specification.vendor,sysinfo,,,"Oracle Corporation",1550731290200
+java.specification.version,sysinfo,,,"1.8",1550731290200
+java.vendor,sysinfo,,,"Oracle Corporation",1550731290200
+java.version,sysinfo,,,"1.8.0_192",1550731290200
+java.vm.info,sysinfo,,,"mixed mode",1550731290200
+java.vm.name,sysinfo,,,"Java HotSpot(TM) 64-Bit Server VM",1550731290200
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1550731290200
+java.vm.specification.vendor,sysinfo,,,"Oracle Corporation",1550731290200
+java.vm.specification.version,sysinfo,,,"1.8",1550731290200
+java.vm.vendor,sysinfo,,,"Oracle Corporation",1550731290200
+java.vm.version,sysinfo,,,"25.192-b12",1550731290200
+opened,view,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.views.ProblemView",1550731291218
+started,bundle,org.eclipse.cdt.make.core,7.1.2.201202111925,"org.eclipse.cdt.make.core",1550731291981
+started,bundle,org.eclipse.cdt.managedbuilder.core,8.0.2.201202111925,"org.eclipse.cdt.managedbuilder.core",1550731292428
+started,bundle,org.eclipse.jdt.apt.core,3.3.500.v20110420-1015,"org.eclipse.jdt.apt.core",1550731292491
+started,bundle,org.eclipse.jdt.apt.pluggable.core,1.0.400.v20110305-1450,"org.eclipse.jdt.apt.pluggable.core",1550731292502
+started,bundle,org.eclipse.cdt.core,5.3.2.201202111925,"org.eclipse.cdt.core",1550731293060
+started,bundle,org.eclipse.ui.navigator,3.5.101.v20120106-1355,"org.eclipse.ui.navigator",1550731293539
+started,bundle,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui",1550731293942
+started,bundle,org.eclipse.cdt.codan.core.cxx,1.0.0.201202111925,"org.eclipse.cdt.codan.core.cxx",1550731293950
+started,bundle,org.eclipse.cdt.make.ui,7.1.2.201202111925,"org.eclipse.cdt.make.ui",1550731293983
+started,bundle,org.eclipse.cdt.codan.core,2.0.0.201202111925,"org.eclipse.cdt.codan.core",1550731293984
+started,bundle,org.eclipse.cdt.codan.checkers,1.0.1.201202111925,"org.eclipse.cdt.codan.checkers",1550731294019
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1550731312402
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550731370192
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550731850564
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550731853334
+started,bundle,org.eclipse.jst.jsp.ui,1.1.602.v201112071516,"org.eclipse.jst.jsp.ui",1550731858053
+started,bundle,org.eclipse.jst.jsp.core,1.2.402.v201112071853,"org.eclipse.jst.jsp.core",1550731858131
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1550731858614
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1550731863626
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550731882980
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550731910469
+started,bundle,org.eclipse.compare,3.5.202.R37x_v20111109-0800,"org.eclipse.compare",1550731914129
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.refresh",1550731916699
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550731919801
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1550731929718
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550731945824
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550731965279
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1550731967967
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550731979684
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1550731992199
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732000755
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1550732001953
+started,bundle,org.eclipse.core.variables,3.2.500.v20110928-1503,"org.eclipse.core.variables",1550732002489
+started,bundle,org.eclipse.jdt.debug.ui,3.6.1.v20111006_r372,"org.eclipse.jdt.debug.ui",1550732002552
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1550732002675
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732005488
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732017340
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1550732024026
+started,bundle,org.eclipse.jdt.junit,3.7.0.v20110928-1453,"org.eclipse.jdt.junit",1550732027502
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732033428
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732033468
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732038794
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732038852
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732046255
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732046304
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732061502
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732061587
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732071070
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732088033
+executed,command,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.edit.text.java.organize.imports",1550732088307
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732118069
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732180659
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550732343994
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1550732346643
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1550732350926
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1550732353036
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732366516
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732375847
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1550732391710
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732393787
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732404278
+started,bundle,org.eclipse.wst.common.frameworks,1.2.102.v201201190400,"org.eclipse.wst.common.frameworks",1550732409220
+opened,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550732410247
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550732410621
+started,bundle,org.eclipse.emf.ecore,2.7.0.v20120127-1122,"org.eclipse.emf.ecore",1550732410807
+started,bundle,org.eclipse.wst.common.emf,1.2.100.v201101101900,"org.eclipse.wst.common.emf",1550732410858
+started,bundle,org.eclipse.jem.util,2.1.100.v201103021400,"org.eclipse.jem.util",1550732410894
+started,bundle,org.eclipse.emf.ecore.xmi,2.7.0.v20120127-1122,"org.eclipse.emf.ecore.xmi",1550732410906
+started,bundle,org.eclipse.wst.common.emfworkbench.integration,1.2.101.v201107140600,"org.eclipse.wst.common.emfworkbench.integration",1550732410916
+started,bundle,org.eclipse.wst.common.core,1.2.0.v200908252030,"org.eclipse.wst.common.core",1550732411085
+started,bundle,org.eclipse.wst.common.modulecore,1.2.103.v201201190400,"org.eclipse.wst.common.modulecore",1550732411131
+started,bundle,org.eclipse.jst.j2ee.core,1.2.102.v201202090300,"org.eclipse.jst.j2ee.core",1550732411183
+started,bundle,org.eclipse.jem,2.0.501.v201111030500,"org.eclipse.jem",1550732411219
+started,bundle,org.eclipse.wst.common.frameworks.ui,1.2.100.v201105122000,"org.eclipse.wst.common.frameworks.ui",1550732411449
+started,bundle,org.eclipse.jst.j2ee,1.1.503.v201202090300,"org.eclipse.jst.j2ee",1550732411992
+started,bundle,org.eclipse.jem.workbench,2.0.400.v201104251400,"org.eclipse.jem.workbench",1550732412159
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732413145
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732424415
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1550732444070
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732448691
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732457318
+error,log,,,"fragment_realdata.xml: com.android.layoutlib.bridge.MockView cannot be cast to android.view.ViewGroup",1550732461944
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1550732474270
+error,log,,,"fragment_realdata.xml: com.android.layoutlib.bridge.MockView cannot be cast to android.view.ViewGroup",1550732502889
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1550732510723
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1550732515085
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550732516834
+started,bundle,org.eclipse.wst.html.ui,1.0.602.v201202091936,"org.eclipse.wst.html.ui",1550732523373
+started,bundle,org.eclipse.mylyn.java.tasks,3.6.0.v20110608-1400,"org.eclipse.mylyn.java.tasks",1550732523442
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1550732523837
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1550732530919
+error,log,,,"com.example.substationtemperature.view.RefreshableView failed to instantiate.",1550732532819
+error,log,,,"fragment_realdata.xml: com.android.layoutlib.bridge.MockView cannot be cast to android.view.ViewGroup",1550732532835
+started,bundle,org.eclipse.cdt.debug.core,7.1.0.201202111925,"org.eclipse.cdt.debug.core",1550732557288
+started,bundle,org.eclipse.cdt.debug.ui,7.1.2.201202111925,"org.eclipse.cdt.debug.ui",1550732557319
+started,bundle,org.eclipse.wst.server.core,1.1.304.v20120208_1420,"org.eclipse.wst.server.core",1550732557437
+started,bundle,org.eclipse.wst.server.ui,1.3.0.v20120210_1439,"org.eclipse.wst.server.ui",1550732557495
+started,bundle,org.eclipse.wst.xsl.debug.ui,1.0.200.v201101281837,"org.eclipse.wst.xsl.debug.ui",1550732557527
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1550732559558
+error,log,,,"com.example.substationtemperature.view.RefreshableView failed to instantiate.",1550732563012
+error,log,,,"fragment_realdata.xml: com.android.layoutlib.bridge.MockView cannot be cast to android.view.ViewGroup",1550732563024
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732604894
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732632960
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732645315
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732694232
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1550732707795
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550732709943
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1550732714191
+started,bundle,org.eclipse.wst.ws.service.policy.ui,1.0.300.v201108240515,"org.eclipse.wst.ws.service.policy.ui",1550732714310
+started,bundle,org.eclipse.wst.ws.service.policy,1.0.303.v201009221810,"org.eclipse.wst.ws.service.policy",1550732714313
+started,bundle,org.eclipse.wst.command.env,1.0.409.v201004211805,"org.eclipse.wst.command.env",1550732714403
+started,bundle,org.eclipse.wst.ws,1.1.203.v201004211805,"org.eclipse.wst.ws",1550732714404
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732719128
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732721030
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.cleanAction",1550732721044
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732722293
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732722367
+error,log,,,"fragment_realdata.xml: com.android.layoutlib.bridge.MockView cannot be cast to android.view.ViewGroup",1550732722675
+error,log,,,"com.example.substationtemperature.view.RefreshableView failed to instantiate.",1550732730223
+error,log,,,"fragment_realdata.xml: com.android.layoutlib.bridge.MockView cannot be cast to android.view.ViewGroup",1550732730235
+error,log,,,"com.example.substationtemperature.view.RefreshableView failed to instantiate.",1550732730446
+error,log,,,"fragment_realdata.xml: com.android.layoutlib.bridge.MockView cannot be cast to android.view.ViewGroup",1550732730458
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550732766176
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1550732851136
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1550732853598
+error,log,,,"com.example.substationtemperature.view.RefreshableView failed to instantiate.",1550732860980
+error,log,,,"fragment_realdata.xml: com.android.layoutlib.bridge.MockView cannot be cast to android.view.ViewGroup",1550732860991
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1550732867389
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732868631
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732887140
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1550732889098
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732925904
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732926035
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550732932879
+error,log,,,"com.example.substationtemperature.view.RefreshableView failed to instantiate.",1550732935661
+error,log,,,"fragment_realdata.xml: com.android.layoutlib.bridge.MockView cannot be cast to android.view.ViewGroup",1550732935683
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550732935755
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1550732943964
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732947147
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550732948386
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.cleanAction",1550732948450
+error,log,,,"fragment_realdata.xml: com.android.layoutlib.bridge.MockView cannot be cast to android.view.ViewGroup",1550732949108
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1550732952556
+error,log,,,"com.example.substationtemperature.view.RefreshableView failed to instantiate.",1550732955896
+error,log,,,"fragment_realdata.xml: com.android.layoutlib.bridge.MockView cannot be cast to android.view.ViewGroup",1550732955905
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550732955975
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1550732974266
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550733012730
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550733070864
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550733097825
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550733109780
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550733218812
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550733221811
+error,log,,,"com.example.substationtemperature.view.RefreshableView failed to instantiate.",1550733248023
+error,log,,,"fragment_realdata.xml: com.android.layoutlib.bridge.MockView cannot be cast to android.view.ViewGroup",1550733248034
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550733249699
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550733294627
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.cut",1550733321612
+error,log,,,"com.example.substationtemperature.view.RefreshableView failed to instantiate.",1550733323428
+error,log,,,"fragment_realdata.xml: com.android.layoutlib.bridge.MockView cannot be cast to android.view.ViewGroup",1550733323442
+opened,view,org.eclipse.ui.views.log,1.0.200.v20110404,"org.eclipse.pde.runtime.LogView",1550733399035
+activated,view,org.eclipse.ui.views.log,1.0.200.v20110404,"org.eclipse.pde.runtime.LogView",1550733399086
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550733466968
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550733474496
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550733560727
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550733610142
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550733611526
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550733619445
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550733626905
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1550733660972
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550733662506
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550733689829
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550733694297
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550733789843
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1550733796408
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1550733857361
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1550733858894
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550733867223
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550733888880
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550733893310
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1550733907874
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1550733909744
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550733923322
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1550733932079
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550733998127
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550734017390
+error,log,,,"com.example.substationtemperature.view.RefreshableView failed to instantiate.",1550734019653
+error,log,,,"fragment_realdata.xml: com.android.layoutlib.bridge.MockView cannot be cast to android.view.ViewGroup",1550734019792
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550734019859
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1550734026786
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550734029459
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550734038589
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1550734044634
+error,log,,,"com.example.substationtemperature.view.RefreshableView failed to instantiate.",1550734051426
+error,log,,,"fragment_realdata.xml: com.android.layoutlib.bridge.MockView cannot be cast to android.view.ViewGroup",1550734051437
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550734144589
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550734147184
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.RunLast",1550734147196
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1550734149724
+started,bundle,org.eclipse.jdt.junit.core,3.7.0.v20110928-1453,"org.eclipse.jdt.junit.core",1550734150215
+started,bundle,com.android.ide.eclipse.ndk,23.0.7.2120684,"com.android.ide.eclipse.ndk",1550734150625
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.RunLast",1550734152528
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550734152651
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550734153913
+started,bundle,com.android.ide.eclipse.ddms,23.0.7.2120684,"com.android.ide.eclipse.ddms",1550734154998

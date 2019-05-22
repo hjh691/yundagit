@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Change Layout" description="Change Layout" file="/SubstationTemperature/res/layout/fragment_picture.xml" flags="6" flatten="true" id="com.android.ide.eclipse.adt.refactoring.convert" proj="/SubstationTemperature" sel-end="2876" sel-start="2666" stamp="1556499069501" type="android.widget.FrameLayout"/>&#x0A;<refactoring comment="Change Layout" description="Change Layout" file="/SubstationTemperature/res/layout/fragment_picture.xml" flags="6" flatten="true" id="com.android.ide.eclipse.adt.refactoring.convert" proj="/SubstationTemperature" sel-end="2927" sel-start="2660" stamp="1556506646675" type="android.widget.LinearLayout"/>
+</session>

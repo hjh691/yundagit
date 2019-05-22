@@ -1,0 +1,367 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- 行高 -->
+
+
+    <!-- 首页标题栏样式 -->
+    <style name="title_bar_style">
+        <item name="android:background">#49A469</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">44.0dip</item>
+    </style>
+
+    <style name="title_bar_text_style">
+        <item name="android:textSize">@dimen/title_bar_text_size</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <!-- 首页面导航栏样式 -->
+    <style name="navigation_bar_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40.0dip</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:background">#50535a</item>
+    </style>
+
+    <style name="navigation_bar_item_text">
+        <item name="android:textSize">@dimen/text_size_commom</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- 左侧侧滑菜单样式 -->
+
+
+    <!-- 左侧侧滑菜单中的菜单项容器的样式 -->
+    <style name="left_menu_item_layout">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/left_menu_item_bg</item>
+        <item name="android:paddingLeft">20.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50.0dip</item>
+        <item name="android:minHeight">50.0dip</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <!-- 左侧侧滑菜单中的菜单项中TextView组件的样式 -->
+    <style name="left_menu_item_image">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">20.0dip</item>
+        <item name="android:paddingRight">5.0dip</item>
+        <item name="android:paddingTop">13.0dip</item>
+        <item name="android:paddingBottom">13.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="left_menu_item_text">
+        <item name="android:textSize">@dimen/text_size_commom</item>
+        <!-- 颜色为选择器,color目录中设定的不同状态下的不同颜色 -->
+        <item name="android:textColor">@color/left_menu_item_text_color</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingRight">20.0dip</item>
+        <item name="android:paddingTop">9.0dip</item>
+        <item name="android:paddingBottom">9.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:drawablePadding">25.0dip</item>
+    </style>
+
+    <!-- 左侧侧滑菜单中的菜单项分割线养样式 -->
+    <style name="left_menu_item_line">
+        <item name="android:background">@color/left_menu_item_line</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+    </style>
+
+    <!-- 左侧侧滑菜单中热点连接布局相关样式声明 -->
+    <style name="left_menu_connect_table_row">
+        <item name="android:layout_margin">5.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="left_menu_connect_text">
+        <item name="android:textSize">@dimen/text_size_commom</item>
+        <item name="android:textColor">#262626</item>
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <!-- 热点连接按钮样式 -->
+    <style name="left_menu_connect_button">
+        <item name="android:textSize">@dimen/text_size_commom</item>
+        <item name="android:textColor">@color/left_menu_connect_item_text_color</item>
+        <item name="android:background">#777777</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:padding">10.0dip</item>
+    </style>
+
+    <!-- UI中标签和文本输入框的样式定义 -->
+
+
+    <!-- 标签或文本框、spinner的公共样式 -->
+    <style name="view_style_common">
+        <item name="android:layout_height">@dimen/row_height_1</item>
+        <item name="android:layout_margin">2.0dip</item>
+        <item name="android:textSize">@dimen/text_size_commom</item>
+        <item name="android:textColor">@color/lx_white_color</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:padding">2.0dip</item>
+    </style>
+
+    <style name="ca_label_style" parent="@style/view_style_common">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">@dimen/row_height_1</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layout_margin">2.0dip</item>
+        <item name="android:textColor">#4f4f4f</item>
+        <item name="android:paddingLeft">8.0dip</item>
+    </style>
+
+    <style name="ca_input_style" parent="@style/view_style_common">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">@dimen/row_height_1</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layout_margin">2.0dip</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">@color/lx_light_gray</item>
+        <item name="android:paddingLeft">8.0dip</item>
+    </style>
+
+    <!-- UI中标签和文本输入框的样式定义, 黑底白字 -->
+
+    <style name="ca_label_dark_style_common">
+        <item name="android:layout_margin">2.0dip</item>
+        <item name="android:textSize">@dimen/text_size_commom</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">2.0dip</item>
+        <item name="android:layout_height">@dimen/row_height_1</item>
+    </style>
+    <style name="ca_label_dark_style_common_2">
+        <item name="android:layout_margin">2.0dip</item>
+        <item name="android:textSize">@dimen/text_size_commom_2</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">2.0dip</item>
+        <item name="android:layout_height">@dimen/row_height_1</item>
+    </style>
+    <style name="ca_label_dark_style2" parent="@style/ca_label_dark_style_common_2">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:gravity">left|center</item>
+    </style>
+
+    <style name="ca_label_dark_style" parent="@style/ca_label_dark_style_common">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+    
+
+    <!-- UI中标签和文本输入框的样式定义, 黑底白字， 主要用于伏安测试界面中底部功率显示，可以使第一列宽度自适应 -->
+
+    <style name="ca_label_dark_style_2" parent="@style/ca_label_dark_style_common">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="common_label_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/row_height_1</item>
+        <item name="android:layout_margin">2.0dip</item>
+        <item name="android:textSize">@dimen/text_size_commom</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">2.0dip</item>
+    </style>
+
+    <!-- 绿色按钮的样式 -->
+    <style name="button_green_style">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/button_green_bg</item>
+        <item name="android:paddingLeft">2.0dip</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/row_height_1</item>
+        <item name="android:minHeight">@dimen/row_height_1</item>
+        <item name="android:layout_margin">2.0dip</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">@dimen/text_size_commom</item>
+    </style>
+
+    <!-- 标题栏按钮样式 -->
+    <style name="title_bar_btn_common">
+        <item name="android:layout_width">@dimen/title_bar_btn_width</item>
+        <item name="android:layout_height">@dimen/title_bar_btn_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:padding">@dimen/title_bar_btn_padding_size</item>
+        <item name="android:layout_margin">@dimen/title_bar_btn_margin_size</item>
+        <item name="android:text">@null</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <!-- 主界面中标题栏main_title左侧侧滑菜单按钮样式 -->
+    <style name="main_title_bar_left_menu_btn_style" parent="@style/title_bar_btn_common">
+        <item name="android:src">@drawable/btn_left_menu_bg</item>
+    </style>
+
+    <!-- 主界面中标题栏main_title右侧保存数据按钮样式 -->
+    <style name="main_title_bar_save_btn_style" parent="@style/title_bar_btn_common">
+        <item name="android:src">@drawable/btn_save_bg</item>
+    </style>
+
+    <!-- 标题栏title_bar左侧按钮样式，返回按钮 -->
+    <style name="title_bar_back_view" parent="@style/title_bar_btn_common">
+        <item name="android:background">@drawable/transparent</item>
+        <item name="android:drawableLeft">@drawable/btn_back</item>
+    </style>
+
+    <!-- 标题栏右侧按钮样式 -->
+    <style name="title_bar_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/title_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">17.0dip</item>
+        <item name="android:paddingRight">17.0dip</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <!-- 连接状态图标 -->
+    <style name="title_bar_state_connected" parent="@style/title_bar_btn_common">
+        <item name="android:src">@drawable/state_connected</item>
+    </style>
+
+    <style name="title_bar_state_connection_interrpt" parent="@style/title_bar_btn_common">
+        <item name="android:src">@drawable/state_connection_interrupt</item>
+    </style>
+
+    <!-- 标题栏标题样式 -->
+    <style name="title_text_style">
+        <item name="android:textSize">@dimen/title_bar_text_size</item>
+        <item name="android:textColor">@color/title_text_color</item>
+    </style>
+
+    <!-- ===============================设备调试界面增加、减少箭头按钮的样式=============================== -->
+    <!-- 操作增加按钮 -->
+    <style name="arrow_up_button_style">
+        <item name="android:background">@drawable/arrow_up_button_bg</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10.0dip</item>
+    </style>
+
+    <!-- 操作减少按钮 -->
+    <style name="arrow_down_button_style">
+        <item name="android:background">@drawable/arrow_down_button_bg</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">10.0dip</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+    </style>
+
+    <!-- 数据管理中列表项中标签的样式 -->
+    <style name="listview_item_textview_style">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5.0dip</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:textSize">@dimen/text_size_commom</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!-- 数据管理页面中的popupwindow显示和隐藏的动画 -->
+    <style name="popup_window_anim_style">
+        <item name="android:windowEnterAnimation">@anim/popup_window_show</item>
+        <!-- 指定显示的动画xml -->
+
+        <item name="android:windowExitAnimation">@anim/popup_window_hide</item>
+        <!-- 指定消失的动画xml -->
+    </style>
+
+    <!-- 隔离线样式 -->
+    <style name="separate_line_horizontal_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+        <item name="android:layout_marginBottom">5.0dip</item>
+        <item name="android:layout_marginTop">5.0dip</item>
+        <item name="android:background">@color/separate_line_color</item>
+    </style>
+    
+    <style name="separate_line_vertical_style">
+        <item name="android:layout_width">1.0dip</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/separate_line_color</item>
+    </style>
+    
+    <style name="textshadow">   
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <!--<item name="android:gravity">center_horizontal</item>-->
+        
+        <item name="android:textColor">#ffffff</item>  
+        <item name="android:textSize">60sp</item>  
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#ff000000</item>  
+        <item name="android:shadowDx">2</item>  
+        <item name="android:shadowDy">2</item>  
+        <item name="android:shadowRadius">1</item> 
+        <item name="android:background">@null</item>
+        
+    </style> 
+    
+    <style name="MyDialog" parent="@android:Theme.Dialog">         
+                 
+	<item name="android:windowFrame">@null</item>      
+	<item name="android:windowNoTitle">true</item>        
+	<item name="android:windowBackground">@drawable/mianban1</item>         
+	<item name="android:windowIsFloating">true</item>  	      
+	<item name="android:windowContentOverlay">@null</item>    
+	</style> 
+
+</resources>

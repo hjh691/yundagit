@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- 第一组容器 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5.0dip"
+                android:background="@drawable/ca_view_container_dark_bg"
+                android:orientation="vertical" >
+
+                <!-- 一次量程 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/ca_label_dark_style"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="一次量程" />
+
+                    <!-- 其值需要根据前面的设置界面数据动态显示 -->
+
+                    <TextView
+                        android:id="@+id/dllc1"
+                        style="@style/ca_label_dark_style"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:text="Q5A"
+                        android:textColor="@color/lx_orange_color" />
+                </LinearLayout>
+                
+                
+                <!-- 分割线 -->
+                <LinearLayout style="@style/separate_line_horizontal_style" />
+                
+                <!-- 二次量程 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/dllc2"
+                        style="@style/ca_label_dark_style"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="二次量程" />
+
+                    <!-- 其值需要根据前面的设置界面数据动态显示 -->
+
+                    <TextView
+                        style="@style/ca_label_dark_style"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:text="Q5A"
+                        android:textColor="@color/lx_orange_color" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 第二组容器 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5.0dip"
+                android:background="@drawable/ca_view_container_dark_bg"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/ca_label_dark_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/lx_middle_gray"
+                    android:gravity="center"
+                    android:text="测试结果" />
+
+                <!-- 一次电流 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/ca_label_dark_style"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="一次电流" />
+
+                    <!-- 其值需要根据前面的设置界面数据动态显示 -->
+
+                    <TextView
+                        android:id="@+id/dlxs1"
+                        style="@style/ca_label_dark_style"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="0.0000"
+                        android:textColor="@color/lx_orange_color" />
+
+                    <TextView
+                        style="@style/ca_label_dark_style"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="left"
+                        android:text="A" />
+                </LinearLayout>
+
+                <!-- 二次电流 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/ca_label_dark_style"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="二次电流" />
+
+                    <!-- 其值需要根据前面的设置界面数据动态显示 -->
+
+                    <TextView
+                        android:id="@+id/dlxs2"
+                        style="@style/ca_label_dark_style"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="0.0000"
+                        android:textColor="@color/lx_orange_color" />
+
+                    <TextView
+                        style="@style/ca_label_dark_style"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="left"
+                        android:text="A" />
+                </LinearLayout>
+
+                <!-- 测得变比 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/ca_label_dark_style"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="测得变比" />
+
+                    <!-- 其值需要根据前面的设置界面数据动态显示 -->
+
+                    <TextView
+                        android:id="@+id/bbxs"
+                        style="@style/ca_label_dark_style"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="0.000"
+                        android:textColor="@color/lx_orange_color" />
+
+                    <TextView
+                        style="@style/ca_label_dark_style"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="left"
+                        android:text=" " />
+                </LinearLayout>
+
+                <!-- 测得比差 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/ca_label_dark_style"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="测得比差" />
+
+                    <!-- 其值需要根据前面的设置界面数据动态显示 -->
+
+                    <TextView
+                        android:id="@+id/bcxs"
+                        style="@style/ca_label_dark_style"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="0.000"
+                        android:textColor="@color/lx_orange_color" />
+
+                    <TextView
+                        style="@style/ca_label_dark_style"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="left"
+                        android:text="%" />
+                </LinearLayout>
+
+                <!-- 测得角度 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/ca_label_dark_style"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="测得角度" />
+
+                    <!-- 其值需要根据前面的设置界面数据动态显示 -->
+
+                    <TextView
+                        android:id="@+id/jcxs"
+                        style="@style/ca_label_dark_style"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="0.000"
+                        android:textColor="@color/lx_orange_color" />
+
+                    <TextView
+                        style="@style/ca_label_dark_style"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="left"
+                        android:text="°" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

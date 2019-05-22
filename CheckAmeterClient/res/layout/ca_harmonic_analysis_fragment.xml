@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 谐波分析 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+   <include layout="@layout/common_harmonic_analysis_fragment"  />
+
+                
+                <Button 
+                    android:id="@+id/btn_savexb"
+					style="@style/button_green_style"
+        			android:layout_width="match_parent"
+        			android:layout_height="wrap_content"
+        			android:visibility="gone" />
+                 
+
+</LinearLayout>

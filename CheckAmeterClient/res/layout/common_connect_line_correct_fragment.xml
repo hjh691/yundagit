@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- 第一组容器 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip"
+            android:background="@drawable/ca_view_container_dark_bg"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/ca_label_dark_style"
+                android:layout_weight="0.5" />
+
+            <TextView
+                style="@style/ca_label_dark_style"
+                android:layout_weight="0.5"
+                android:text="电表制式" />
+
+            <!-- 其值需要根据前面的设置界面数据动态显示 -->
+
+            <TextView
+                android:id="@+id/zs"
+                style="@style/ca_label_dark_style"
+                android:text="三相四线有功"
+                android:textColor="@color/phase_a_yellow" />
+        </LinearLayout>
+
+        <!-- 第二组容器：电压、电流、角度、其他 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip"
+            android:background="@drawable/ca_view_container_dark_bg"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/txt_fangxiang"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:text="方向：顺着时针"
+                    android:textColor="@color/phase_a_yellow" />
+
+                <TextView
+                    android:id="@+id/txt_lingdu"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:text="零度：十二点钟"
+                    android:textColor="@color/phase_a_yellow" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/xltlayout"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="#000000" >
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5.0dip"
+                android:gravity="center"
+                android:paddingLeft="40.0dip"
+                android:paddingRight="40.0dip" >
+
+                <Button
+                    android:id="@+id/vectorgramSettingBtn"
+                    style="@style/button_green_style"
+                    android:text="向量图设置" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip"
+            android:background="@drawable/ca_view_container_dark_bg"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5.0dip"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/image_jxt"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5.0dip"
+                        android:layout_weight="1.0"
+                        android:src="@drawable/gx_01_01" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/dypb"
+                        style="@style/ca_label_dark_style"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:text="Ua,Ub,Uc相全部确实；" />
+                    
+                    <LinearLayout
+                        style="@style/separate_line_vertical_style" />
+
+                    <TextView
+                        android:id="@+id/dlpb"
+                        style="@style/ca_label_dark_style"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:text="Ia,Ib,Ic相全部确实，无法判断结果" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <RadioGroup
+                        android:id="@+id/grjxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/radio_gx"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5.0dip"
+                            android:checked="true"
+                            android:text="感性负载" />
+
+                        <RadioButton
+                            android:id="@+id/radio_rx"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5.0dip"
+                            android:text="容性负载" />
+
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- =======================分割线==================== -->
+
+
+            <!--
+                     <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1.0dip"
+                    android:background="#979797" />
+            -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- ========== 第三组容器 ============ -->
+
+        <!-- 第四个容器！！！！！！！！！！！！！！！！！！！！！！！！！！！！ -->
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip"
+            android:background="@drawable/ca_view_container_dark_bg"
+            android:stretchColumns="1,2,3,4,5,6,7,8" >
+
+            <TableRow android:gravity="center" >
+
+                <TextView
+                    style="@style/ca_label_dark_style_2"
+                    android:text="相序" />
+
+                <TextView
+                    android:id="@+id/text_xy"
+                    style="@style/ca_label_dark_style_2"
+                    android:text="测试"
+                    android:textColor="@color/phase_c_red" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/ca_label_dark_style_2"
+                    android:text="" />
+
+                <TextView
+                    style="@style/ca_label_dark_style_2"
+                    android:text="  Ua    Ub    Uc        Ia    Ib    Ic" />
+
+                <TextView
+                    style="@style/ca_label_dark_style_2"
+                    android:text="Ub"
+                    android:visibility="gone" />
+
+                <TextView
+                    style="@style/ca_label_dark_style_2"
+                    android:text="Uc"
+                    android:visibility="gone" />
+
+                <TextView
+                    style="@style/ca_label_dark_style_2"
+                    android:text="Ia"
+                    android:visibility="gone" />
+
+                <TextView
+                    style="@style/ca_label_dark_style_2"
+                    android:text="Ib"
+                    android:visibility="gone" />
+
+                <TextView
+                    style="@style/ca_label_dark_style_2"
+                    android:text="Ic"
+                    android:visibility="gone" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/ca_label_dark_style_2"
+                    android:text="感性" />
+
+                <TextView
+                    android:id="@+id/text_gxjg"
+                    style="@style/ca_label_dark_style_2"
+                    android:text="0.000"
+                    android:textColor="@color/phase_a_yellow" />
+
+                <TextView
+                    android:id="@+id/reactivePowerATV"
+                    style="@style/ca_label_dark_style_2"
+                    android:text="0.000"
+                    android:textColor="@color/phase_a_yellow"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/shiZaiPowerATV"
+                    style="@style/ca_label_dark_style_2"
+                    android:text="0.000"
+                    android:textColor="@color/phase_a_yellow"
+                    android:visibility="gone" />
+
+                <TextView
+                    style="@style/ca_label_dark_style_2"
+                    android:text="0.000"
+                    android:textColor="@color/phase_a_yellow"
+                    android:visibility="gone" />
+
+                <TextView
+                    style="@style/ca_label_dark_style_2"
+                    android:text="0.000"
+                    android:textColor="@color/phase_a_yellow"
+                    android:visibility="gone" />
+
+                <TextView
+                    style="@style/ca_label_dark_style_2"
+                    android:text="0.000"
+                    android:textColor="@color/phase_a_yellow"
+                    android:visibility="gone" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/ca_label_dark_style_2"
+                    android:text="容性" />
+
+                <TextView
+                    android:id="@+id/text_rxjg"
+                    style="@style/ca_label_dark_style_2"
+                    android:text="0.000"
+                    android:textColor="@color/phase_b_green" />
+
+                <TextView
+                    android:id="@+id/reactivePowerBTV"
+                    style="@style/ca_label_dark_style_2"
+                    android:text="0.000"
+                    android:textColor="@color/phase_b_green"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/shiZaiPowerBTV"
+                    style="@style/ca_label_dark_style_2"
+                    android:text="0.000"
+                    android:textColor="@color/phase_b_green"
+                    android:visibility="gone" />
+
+                <TextView
+                    style="@style/ca_label_dark_style_2"
+                    android:text="0.000"
+                    android:textColor="@color/phase_b_green"
+                    android:visibility="gone" />
+
+                <TextView
+                    style="@style/ca_label_dark_style_2"
+                    android:text="0.000"
+                    android:textColor="@color/phase_b_green"
+                    android:visibility="gone" />
+
+                <TextView
+                    style="@style/ca_label_dark_style_2"
+                    android:text="0.000"
+                    android:textColor="@color/phase_b_green"
+                    android:visibility="gone" />
+
+            </TableRow>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1.0dip"
+                android:layout_margin="6dip"
+                android:background="#979797" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/gzxs"
+                    style="@style/ca_label_dark_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="更正系数  K≈"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/ca_label_dark_style"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="追补电量 = 输入电量" />
+
+                    <EditText
+                        android:id="@+id/dlsr"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:inputType="numberDecimal"
+                        android:text="0" >
+
+                    </EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/ca_label_dark_style"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="x 更正率：" />
+
+                    <TextView
+                        android:id="@+id/gzl"
+                        style="@style/ca_label_dark_style"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="0" />
+
+                    <TextView
+                        style="@style/ca_label_dark_style"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="x CT" />
+
+                    <EditText
+                        android:id="@+id/ctsz"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:text="1" >
+
+                    </EditText>
+
+                    <TextView
+                        style="@style/ca_label_dark_style"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="x PT" />
+
+                    <EditText
+                        android:id="@+id/ptsz"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:text="1" >
+
+                    </EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/ca_label_dark_style"
+                        android:gravity="right"
+                        android:text="="
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/zbdl"
+                        style="@style/ca_label_dark_style"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="0.00" />
+
+                    <Button
+                        android:id="@+id/but_dljs"
+                        style="@style/button_green_style"
+                        android:layout_width="0.0dip"
+                        android:layout_weight="2"
+                        android:paddingBottom="4.0dip"
+                        android:paddingTop="4.0dip"
+                        android:text="电量计算" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </TableLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,270 @@
+what,kind,bundleId,bundleVersion,description,time
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1550727923604
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1550727923723
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1550727928187
+opened,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550727941605
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550727941809
+started,bundle,org.eclipse.jst.j2ee.core,1.2.102.v201202090300,"org.eclipse.jst.j2ee.core",1550727942249
+started,bundle,org.eclipse.jem,2.0.501.v201111030500,"org.eclipse.jem",1550727942387
+started,bundle,org.eclipse.wst.common.frameworks.ui,1.2.100.v201105122000,"org.eclipse.wst.common.frameworks.ui",1550727942527
+started,bundle,org.eclipse.jst.j2ee,1.1.503.v201202090300,"org.eclipse.jst.j2ee",1550727942609
+started,bundle,org.eclipse.jem.workbench,2.0.400.v201104251400,"org.eclipse.jem.workbench",1550727942738
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1550727944042
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550727947985
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1550727957419
+error,log,,,"LayoutLibrary initialization failed",1550728024303
+error,log,,,"activity_ptr_list.xml: The SDK layoutlib version is not supported",1550728024326
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550728032071
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1550728040648
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550728053026
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550728061988
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1550728062163
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1550728064881
+opened,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550728076556
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550728076968
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1550728087781
+error,log,,,"LayoutLibrary initialization failed",1550728132008
+error,log,,,"activity_ptr_list.xml: The SDK layoutlib version is not supported",1550728132031
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1550728167074
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550728173160
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550728176269
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1550728186601
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550728203759
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550728214166
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550728216618
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1550728218448
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1550728235343
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550728250162
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550728252149
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550728277018
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1550728283932
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1550728322190
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1550728322332
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550728334415
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1550728348698
+started,bundle,org.eclipse.wst.ws.service.policy.ui,1.0.300.v201108240515,"org.eclipse.wst.ws.service.policy.ui",1550728354562
+started,bundle,org.eclipse.wst.ws.service.policy,1.0.303.v201009221810,"org.eclipse.wst.ws.service.policy",1550728354566
+started,bundle,org.eclipse.wst.command.env,1.0.409.v201004211805,"org.eclipse.wst.command.env",1550728354657
+started,bundle,org.eclipse.wst.ws,1.1.203.v201004211805,"org.eclipse.wst.ws",1550728354658
+started,bundle,org.eclipse.compare,3.5.202.R37x_v20111109-0800,"org.eclipse.compare",1550728355373
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550728360714
+started,bundle,org.eclipse.ui.externaltools,3.2.0.v20111007_r372,"org.eclipse.ui.externaltools",1550728384679
+started,bundle,org.eclipse.core.externaltools,1.0.100.v20111007_r372,"org.eclipse.core.externaltools",1550728384746
+started,bundle,org.eclipse.wst.common.project.facet.ui,1.4.201.v201201101553,"org.eclipse.wst.common.project.facet.ui",1550728421356
+started,bundle,org.eclipse.wst.validation.ui,1.2.300.v201201050300,"org.eclipse.wst.validation.ui",1550728433590
+started,bundle,org.eclipse.wst.wsi.ui,1.0.502.v201104071820,"org.eclipse.wst.wsi.ui",1550728433634
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550728442271
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.properties",1550728442312
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550728464356
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550728471997
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.properties",1550728472021
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550728474765
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550728504056
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.properties",1550728504155
+error,log,,,"com.handmark.pulltorefresh.library.PullToRefreshListView failed to instantiate.",1550728509288
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550728510138
+error,log,,,"com.handmark.pulltorefresh.library.PullToRefreshListView failed to instantiate.",1550728514981
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1550728556881
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550728561509
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550728567366
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.properties",1550728567384
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550728573604
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550728583897
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.properties",1550728583975
+error,log,,,"com.jeremyfeinstein.slidingmenu.lib.SlidingMenu failed to instantiate.",1550728588367
+error,log,,,"com.handmark.pulltorefresh.library.PullToRefreshListView failed to instantiate.",1550728588374
+error,log,,,"com.jeremyfeinstein.slidingmenu.lib.SlidingMenu failed to instantiate.",1550728592419
+error,log,,,"com.handmark.pulltorefresh.library.PullToRefreshListView failed to instantiate.",1550728592423
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1550728594042
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550728600729
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1550728610039
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1550728620779
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1550728634300
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1550728634489
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1550728667252
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550728673920
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550728679608
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.properties",1550728679623
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550728692782
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550728695318
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.properties",1550728695329
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550728701304
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550728707961
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.properties",1550728707973
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1550728795784
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1550728816513
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550728874748
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550729176167
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1550729176785
+error,log,,,"com.handmark.pulltorefresh.library.PullToRefreshListView failed to instantiate.",1550729179608
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550729179956
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1550729185199
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550729197791
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550729201180
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.properties",1550729201227
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550729265881
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550730000177
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550730002760
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550730013616
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.properties",1550730013694
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1550730016214
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550730289730
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1550730330616
+error,log,,,"LayoutLibrary initialization failed",1550730338948
+error,log,,,"activity_ptr_list.xml: The SDK layoutlib version is not supported",1550730338971
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550730347764
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.newWizard",1550730347812
+opened,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550730352334
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550730352471
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550730369137
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550730395458
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1550730395513
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550730437704
+error,log,,,"LayoutLibrary initialization failed",1550730446562
+error,log,,,"activity_ptr_list.xml: The SDK layoutlib version is not supported",1550730446588
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550730448075
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550730456967
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1550730477184
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550730496725
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550730503977
+error,log,,,"pull_to_refresh.xml: Failed to convert @drawable/arrow into a drawable",1550730508667
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550730519697
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550730545818
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1550730548003
+opened,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550730554716
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550730554880
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1550730563177
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550730575492
+error,log,,,"pull_to_refresh.xml: Failed to convert @drawable/arrow into a drawable",1550730585515
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550730588642
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1550730606477
+error,log,,,"LayoutLibrary initialization failed",1550730608012
+error,log,,,"activity_ptr_list.xml: The SDK layoutlib version is not supported",1550730608046
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550730625920
+error,log,,,"pull_to_refresh.xml: Failed to convert @drawable/arrow into a drawable",1550730628411
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550730666900
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550730694632
+error,log,,,"pull_to_refresh.xml: Failed to convert @drawable/arrow into a drawable",1550730706813
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550730736973
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550730747103
+error,log,,,"pull_to_refresh.xml: Failed to convert @drawable/arrow into a drawable",1550730770016
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1550730776199
+error,log,,,"activity_ptr_list.xml: The SDK layoutlib version is not supported",1550730776670
+error,log,,,"pull_to_refresh.xml: Failed to convert @drawable/arrow into a drawable",1550730780422
+error,log,,,"pull_to_refresh.xml: Failed to convert @drawable/arrow into a drawable",1550730780547
+error,log,,,"pull_to_refresh.xml: Failed to convert @drawable/arrow into a drawable",1550730782013
+error,log,,,"activity_ptr_list.xml: The SDK layoutlib version is not supported",1550730782365
+error,log,,,"pull_to_refresh.xml: Failed to convert @drawable/arrow into a drawable",1550730785592
+error,log,,,"pull_to_refresh.xml: Failed to convert @drawable/arrow into a drawable",1550730785708
+error,log,,,"pull_to_refresh.xml: Failed to convert @drawable/arrow into a drawable",1550730786979
+error,log,,,"activity_ptr_list.xml: The SDK layoutlib version is not supported",1550730792902
+error,log,,,"pull_to_refresh.xml: Failed to convert @drawable/arrow into a drawable",1550730794431
+error,log,,,"pull_to_refresh.xml: Failed to convert @drawable/arrow into a drawable",1550730795678
+error,log,,,"pull_to_refresh.xml: Failed to convert @drawable/arrow into a drawable",1550730795791
+error,log,,,"activity_ptr_list.xml: The SDK layoutlib version is not supported",1550730802278
+error,log,,,"pull_to_refresh.xml: Failed to convert @drawable/arrow into a drawable",1550730803742
+error,log,,,"pull_to_refresh.xml: Failed to convert @drawable/arrow into a drawable",1550730805024
+error,log,,,"pull_to_refresh.xml: Failed to convert @drawable/arrow into a drawable",1550730805159
+error,log,,,"activity_ptr_list.xml: The SDK layoutlib version is not supported",1550730813974
+error,log,,,"pull_to_refresh.xml: Failed to convert @drawable/arrow into a drawable",1550730815446
+error,log,,,"pull_to_refresh.xml: Failed to convert @drawable/arrow into a drawable",1550730816717
+error,log,,,"pull_to_refresh.xml: Failed to convert @drawable/arrow into a drawable",1550730816827
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1550730828175
+opened,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550730870393
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550730870562
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1550730885100
+error,log,,,"pull_to_refresh.xml: Failed to convert @drawable/arrow into a drawable",1550730901031
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550730901438
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1550730901494
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550730914028
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1550730918615
+activated,editor,com.android.ide.eclipse.adt,23.0.7.2120684,"com.android.ide.eclipse.editors.CommonXmlEditor",1550730923412
+error,log,,,"pull_to_refresh.xml: Failed to convert @drawable/arrow_down into a drawable",1550730952658
+error,log,,,"LayoutLibrary initialization failed",1550730981653
+error,log,,,"activity_ptr_list.xml: The SDK layoutlib version is not supported",1550730983088
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1550730985865
+started,bundle,org.eclipse.pde.core,3.7.1.v20120103_r372,"org.eclipse.pde.core",1550730999426
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1550731003757
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550731040174
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550731045761
+error,log,,,"pull_to_refresh.xml: Failed to convert @drawable/arrow_down into a drawable",1550731060694
+started,bundle,org.eclipse.wst.jsdt.manipulation,1.0.300.v201104272153,"org.eclipse.wst.jsdt.manipulation",1550731081117
+started,bundle,org.eclipse.wst.jsdt.core,1.1.102.v201111090634,"org.eclipse.wst.jsdt.core",1550731086279
+started,bundle,org.eclipse.wst.jsdt.ui,1.1.102.v201201131900,"org.eclipse.wst.jsdt.ui",1550731090337
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1550731101230
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550731145662
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550731149531
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550731189308
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550731198457
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550731218577
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550731220767
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550731223846
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550731241001
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550731244534
+error,log,,,"An internal error occurred during: ""Building Workspace"".",1550731244547
+closed,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1550731249096
+started,bundle,org.eclipse.equinox.p2.garbagecollector,1.0.200.v20110815-1419,"org.eclipse.equinox.p2.garbagecollector",1550731249528
+error,log,,,"Unhandled event loop exception",1550731250686
+stopped,bundle,org.eclipse.jst.ws.axis.creation.ui,1.0.700.v201104070312,"org.eclipse.jst.ws.axis.creation.ui",1550731252978
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.ui,1.0.505.v201004211805,"org.eclipse.jst.ws.axis.consumption.ui",1550731252986
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.core,1.0.407.v201104071820,"org.eclipse.jst.ws.axis.consumption.core",1550731252988
+stopped,bundle,org.eclipse.jst.ws.axis2.creation.ui,1.0.104.v201004211805,"org.eclipse.jst.ws.axis2.creation.ui",1550731252994
+stopped,bundle,org.eclipse.jst.ws.axis2.consumption.ui,1.0.103.v201004211805,"org.eclipse.jst.ws.axis2.consumption.ui",1550731253001
+stopped,bundle,org.eclipse.jst.ws.axis2.creation.core,1.0.106.v201004211805,"org.eclipse.jst.ws.axis2.creation.core",1550731253003
+stopped,bundle,org.eclipse.jst.ws.axis2.consumption.core,1.0.105.v201004211805,"org.eclipse.jst.ws.axis2.consumption.core",1550731253018
+stopped,bundle,org.eclipse.jst.ws.axis2.ui,1.0.303.v201003110431,"org.eclipse.jst.ws.axis2.ui",1550731253032
+stopped,bundle,org.eclipse.jst.ws.axis2.core,1.0.204.v201004211805,"org.eclipse.jst.ws.axis2.core",1550731253039
+stopped,bundle,org.eclipse.jst.ws.cxf.creation.ui,1.0.100.v201104022153,"org.eclipse.jst.ws.cxf.creation.ui",1550731253063
+stopped,bundle,org.eclipse.jst.ws.creation.ui,1.0.609.v201103082016,"org.eclipse.jst.ws.creation.ui",1550731253077
+stopped,bundle,org.eclipse.jst.ws.cxf.consumption.ui,1.0.0.v201003222311,"org.eclipse.jst.ws.cxf.consumption.ui",1550731253079
+stopped,bundle,org.eclipse.jst.ws.consumption.ui,1.1.402.v201201250306,"org.eclipse.jst.ws.consumption.ui",1550731253099
+activated,perspective,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.JavaPerspective",1550731289727
+started,bundle,org.eclipse.osgi,3.7.2.v20120110-1415,"org.eclipse.osgi",1550731289730
+started,bundle,org.eclipse.equinox.simpleconfigurator,1.0.200.v20110815-1438,"org.eclipse.equinox.simpleconfigurator",1550731289731
+started,bundle,com.ibm.icu,4.4.2.v20110823,"com.ibm.icu",1550731289732
+started,bundle,org.eclipse.compare.core,3.5.200.I20110208-0800,"org.eclipse.compare.core",1550731289732
+started,bundle,org.eclipse.core.contenttype,3.4.100.v20110423-0524,"org.eclipse.core.contenttype",1550731289751
+started,bundle,org.eclipse.core.databinding.observable,1.4.0.I20110222-0800,"org.eclipse.core.databinding.observable",1550731289752
+started,bundle,org.eclipse.core.expressions,3.4.300.v20110228,"org.eclipse.core.expressions",1550731289753
+started,bundle,org.eclipse.core.filebuffers,3.5.200.v20110928-1504,"org.eclipse.core.filebuffers",1550731289754
+started,bundle,org.eclipse.core.filesystem,1.3.100.v20110423-0524,"org.eclipse.core.filesystem",1550731289756
+started,bundle,org.eclipse.core.jobs,3.5.101.v20120113-1953,"org.eclipse.core.jobs",1550731289757
+started,bundle,org.eclipse.core.net,1.2.100.I20110511-0800,"org.eclipse.core.net",1550731289758
+started,bundle,org.eclipse.core.resources,3.7.101.v20120125-1505,"org.eclipse.core.resources",1550731289797
+started,bundle,org.eclipse.core.runtime,3.7.0.v20110110,"org.eclipse.core.runtime",1550731289803
+started,bundle,org.eclipse.core.runtime.compatibility,3.2.100.v20100505,"org.eclipse.core.runtime.compatibility",1550731289805
+started,bundle,org.eclipse.core.runtime.compatibility.auth,3.2.200.v20110110,"org.eclipse.core.runtime.compatibility.auth",1550731289806
+started,bundle,org.eclipse.debug.core,3.7.1.v20111129-2031,"org.eclipse.debug.core",1550731289807
+started,bundle,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui",1550731289847
+started,bundle,org.eclipse.emf.common,2.7.0.v20120127-1122,"org.eclipse.emf.common",1550731289849
+started,bundle,org.eclipse.epp.mpc.ui,1.1.1.I20110907-0947,"org.eclipse.epp.mpc.ui",1550731289849
+started,bundle,org.eclipse.epp.usagedata.gathering,1.3.1.R201106061540,"org.eclipse.epp.usagedata.gathering",1550731289850
+started,bundle,org.eclipse.epp.usagedata.recording,1.3.1.R201106061540,"org.eclipse.epp.usagedata.recording",1550731289851
+started,bundle,org.eclipse.equinox.app,1.3.100.v20110321,"org.eclipse.equinox.app",1550731289852
+started,bundle,org.eclipse.equinox.common,3.6.0.v20110523,"org.eclipse.equinox.common",1550731289852
+started,bundle,org.eclipse.equinox.ds,1.3.1.R37x_v20110701,"org.eclipse.equinox.ds",1550731289854
+started,bundle,org.eclipse.equinox.event,1.2.100.v20110502,"org.eclipse.equinox.event",1550731289855
+started,bundle,org.eclipse.equinox.p2.core,2.1.1.v20120113-1346,"org.eclipse.equinox.p2.core",1550731289856
+started,bundle,org.eclipse.equinox.p2.directorywatcher,1.0.300.v20110815-1419,"org.eclipse.equinox.p2.directorywatcher",1550731289857
+started,bundle,org.eclipse.equinox.p2.engine,2.1.1.R37x_v20111003,"org.eclipse.equinox.p2.engine",1550731289858
+started,bundle,org.eclipse.equinox.p2.metadata,2.1.0.v20110815-1419,"org.eclipse.equinox.p2.metadata",1550731289858
+started,bundle,org.eclipse.equinox.p2.metadata.repository,1.2.0.v20110815-1419,"org.eclipse.equinox.p2.metadata.repository",1550731289859
+started,bundle,org.eclipse.equinox.p2.operations,2.1.1.R37x_v20111111,"org.eclipse.equinox.p2.operations",1550731289860
+started,bundle,org.eclipse.equinox.p2.reconciler.dropins,1.1.100.v20110815-1419,"org.eclipse.equinox.p2.reconciler.dropins",1550731289861
+started,bundle,org.eclipse.equinox.p2.repository,2.1.1.v20120113-1346,"org.eclipse.equinox.p2.repository",1550731289865
+started,bundle,org.eclipse.equinox.p2.ui.sdk.scheduler,1.0.100.v20110815-1419,"org.eclipse.equinox.p2.ui.sdk.scheduler",1550731289876
+started,bundle,org.eclipse.equinox.p2.updatechecker,1.1.200.v20110815-1419,"org.eclipse.equinox.p2.updatechecker",1550731289908
+started,bundle,org.eclipse.equinox.preferences,3.4.2.v20120111-2020,"org.eclipse.equinox.preferences",1550731289910
+started,bundle,org.eclipse.equinox.registry,3.5.101.R37x_v20110810-1611,"org.eclipse.equinox.registry",1550731289911
+started,bundle,org.eclipse.equinox.security,1.1.1.R37x_v20110822-1018,"org.eclipse.equinox.security",1550731289940
+started,bundle,org.eclipse.equinox.util,1.0.300.v20110502,"org.eclipse.equinox.util",1550731289941
+started,bundle,org.eclipse.help,3.5.100.v20110426,"org.eclipse.help",1550731289942
+started,bundle,org.eclipse.jdt.core,3.7.3.v20120119-1537,"org.eclipse.jdt.core",1550731289943
+started,bundle,org.eclipse.jdt.core.manipulation,1.4.0.v20110928-1453,"org.eclipse.jdt.core.manipulation",1550731289945
+started,bundle,org.eclipse.jdt.debug,3.7.1.v20111006_r372,"org.eclipse.jdt.debug",1550731289986
+started,bundle,org.eclipse.jdt.launching,3.6.1.v20111006_r372,"org.eclipse.jdt.launching",1550731289992
+started,bundle,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui",1550731290006
+started,bundle,org.eclipse.jface,3.7.0.v20110928-1505,"org.eclipse.jface",1550731290007
+started,bundle,org.eclipse.jpt.common.core,1.0.2.v201111103010,"org.eclipse.jpt.common.core",1550731290009
+started,bundle,org.eclipse.jpt.jpa.core,3.0.2.v201201243020,"org.eclipse.jpt.jpa.core",1550731290019
+started,bundle,org.eclipse.jsch.core,1.1.300.I20110514-0800,"org.eclipse.jsch.core",1550731290020

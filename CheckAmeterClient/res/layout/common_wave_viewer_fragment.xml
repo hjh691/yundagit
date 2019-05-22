@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- 第一组容器 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5.0dip"
+                android:background="@drawable/ca_view_container_dark_bg"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/ca_label_dark_style"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="波形显示" />
+
+                <Spinner
+                    android:id="@+id/spi1"
+                    style="@style/ca_input_style"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.5"
+                    android:entries="@array/waveViewerArray"
+                    android:gravity="left" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chart_u"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5.0dip"
+                android:background="@drawable/ca_view_container_dark_bg"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/barchart"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dip"
+                    android:layout_margin="5.0dip"
+                    android:background="@drawable/ca_view_container_dark_bg"
+                    android:orientation="horizontal" >
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5.0dip"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <com.lx.checkameterclient.view.SegmentControl
+                        xmlns:segmentcontrol="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/dianyaxiangbie"
+                        android:layout_width="wrap_content"
+                        android:layout_height="34dip"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dip"
+                        android:layout_marginTop="10dip"
+                        android:textSize="19sp"
+                        segmentcontrol:colors="#4da36b"
+                        segmentcontrol:cornerRadius="1dip"
+                        segmentcontrol:direction="horizon"
+                        segmentcontrol:horizonGap="10.0dip"
+                        segmentcontrol:texts="Ua|Ub|Uc|合相"
+                        segmentcontrol:verticalGap="8dip" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chart_i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5.0dip"
+                android:background="@drawable/ca_view_container_dark_bg"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/barchart_i"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dip"
+                    android:layout_margin="5.0dip"
+                    android:background="@drawable/ca_view_container_dark_bg"
+                    android:orientation="horizontal" >
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5.0dip"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <com.lx.checkameterclient.view.SegmentControl
+                        xmlns:segmentcontrol="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/dianliuxiangbie"
+                        android:layout_width="wrap_content"
+                        android:layout_height="34dip"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dip"
+                        android:layout_marginTop="10dip"
+                        android:textSize="19sp"
+                        segmentcontrol:colors="#4da36b"
+                        segmentcontrol:cornerRadius="1dip"
+                        segmentcontrol:direction="horizon"
+                        segmentcontrol:horizonGap="10.0dip"
+                        segmentcontrol:texts="Ia|Ib|Ic|合相"
+                        segmentcontrol:verticalGap="8dip" />
+
+                </LinearLayout>
+                <Button
+                    android:id="@+id/btn_savebx"
+                    style="@style/button_green_style"
+        			android:layout_width="match_parent"
+        			android:layout_height="wrap_content"
+        			android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    
+
+</LinearLayout>

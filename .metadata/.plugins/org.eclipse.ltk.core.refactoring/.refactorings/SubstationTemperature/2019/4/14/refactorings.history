@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;content&apos; in &apos;com.example.substationtemperature.FragmentPicture.getGraphic(...).new Runnable() {...}.run()&apos; to &apos;result&apos;&#x0D;&#x0A;- Original project: &apos;SubstationTemperature&apos;&#x0D;&#x0A;- Original element: &apos;com.example.substationtemperature.FragmentPicture.getGraphic(...).new Runnable() {...}.run().content&apos;&#x0D;&#x0A;- Renamed element: &apos;content&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;content&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.example.substationtemperature{FragmentPicture.java[FragmentPicture~getGraphic~J[~run@content!18865!18899!18887!18893!QJSONObject;!0!false" name="result" references="true" stamp="1554100581346" version="1.0"/>
+</session>

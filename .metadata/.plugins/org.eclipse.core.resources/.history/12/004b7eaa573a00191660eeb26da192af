@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>金凯澳自动化测温系统帮助</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="topall">
+    <nav class="nav">
+        <ul>
+            <li class="current">
+                <div class="menu"><a id="ml">目 录</a></div>
+            </li>
+			<li class="lili"><a href="jka_help.html">技术参数</a></li>
+
+            <li class="lili"><a href="zytd.html">主要特点</a></li>
+
+
+
+            <li class="lili"><a href="jbcz.html">基本操作</a></li>
+
+
+
+            <li class="lili"><a href="fulu.html">附    录</a></li>
+
+        </ul>
+    </nav>
+</div>
+
+
+<div class="conten conten2">
+    <h1 id="zytd">二、主要特点</h1>
+    <div class="gut gut2">
+        <h3>2.1、功能特点</h3>
+        <ul>
+            <li>系统采用B/S模式，更加方便用户的使用；</li>
+            <li>支持手机、平板灯移动设备接入浏览，温度变化随时浏览；</li>
+            <li>通过一次图或列表方式显示个监测点的实时温度值；</li>
+            <li>可显示各个测量点的温度变化曲线，方便用户进行测点温度变化趋势分析;</li>
+            <li>系统集成WEB服务，可直接鸡儿MIS网，远程用户可直接访问。</li>
+        </ul>
+        <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp可以采用多种供电模式工作，既可以市电供电，也可以使用现场电网电源供电。</p>
+    </div>
+    <div class="gut gut2">
+        <h3>2.2、系统特色</h3>
+        <ul>
+            <li class="liSquare">采用433MHz（免费频段），无线扩频技术，抗干扰能力更强；</li>
+            <li class="liSquare">智能无线组网技术，彻底消除同频干扰问题，通信误码率大大降低；</li>
+            <li class="liSquare">测量点和接收点无直接联系，无绝缘问题，不受外部环境影响；</li>
+            <li class="liSquare">超低功耗设计，高能锂电池供电/CT取能，硬件设备的稳定性、可靠性更强；</li>
+            <li class="liSquare">无线采集组网灵活，可扩展性强，可适用于不同电压等级、不同环境带电设备的实时温度测量，安装施工简便易行；</li>
+            <li class="liSquare">系统采用分布式分层结构设计，拓扑结构灵活，即可融入自动化系统运行，亦可独立成系统。</li>
+        </ul>
+    </div>
+    </br>
+</div>
+
+
+</body>
+</html>

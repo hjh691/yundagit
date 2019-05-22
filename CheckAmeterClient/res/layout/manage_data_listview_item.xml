@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8.0dip" >
+
+    <TextView
+        android:id="@+id/ameterNoItemTv"
+        style="@style/listview_item_textview_style"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/testDateItemTv"
+        style="@style/listview_item_textview_style"
+        android:layout_weight="1.5"
+        android:gravity="center" />
+
+   <!--  <TextView
+        android:id="@+id/userNameItemTv"
+        style="@style/listview_item_textview_style"
+        android:layout_weight="1"
+        android:gravity="center" /> -->
+/>
+    <!--
+            <TextView
+                android:id="@+id/userAddressItemTv"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/lineItemTv"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textAlignment="center" />
+    -->
+
+</LinearLayout>

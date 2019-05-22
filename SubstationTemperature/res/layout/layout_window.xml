@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:text="告警信息"
+        android:textColor="@color/oranger"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/item_realalert_sensor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="站名" />
+
+        <TextView
+            android:id="@+id/txt_stationname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/txt_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="测量点" />
+
+        <TextView
+            android:id="@+id/txt_sensorname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="温度" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="时间" />
+
+        <TextView
+            android:id="@+id/txt_alt_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/lab_alt_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="告警值" />
+
+        <TextView
+            android:id="@+id/txt_alt_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="0.0" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="内容" />
+
+        <TextView
+            android:id="@+id/txt_alt_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:background="@drawable/btn_tong1"
+            android:text="关闭"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

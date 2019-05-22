@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- 第一组容器 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip"
+            android:background="@drawable/ca_view_container_dark_bg"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/ca_label_dark_style"
+                android:layout_weight="0.5" />
+
+            <TextView
+                style="@style/ca_label_dark_style"
+                android:layout_weight="0.5"
+                android:text="电表制式" />
+
+            <!-- 其值需要根据前面的设置界面数据动态显示 -->
+
+            <TextView
+                android:id="@+id/zs"
+                style="@style/ca_label_dark_style"
+                android:text="三相四线有功"
+                android:textColor="@color/phase_a_yellow" />
+        </LinearLayout>
+
+        <!-- 第二组容器：电压、电流、角度、其他 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip"
+            android:background="@drawable/ca_view_container_dark_bg"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <!-- ======================= 电压显示======================= -->
+
+                <TableLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10.0dip"
+                    android:layout_weight="1.0"
+                    android:padding="5.0dip" >
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/ca_label_dark_style"
+                            android:text="电压显示(单位:V)" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/lab_ua"
+                            style="@style/ca_label_dark_style"
+                            android:text="A相" />
+
+                        <TextView
+                            android:id="@+id/voltATV"
+                            style="@style/ca_label_dark_style"
+                            android:text="0.000"
+                            android:textColor="@color/phase_a_yellow" />
+                    </TableRow>
+
+                    <TableRow android:id="@+id/layout_ub" >
+
+                        <TextView
+                            style="@style/ca_label_dark_style"
+                            android:text="B相" />
+
+                        <TextView
+                            android:id="@+id/voltBTV"
+                            style="@style/ca_label_dark_style"
+                            android:text="0.000"
+                            android:textColor="@color/phase_b_green" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/lab_uc"
+                            style="@style/ca_label_dark_style"
+                            android:text="C相" />
+
+                        <TextView
+                            android:id="@+id/voltCTV"
+                            style="@style/ca_label_dark_style"
+                            android:text="0.000"
+                            android:textColor="@color/phase_c_red" />
+                    </TableRow>
+                </TableLayout>
+
+                <!-- 分割线 -->
+
+                <LinearLayout
+            style="@style/separate_line_vertical_style" />
+
+                <!-- ======================= 电流显示======================= -->
+
+                <TableLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10.0dip"
+                    android:layout_weight="1.0"
+                    android:padding="5.0dip" >
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/ca_label_dark_style"
+                            android:text="电流显示(单位:A)" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/lab_ia"
+                            style="@style/ca_label_dark_style"
+                            android:text="A相" />
+
+                        <TextView
+                            android:id="@+id/amphereATV"
+                            style="@style/ca_label_dark_style"
+                            android:text="0.000"
+                            android:textColor="@color/phase_a_yellow" />
+                    </TableRow>
+
+                    <TableRow android:id="@+id/layout_ib" >
+
+                        <TextView
+                            style="@style/ca_label_dark_style"
+                            android:text="B相" />
+
+                        <TextView
+                            android:id="@+id/amphereBTV"
+                            style="@style/ca_label_dark_style"
+                            android:text="0.000"
+                            android:textColor="@color/phase_b_green" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/lab_ic"
+                            style="@style/ca_label_dark_style"
+                            android:text="C相" />
+
+                        <TextView
+                            android:id="@+id/amphereCTV"
+                            style="@style/ca_label_dark_style"
+                            android:text="0.000"
+                            android:textColor="@color/phase_c_red" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+
+            <!-- =======================分割线==================== -->
+
+            <LinearLayout
+            style="@style/separate_line_horizontal_style" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <!-- ======================= 电压显示======================= -->
+
+                <TableLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10.0dip"
+                    android:layout_weight="1.0"
+                    android:padding="5.0dip" >
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/ca_label_dark_style"
+                            android:text="角度显示(单位:°)" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/lab_ja"
+                            style="@style/ca_label_dark_style"
+                            android:text="A相" />
+
+                        <TextView
+                            android:id="@+id/angleATV"
+                            style="@style/ca_label_dark_style"
+                            android:text="0.000"
+                            android:textColor="@color/phase_a_yellow" />
+                    </TableRow>
+
+                    <TableRow android:id="@+id/layout_jb" >
+
+                        <TextView
+                            style="@style/ca_label_dark_style"
+                            android:text="B相" />
+
+                        <TextView
+                            android:id="@+id/angleBTV"
+                            style="@style/ca_label_dark_style"
+                            android:text="0.000"
+                            android:textColor="@color/phase_b_green" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/lab_jc"
+                            style="@style/ca_label_dark_style"
+                            android:text="C相" />
+
+                        <TextView
+                            android:id="@+id/angleCTV"
+                            style="@style/ca_label_dark_style"
+                            android:text="0.000"
+                            android:textColor="@color/phase_c_red" />
+                    </TableRow>
+                </TableLayout>
+
+                <!-- 分割线 -->
+
+                <LinearLayout
+            style="@style/separate_line_vertical_style" />
+
+                <!-- ======================= 电流显示======================= -->
+
+                <TableLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10.0dip"
+                    android:layout_weight="1.0"
+                    android:padding="5.0dip" >
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/ca_label_dark_style"
+                            android:text="其他显示" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/ca_label_dark_style"
+                            android:text="频率(Hz)"
+                            android:textSize="@dimen/shadow_width" />
+
+                        <TextView
+                            android:id="@+id/ohterHzTV"
+                            style="@style/ca_label_dark_style"
+                            android:text="49.994"
+                            android:textColor="@color/phase_a_yellow" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/ca_label_dark_style"
+                            android:text="Sin" />
+
+                        <TextView
+                            android:id="@+id/otherSinTV"
+                            style="@style/ca_label_dark_style"
+                            android:text="0.000"
+                            android:textColor="@color/phase_b_green" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/ca_label_dark_style"
+                            android:text="Cos" />
+
+                        <TextView
+                            android:id="@+id/otherCosTV"
+                            style="@style/ca_label_dark_style"
+                            android:text="0.000"
+                            android:textColor="@color/phase_c_red" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- ========== 第三组容器 ============ -->
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip"
+            android:background="@drawable/ca_view_container_dark_bg"
+            android:stretchColumns="1,2,3" >
+
+            <TableRow>
+
+                <TextView
+                    style="@style/ca_label_dark_style_2"
+                    android:text="" />
+
+                <TextView
+                    style="@style/ca_label_dark_style_2"
+                    android:text="有功功率" />
+
+                <TextView
+                    style="@style/ca_label_dark_style_2"
+                    android:text="无功功率" />
+
+                <TextView
+                    style="@style/ca_label_dark_style_2"
+                    android:text="视在功率" />
+            </TableRow>
+            
+            <TableRow>
+
+                <TextView
+                    style="@style/ca_label_dark_style_2"
+                    android:text="单位" />
+
+                <TextView
+                    style="@style/ca_label_dark_style_2"
+                    android:id="@+id/unit_p"
+                    android:text="(kW)" />
+
+                <TextView
+                    style="@style/ca_label_dark_style_2"
+                    android:id="@+id/unit_q"
+                    android:text="(kvar)" />
+
+                <TextView
+                    style="@style/ca_label_dark_style_2"
+                    android:id="@+id/unit_s"
+                    android:text="(kVA)" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lab_pa"
+                    style="@style/ca_label_dark_style_2"
+                    android:text="A相" />
+
+                <TextView
+                    android:id="@+id/text_gxjg"
+                    style="@style/ca_label_dark_style_2"
+                    android:text="0.000"
+                    android:textColor="@color/phase_a_yellow" />
+
+                <TextView
+                    android:id="@+id/reactivePowerATV"
+                    style="@style/ca_label_dark_style_2"
+                    android:text="0.000"
+                    android:textColor="@color/phase_a_yellow" />
+
+                <TextView
+                    android:id="@+id/shiZaiPowerATV"
+                    style="@style/ca_label_dark_style_2"
+                    android:text="0.000"
+                    android:textColor="@color/phase_a_yellow" />
+            </TableRow>
+
+            <TableRow android:id="@+id/layout_pb" >
+
+                <TextView
+                    style="@style/ca_label_dark_style_2"
+                    android:text="B相" />
+
+                <TextView
+                    android:id="@+id/text_rxjg"
+                    style="@style/ca_label_dark_style_2"
+                    android:text="0.000"
+                    android:textColor="@color/phase_b_green" />
+
+                <TextView
+                    android:id="@+id/reactivePowerBTV"
+                    style="@style/ca_label_dark_style_2"
+                    android:text="0.000"
+                    android:textColor="@color/phase_b_green" />
+
+                <TextView
+                    android:id="@+id/shiZaiPowerBTV"
+                    style="@style/ca_label_dark_style_2"
+                    android:text="0.000"
+                    android:textColor="@color/phase_b_green" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lab_pc"
+                    style="@style/ca_label_dark_style_2"
+                    android:text="C相" />
+
+                <TextView
+                    android:id="@+id/activePowerCTV"
+                    style="@style/ca_label_dark_style_2"
+                    android:text="0.000"
+                    android:textColor="@color/phase_c_red" />
+
+                <TextView
+                    android:id="@+id/reactivePowerCTV"
+                    style="@style/ca_label_dark_style_2"
+                    android:text="0.000"
+                    android:textColor="@color/phase_c_red" />
+
+                <TextView
+                    android:id="@+id/shiZaiPowerCTV"
+                    style="@style/ca_label_dark_style_2"
+                    android:text="0.000"
+                    android:textColor="@color/phase_c_red" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/ca_label_dark_style_2"
+                    android:layout_width="wrap_content"
+                    android:text="合相" />
+
+                <TextView
+                    android:id="@+id/activePowerSumTV"
+                    style="@style/ca_label_dark_style_2"
+                    android:text="0.000" />
+
+                <TextView
+                    android:id="@+id/reactivePowerSumTV"
+                    style="@style/ca_label_dark_style_2"
+                    android:text="0.000" />
+
+                <TextView
+                    android:id="@+id/shiZaiPowerSumTV"
+                    style="@style/ca_label_dark_style_2"
+                    android:text="0.000" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</ScrollView>

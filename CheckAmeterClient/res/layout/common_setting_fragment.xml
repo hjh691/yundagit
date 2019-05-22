@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- 第一组容器 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip"
+            android:background="@drawable/ca_view_container_bg"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/ca_label_style"
+                    android:layout_weight="0.8"
+                    android:text="电表表号" />
+
+                <Button
+                    android:id="@+id/scanBarCodeBtn"
+                    style="@style/ca_label_style"
+                    android:layout_marginRight="8.0dip"
+                    android:layout_weight="0.2"
+                    android:clickable="true"
+                    android:background="@drawable/qr_scan_bg" />
+
+                <TextView
+                    style="@style/ca_label_style"
+                    android:text="用户名称" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/ameterNumberET"
+                    android:singleLine="true"
+                    android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                    style="@style/ca_input_style"
+                    android:hint="请输入电表标号" />
+
+                <EditText
+                    android:id="@+id/userNameET"
+                    style="@style/ca_input_style"
+                    android:singleLine="true"
+                    android:hint="请输入用户名称" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 第二组容器 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip"
+            android:background="@drawable/ca_view_container_bg"
+            android:orientation="vertical" >
+
+            <!-- =============================================================================== -->
+	        <!-- 标题 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/ca_label_style"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:background="@color/lx_middle_gray"
+                    android:text="电表参数设置" />
+                <Button
+			        android:id="@+id/btn_read"
+			        style="@style/button_green_style"
+			        android:layout_width="0dp"
+			        android:layout_weight="1"
+			        android:text="提取参数"/>
+            </LinearLayout>
+	        
+	        
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/ca_label_style"
+                    android:text="电表制式" />
+
+                <TextView
+                    style="@style/ca_label_style"
+                    android:text="电表等级" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/ameterStandardSpinner"
+                    style="@style/ca_input_style"
+                    android:entries="@array/ameterStandardArray" />
+
+                <Spinner
+                    android:id="@+id/ameterGradeSpinner"
+                    style="@style/ca_input_style"
+                    android:entries="@array/ameterGradeArray" />
+            </LinearLayout>
+
+            <!-- =============================================================================== -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/ca_label_style"
+                    android:text="电压量程" />
+
+                <TextView
+                    style="@style/ca_label_style"
+                    android:text="电流量程" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/voltRangeSpinner"
+                    style="@style/ca_input_style"
+                    android:entries="@array/voltRangeArray" />
+
+                <Spinner
+                    android:id="@+id/amphereRangeSpinner"
+                    style="@style/ca_input_style"
+                    android:entries="@array/amphereRangeArray" />
+            </LinearLayout>
+
+            <!-- =============================================================================== -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/ca_label_style"
+                    android:text="电表常量" />
+
+                <TextView
+                    style="@style/ca_label_style"
+                    android:text="校验圈数" />
+
+                <TextView
+                    style="@style/ca_label_style"
+                    android:text="电压系数" />
+
+                <TextView
+                    style="@style/ca_label_style"
+                    android:text="电流系数" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/ameterConstantValueET"
+                    style="@style/ca_input_style"
+                    android:hint="1"
+                    android:inputType="number"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/coilsNumberET"
+                    style="@style/ca_input_style"
+                    android:hint="3"
+                    android:inputType="number"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/voltRatioET"
+                    style="@style/ca_input_style"
+                    android:hint="1"
+                    android:inputType="number"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/amphereRatioET"
+                    style="@style/ca_input_style"
+                    android:hint="1"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:text="1" />
+
+            </LinearLayout>
+
+            <!-- =============================================================================== -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/ca_label_style"
+                    android:text="分频系数" />
+
+                <TextView
+                    android:id="@+id/txt_mcfs"
+                    style="@style/ca_label_style"
+                    android:text="脉冲方式" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/frequencyDivideRatioET"
+                    style="@style/ca_input_style"
+                    android:hint="1"
+                    android:inputType="number"
+                    android:singleLine="true" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <Spinner
+                        android:id="@+id/pulseModeSpinner"
+                        style="@style/ca_input_style"
+                        android:layout_width="match_parent"
+                        android:entries="@array/pulseModeAsrray" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- =============================================================================== -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/ca_label_style"
+                    android:text="用户地址" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/userAddressET"
+                    style="@style/ca_input_style"
+                    android:imeOptions="actionSend"
+                    android:singleLine="true"
+                    android:hint="请输入用户的地址信息" />
+            </LinearLayout>
+
+            <!-- =============================================================================== -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/ca_label_style"
+                    android:text="线路" />
+
+                <TextView
+                    style="@style/ca_label_style"
+                    android:text="台站" />
+
+                <TextView
+                    style="@style/ca_label_style"
+                    android:text="检验员" />
+
+                <TextView
+                    style="@style/ca_label_style"
+                    android:text="校验员" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/lineET"
+                    style="@style/ca_input_style"
+                    android:singleLine="true"
+                    android:hint="线路" />
+
+                <EditText
+                    android:id="@+id/stationET"
+                    style="@style/ca_input_style"
+                    android:singleLine="true"
+                    android:hint="台站" />
+
+                <EditText
+                    android:id="@+id/inspectorET"
+                    style="@style/ca_input_style"
+                    android:singleLine="true"
+                    android:hint="检验员" />
+
+                <EditText
+                    android:id="@+id/corectorET"
+                    style="@style/ca_input_style"
+                    android:singleLine="true"
+                    android:hint="校验员" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 第三组容器 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip"
+            android:background="@drawable/ca_view_container_bg"
+            android:orientation="vertical" >
+
+            <!-- 标题 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/ca_label_style"
+                    android:background="@color/lx_middle_gray"
+                    android:text="电表信息录入" />
+            </LinearLayout>
+
+            <!-- =============================================================================== -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/ca_label_style"
+                    android:text="电表型号" />
+
+                <TextView
+                    style="@style/ca_label_style"
+                    android:text="电表厂家" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/ameterTypeET"
+                    style="@style/ca_input_style"
+                    android:singleLine="true"
+                    android:hint="电表型号" />
+
+                <EditText
+                    android:id="@+id/ameterFactoryET"
+                    style="@style/ca_input_style"
+                    android:singleLine="true"
+                    android:hint="出厂单位" />
+            </LinearLayout>
+
+            <!-- =============================================================================== -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/ca_label_style"
+                    android:text="峰时电量" />
+
+                <TextView
+                    style="@style/ca_label_style"
+                    android:text="平时电量" />
+
+                <TextView
+                    style="@style/ca_label_style"
+                    android:text="谷时电量" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/topQuantityET"
+                    style="@style/ca_input_style"
+                    android:hint="峰时电量"
+                    android:inputType="numberDecimal"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/normalQuantityET"
+                    style="@style/ca_input_style"
+                    android:hint="平时电量"
+                    android:inputType="numberDecimal"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/bottomQuantityET"
+                    style="@style/ca_input_style"
+                    android:hint="谷时电量"
+                    android:inputType="numberDecimal"
+                    android:singleLine="true" />
+
+            </LinearLayout>
+
+            <!-- =============================================================================== -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/ca_label_style"
+                    android:text="正总有功" />
+
+                <TextView
+                    style="@style/ca_label_style"
+                    android:text="正总无功" />
+
+                <TextView
+                    style="@style/ca_label_style"
+                    android:text="负向无功" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/positiveActivePowerET"
+                    style="@style/ca_input_style"
+                    android:hint="正总有功"
+                    android:inputType="numberDecimal"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/positiveReactivePowerET"
+                    style="@style/ca_input_style"
+                    android:hint="正总无功"
+                    android:inputType="numberDecimal"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/negativeReactivePowerET"
+                    style="@style/ca_input_style"
+                    android:hint="负向无功"
+                    android:inputType="numberDecimal"
+                    android:singleLine="true" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

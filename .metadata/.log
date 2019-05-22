@@ -1,0 +1,859 @@
+!SESSION 2019-04-28 08:31:44.625 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.8.0_192
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+This is a continuation of log file D:\Users\xxxx\workspace\.metadata\.bak_0.log
+Created Time: 2019-04-28 09:28:23.711
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2019-04-28 09:28:23.711
+!MESSAGE LayoutLibrary initialization failed
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2019-04-28 09:28:23.728
+!MESSAGE autoscroll.xml: The SDK layoutlib version is not supported
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2019-04-28 09:28:37.030
+!MESSAGE autoscroll.xml: java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at android.graphics.Canvas.drawText(Canvas.java:1665)
+	at com.example.substationtemperature.view.AutoScroll.onDraw(AutoScroll.java:95)
+	at android.view.View.draw(View.java:15231)
+	at android.view.View.draw(View.java:15140)
+	at android.view.ViewGroup.drawChild_Original(ViewGroup.java:3405)
+	at android.view.ViewGroup_Delegate.drawChild(ViewGroup_Delegate.java:65)
+	at android.view.ViewGroup.drawChild(ViewGroup.java:3405)
+	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:3198)
+	at android.view.View.draw(View.java:15138)
+	at android.view.ViewGroup.drawChild_Original(ViewGroup.java:3405)
+	at android.view.ViewGroup_Delegate.drawChild(ViewGroup_Delegate.java:65)
+	at android.view.ViewGroup.drawChild(ViewGroup.java:3405)
+	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:3198)
+	at android.view.View.draw(View.java:15138)
+	at android.view.ViewGroup.drawChild_Original(ViewGroup.java:3405)
+	at android.view.ViewGroup_Delegate.drawChild(ViewGroup_Delegate.java:65)
+	at android.view.ViewGroup.drawChild(ViewGroup.java:3405)
+	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:3198)
+	at android.view.View.draw(View.java:15138)
+	at android.view.ViewGroup.drawChild_Original(ViewGroup.java:3405)
+	at android.view.ViewGroup_Delegate.drawChild(ViewGroup_Delegate.java:65)
+	at android.view.ViewGroup.drawChild(ViewGroup.java:3405)
+	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:3198)
+	at android.view.View.draw(View.java:15234)
+	at com.android.internal.widget.ActionBarOverlayLayout.draw(ActionBarOverlayLayout.java:501)
+	at android.view.View.draw(View.java:15140)
+	at android.view.ViewGroup.drawChild_Original(ViewGroup.java:3405)
+	at android.view.ViewGroup_Delegate.drawChild(ViewGroup_Delegate.java:65)
+	at android.view.ViewGroup.drawChild(ViewGroup.java:3405)
+	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:3198)
+	at android.view.View.draw(View.java:15234)
+	at android.view.View.draw(View.java:15140)
+	at android.view.ViewGroup.drawChild_Original(ViewGroup.java:3405)
+	at android.view.ViewGroup_Delegate.drawChild(ViewGroup_Delegate.java:65)
+	at android.view.ViewGroup.drawChild(ViewGroup.java:3405)
+	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:3198)
+	at android.view.View.draw(View.java:15234)
+	at com.android.layoutlib.bridge.impl.RenderSessionImpl.render(RenderSessionImpl.java:601)
+	at com.android.layoutlib.bridge.Bridge.createSession(Bridge.java:323)
+	at com.android.ide.common.rendering.LayoutLibrary.createSession(LayoutLibrary.java:349)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.RenderService.createRenderSession(RenderService.java:519)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.renderWithBridge(GraphicalEditorPart.java:1584)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.recomputeLayout(GraphicalEditorPart.java:1309)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.changed(GraphicalEditorPart.java:725)
+	at com.android.ide.eclipse.adt.internal.editors.layout.configuration.ConfigurationChooser.onRenderingTargetChange(ConfigurationChooser.java:1656)
+	at com.android.ide.eclipse.adt.internal.editors.layout.configuration.TargetMenuListener.widgetSelected(TargetMenuListener.java:74)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:240)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2019-04-28 09:28:44.659
+!MESSAGE autoscroll.xml: java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at android.graphics.Canvas.drawText(Canvas.java:1608)
+	at com.example.substationtemperature.view.AutoScroll.onDraw(AutoScroll.java:95)
+	at android.view.View.draw(View.java:15114)
+	at android.view.View.draw(View.java:15022)
+	at android.view.ViewGroup.drawChild_Original(ViewGroup.java:3404)
+	at android.view.ViewGroup_Delegate.drawChild(ViewGroup_Delegate.java:53)
+	at android.view.ViewGroup.drawChild(ViewGroup.java:3404)
+	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:3198)
+	at android.view.View.draw(View.java:15017)
+	at android.view.ViewGroup.drawChild_Original(ViewGroup.java:3404)
+	at android.view.ViewGroup_Delegate.drawChild(ViewGroup_Delegate.java:53)
+	at android.view.ViewGroup.drawChild(ViewGroup.java:3404)
+	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:3198)
+	at android.view.View.draw(View.java:15017)
+	at android.view.ViewGroup.drawChild_Original(ViewGroup.java:3404)
+	at android.view.ViewGroup_Delegate.drawChild(ViewGroup_Delegate.java:53)
+	at android.view.ViewGroup.drawChild(ViewGroup.java:3404)
+	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:3198)
+	at android.view.View.draw(View.java:15017)
+	at android.view.ViewGroup.drawChild_Original(ViewGroup.java:3404)
+	at android.view.ViewGroup_Delegate.drawChild(ViewGroup_Delegate.java:53)
+	at android.view.ViewGroup.drawChild(ViewGroup.java:3404)
+	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:3198)
+	at android.view.View.draw(View.java:15117)
+	at com.android.internal.widget.ActionBarOverlayLayout.draw(ActionBarOverlayLayout.java:501)
+	at android.view.View.draw(View.java:15022)
+	at android.view.ViewGroup.drawChild_Original(ViewGroup.java:3404)
+	at android.view.ViewGroup_Delegate.drawChild(ViewGroup_Delegate.java:53)
+	at android.view.ViewGroup.drawChild(ViewGroup.java:3404)
+	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:3198)
+	at android.view.View.draw(View.java:15017)
+	at android.view.ViewGroup.drawChild_Original(ViewGroup.java:3404)
+	at android.view.ViewGroup_Delegate.drawChild(ViewGroup_Delegate.java:53)
+	at android.view.ViewGroup.drawChild(ViewGroup.java:3404)
+	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:3198)
+	at android.view.View.draw(View.java:15117)
+	at android.view.View.draw(View.java:15022)
+	at android.view.ViewGroup.drawChild_Original(ViewGroup.java:3404)
+	at android.view.ViewGroup_Delegate.drawChild(ViewGroup_Delegate.java:53)
+	at android.view.ViewGroup.drawChild(ViewGroup.java:3404)
+	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:3198)
+	at android.view.View.draw(View.java:15117)
+	at com.android.layoutlib.bridge.impl.RenderSessionImpl.render(RenderSessionImpl.java:587)
+	at com.android.layoutlib.bridge.Bridge.createSession(Bridge.java:334)
+	at com.android.ide.common.rendering.LayoutLibrary.createSession(LayoutLibrary.java:349)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.RenderService.createRenderSession(RenderService.java:519)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.renderWithBridge(GraphicalEditorPart.java:1584)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.recomputeLayout(GraphicalEditorPart.java:1309)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.changed(GraphicalEditorPart.java:725)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.onTargetChange(GraphicalEditorPart.java:1196)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.onDescriptorsChanged(LayoutEditorDelegate.java:916)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.delegateInitUiRootNode(LayoutEditorDelegate.java:835)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart$TargetListener.updateEditor(GraphicalEditorPart.java:953)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart$TargetListener.onTargetLoaded(GraphicalEditorPart.java:917)
+	at com.android.ide.eclipse.adt.AdtPlugin$11.run(AdtPlugin.java:1749)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4140)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2019-04-28 10:11:43.535
+!MESSAGE No command output when running: 'am start -n com.example.substationtemperature/com.example.substationtemperature.MainActivity -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' on device 0123456789ABCDEF
+!STACK 0
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:430)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:347)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:610)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(ActivityLaunchAction.java:67)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(ActivityLaunchAction.java:109)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.doLaunchAction(AndroidLaunchController.java:1293)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.doLaunchAction(AndroidLaunchController.java:1305)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launchApp(AndroidLaunchController.java:1277)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.simpleLaunch(AndroidLaunchController.java:913)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.continueLaunch(AndroidLaunchController.java:755)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launch(AndroidLaunchController.java:372)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.doLaunch(LaunchConfigDelegate.java:330)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.launch(LaunchConfigDelegate.java:246)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2019-04-28 16:28:38.513
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1010)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:700)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1058)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:362)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 100 2019-04-28 16:28:38.515
+!MESSAGE Invalid stack frame
+
+!ENTRY org.eclipse.jdt.debug 4 125 2019-04-28 16:28:54.941
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1010)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:700)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1058)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:362)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 100 2019-04-28 16:28:54.941
+!MESSAGE Invalid stack frame
+
+!ENTRY org.eclipse.jdt.debug 4 125 2019-04-28 16:33:43.929
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1010)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:700)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1058)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:362)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 100 2019-04-28 16:33:43.929
+!MESSAGE Invalid stack frame
+
+!ENTRY org.eclipse.jdt.debug 4 125 2019-04-28 16:33:45.145
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1010)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:700)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1058)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:362)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 100 2019-04-28 16:33:45.145
+!MESSAGE Invalid stack frame
+
+!ENTRY org.eclipse.jdt.debug 4 125 2019-04-28 16:45:36.978
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Unable to create class prepare request - VM disconnected.
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugElement.throwDebugException(JDIDebugElement.java:214)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugElement.requestFailed(JDIDebugElement.java:169)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugElement.requestFailed(JDIDebugElement.java:140)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createClassPrepareRequest(JDIDebugTarget.java:1113)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createClassPrepareRequest(JDIDebugTarget.java:1086)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createClassPrepareRequest(JDIDebugTarget.java:1063)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createClassPrepareRequest(JDIDebugTarget.java:1042)
+	at org.eclipse.jdt.internal.debug.core.breakpoints.JavaBreakpoint.createRequests(JavaBreakpoint.java:551)
+	at org.eclipse.jdt.internal.debug.core.breakpoints.JavaBreakpoint.addToTarget(JavaBreakpoint.java:532)
+	at org.eclipse.jdt.internal.debug.core.breakpoints.JavaLineBreakpoint.addToTarget(JavaLineBreakpoint.java:161)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.breakpointAdded(JDIDebugTarget.java:1220)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointNotifier.run(BreakpointManager.java:972)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointNotifier.notify(BreakpointManager.java:998)
+	at org.eclipse.debug.internal.core.BreakpointManager.fireUpdate(BreakpointManager.java:912)
+	at org.eclipse.debug.internal.core.BreakpointManager.addBreakpoints(BreakpointManager.java:599)
+	at org.eclipse.debug.internal.core.BreakpointManager.addBreakpoints(BreakpointManager.java:569)
+	at org.eclipse.debug.internal.core.BreakpointManager.addBreakpoint(BreakpointManager.java:562)
+	at org.eclipse.jdt.internal.debug.core.breakpoints.JavaBreakpoint.register(JavaBreakpoint.java:194)
+	at org.eclipse.jdt.internal.debug.core.breakpoints.JavaLineBreakpoint$1.run(JavaLineBreakpoint.java:150)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.debug.core.model.Breakpoint.run(Breakpoint.java:329)
+	at org.eclipse.jdt.internal.debug.core.breakpoints.JavaLineBreakpoint.<init>(JavaLineBreakpoint.java:153)
+	at org.eclipse.jdt.internal.debug.core.breakpoints.JavaLineBreakpoint.<init>(JavaLineBreakpoint.java:132)
+	at org.eclipse.jdt.debug.core.JDIDebugModel.createLineBreakpoint(JDIDebugModel.java:274)
+	at org.eclipse.jdt.internal.debug.ui.actions.ToggleBreakpointAdapter$2.run(ToggleBreakpointAdapter.java:267)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5012 2019-04-28 16:45:36.979
+!MESSAGE Unable to create class prepare request - VM disconnected.
+
+!ENTRY org.eclipse.jdt.debug 4 125 2019-04-28 16:45:36.980
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Unable to create class prepare request - VM disconnected.
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugElement.throwDebugException(JDIDebugElement.java:214)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugElement.requestFailed(JDIDebugElement.java:169)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugElement.requestFailed(JDIDebugElement.java:140)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createClassPrepareRequest(JDIDebugTarget.java:1113)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createClassPrepareRequest(JDIDebugTarget.java:1086)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createClassPrepareRequest(JDIDebugTarget.java:1063)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createClassPrepareRequest(JDIDebugTarget.java:1042)
+	at org.eclipse.jdt.internal.debug.core.breakpoints.JavaBreakpoint.createRequests(JavaBreakpoint.java:551)
+	at org.eclipse.jdt.internal.debug.core.breakpoints.JavaBreakpoint.addToTarget(JavaBreakpoint.java:532)
+	at org.eclipse.jdt.internal.debug.core.breakpoints.JavaLineBreakpoint.addToTarget(JavaLineBreakpoint.java:161)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.breakpointAdded(JDIDebugTarget.java:1220)
+	at org.eclipse.debug.ui.actions.RunToLineHandler$1.run(RunToLineHandler.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 5012 2019-04-28 16:45:36.980
+!MESSAGE Unable to create class prepare request - VM disconnected.
+
+!ENTRY org.eclipse.jpt.jpa.ui 4 0 2019-04-28 17:34:09.456
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Exception in org.eclipse.jpt.jpa.ui.JptJpaUiPlugin.stop() of bundle org.eclipse.jpt.jpa.ui.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:791)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:565)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1161)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:595)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:691)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:598)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:390)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:198)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4282)
+	at org.eclipse.swt.SWT.error(SWT.java:4197)
+	at org.eclipse.swt.SWT.error(SWT.java:4168)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1258)
+	at org.eclipse.swt.widgets.Display.checkDevice(Display.java:764)
+	at org.eclipse.swt.widgets.Display.removeFilter(Display.java:4058)
+	at org.eclipse.jpt.jpa.ui.JptJpaUiPlugin.stop(JptJpaUiPlugin.java:257)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	... 18 more
+Root exception:
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4282)
+	at org.eclipse.swt.SWT.error(SWT.java:4197)
+	at org.eclipse.swt.SWT.error(SWT.java:4168)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1258)
+	at org.eclipse.swt.widgets.Display.checkDevice(Display.java:764)
+	at org.eclipse.swt.widgets.Display.removeFilter(Display.java:4058)
+	at org.eclipse.jpt.jpa.ui.JptJpaUiPlugin.stop(JptJpaUiPlugin.java:257)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:565)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1161)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:595)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:691)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:598)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:390)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:198)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SESSION 2019-04-29 13:00:26.206 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.8.0_192
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-04-29 13:00:29.976
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2019-04-29 13:19:45.635
+!MESSAGE No command output when running: 'am start -D -n com.example.substationtemperature/com.example.substationtemperature.MainActivity -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' on device 0123456789ABCDEF
+!STACK 0
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:430)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:347)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:610)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(ActivityLaunchAction.java:67)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(ActivityLaunchAction.java:109)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.doLaunchAction(AndroidLaunchController.java:1293)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.doLaunchAction(AndroidLaunchController.java:1305)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launchApp(AndroidLaunchController.java:1277)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.simpleLaunch(AndroidLaunchController.java:913)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.continueLaunch(AndroidLaunchController.java:755)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launch(AndroidLaunchController.java:372)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.doLaunch(LaunchConfigDelegate.java:330)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.launch(LaunchConfigDelegate.java:246)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2019-04-29 13:42:48.710
+!MESSAGE No command output when running: 'am start -D -n com.example.substationtemperature/com.example.substationtemperature.MainActivity -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' on device 0123456789ABCDEF
+!STACK 0
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:430)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:347)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:610)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(ActivityLaunchAction.java:67)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(ActivityLaunchAction.java:109)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.doLaunchAction(AndroidLaunchController.java:1293)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.doLaunchAction(AndroidLaunchController.java:1305)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launchApp(AndroidLaunchController.java:1277)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.simpleLaunch(AndroidLaunchController.java:913)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.continueLaunch(AndroidLaunchController.java:755)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launch(AndroidLaunchController.java:372)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.doLaunch(LaunchConfigDelegate.java:330)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.launch(LaunchConfigDelegate.java:246)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2019-04-29 13:52:51.371
+!MESSAGE Failed to render set of icons for TabHost
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2019-04-29 13:52:51.372
+!MESSAGE Could not create tab content because could not find view with id -1
+!STACK 0
+java.lang.RuntimeException: Could not create tab content because could not find view with id -1
+	at android.widget.TabHost$ViewIdContentStrategy.<init>(TabHost.java:695)
+	at android.widget.TabHost$ViewIdContentStrategy.<init>(TabHost.java:686)
+	at android.widget.TabHost$TabSpec.setContent(TabHost.java:535)
+	at com.android.layoutlib.bridge.impl.RenderSessionImpl.setupTabHost(RenderSessionImpl.java:1373)
+	at com.android.layoutlib.bridge.impl.RenderSessionImpl.postInflateProcess(RenderSessionImpl.java:1218)
+	at com.android.layoutlib.bridge.impl.RenderSessionImpl.postInflateProcess(RenderSessionImpl.java:1296)
+	at com.android.layoutlib.bridge.impl.RenderSessionImpl.postInflateProcess(RenderSessionImpl.java:1296)
+	at com.android.layoutlib.bridge.impl.RenderSessionImpl.inflate(RenderSessionImpl.java:411)
+	at com.android.layoutlib.bridge.Bridge.createSession(Bridge.java:332)
+	at com.android.ide.common.rendering.LayoutLibrary.createSession(LayoutLibrary.java:349)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.RenderService.createRenderSession(RenderService.java:519)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PreviewIconFactory.render(PreviewIconFactory.java:273)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PreviewIconFactory.initColors(PreviewIconFactory.java:595)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PreviewIconFactory.getBackgroundColor(PreviewIconFactory.java:570)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.reloadPalette(PaletteControl.java:437)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.reloadPalette(GraphicalEditorPart.java:1327)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.changed(GraphicalEditorPart.java:771)
+	at com.android.ide.eclipse.adt.internal.editors.layout.configuration.ConfigurationChooser.onDeviceChange(ConfigurationChooser.java:1411)
+	at com.android.ide.eclipse.adt.internal.editors.layout.configuration.DeviceMenuListener.widgetSelected(DeviceMenuListener.java:68)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:240)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2019-04-29 13:52:51.375
+!MESSAGE Failed to render set of icons for TabWidget
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2019-04-29 13:52:51.375
+!MESSAGE Could not create tab content because could not find view with id -1
+!STACK 0
+java.lang.RuntimeException: Could not create tab content because could not find view with id -1
+	at android.widget.TabHost$ViewIdContentStrategy.<init>(TabHost.java:695)
+	at android.widget.TabHost$ViewIdContentStrategy.<init>(TabHost.java:686)
+	at android.widget.TabHost$TabSpec.setContent(TabHost.java:535)
+	at com.android.layoutlib.bridge.impl.RenderSessionImpl.setupTabHost(RenderSessionImpl.java:1373)
+	at com.android.layoutlib.bridge.impl.RenderSessionImpl.postInflateProcess(RenderSessionImpl.java:1218)
+	at com.android.layoutlib.bridge.impl.RenderSessionImpl.postInflateProcess(RenderSessionImpl.java:1296)
+	at com.android.layoutlib.bridge.impl.RenderSessionImpl.postInflateProcess(RenderSessionImpl.java:1296)
+	at com.android.layoutlib.bridge.impl.RenderSessionImpl.inflate(RenderSessionImpl.java:411)
+	at com.android.layoutlib.bridge.Bridge.createSession(Bridge.java:332)
+	at com.android.ide.common.rendering.LayoutLibrary.createSession(LayoutLibrary.java:349)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.RenderService.createRenderSession(RenderService.java:519)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PreviewIconFactory.render(PreviewIconFactory.java:273)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PreviewIconFactory.initColors(PreviewIconFactory.java:595)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PreviewIconFactory.getBackgroundColor(PreviewIconFactory.java:570)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.reloadPalette(PaletteControl.java:437)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.reloadPalette(GraphicalEditorPart.java:1327)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.changed(GraphicalEditorPart.java:771)
+	at com.android.ide.eclipse.adt.internal.editors.layout.configuration.ConfigurationChooser.onDeviceChange(ConfigurationChooser.java:1411)
+	at com.android.ide.eclipse.adt.internal.editors.layout.configuration.DeviceMenuListener.widgetSelected(DeviceMenuListener.java:68)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:240)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2019-04-29 13:55:55.323
+!MESSAGE LayoutLibrary initialization failed
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2019-04-29 13:55:55.333
+!MESSAGE fragment_picture.xml: The SDK layoutlib version is not supported
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2019-04-29 13:56:18.388
+!MESSAGE fragment_picture.xml: The SDK layoutlib version is not supported
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2019-04-29 13:56:19.946
+!MESSAGE fragment_picture.xml: The SDK layoutlib version is not supported
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2019-04-29 14:05:55.773
+!MESSAGE fragment_picture.xml: The SDK layoutlib version is not supported
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2019-04-29 14:11:38.782
+!MESSAGE No command output when running: 'am start -n com.example.substationtemperature/com.example.substationtemperature.MainActivity -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' on device 0123456789ABCDEF
+!STACK 0
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:430)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:347)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:610)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(ActivityLaunchAction.java:67)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(ActivityLaunchAction.java:109)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.doLaunchAction(AndroidLaunchController.java:1293)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.doLaunchAction(AndroidLaunchController.java:1305)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launchApp(AndroidLaunchController.java:1277)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.simpleLaunch(AndroidLaunchController.java:913)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.continueLaunch(AndroidLaunchController.java:755)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launch(AndroidLaunchController.java:372)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.doLaunch(LaunchConfigDelegate.java:330)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.launch(LaunchConfigDelegate.java:246)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2019-04-29 14:15:55.233
+!MESSAGE No command output when running: 'am start -n com.example.substationtemperature/com.example.substationtemperature.MainActivity -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' on device 0123456789ABCDEF
+!STACK 0
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:430)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:347)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:610)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(ActivityLaunchAction.java:67)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(ActivityLaunchAction.java:109)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.doLaunchAction(AndroidLaunchController.java:1293)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.doLaunchAction(AndroidLaunchController.java:1305)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launchApp(AndroidLaunchController.java:1277)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.simpleLaunch(AndroidLaunchController.java:913)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.continueLaunch(AndroidLaunchController.java:755)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launch(AndroidLaunchController.java:372)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.doLaunch(LaunchConfigDelegate.java:330)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.launch(LaunchConfigDelegate.java:246)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2019-05-10 08:32:04.253 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.8.0_192
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2019-05-10 09:18:34.686
+!MESSAGE No command output when running: 'am start -D -n com.example.substationtemperature/com.example.substationtemperature.MainActivity -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' on device 0123456789ABCDEF
+!STACK 0
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:430)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:347)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:610)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(ActivityLaunchAction.java:67)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(ActivityLaunchAction.java:109)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.doLaunchAction(AndroidLaunchController.java:1293)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.doLaunchAction(AndroidLaunchController.java:1305)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launchApp(AndroidLaunchController.java:1277)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.simpleLaunch(AndroidLaunchController.java:913)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.continueLaunch(AndroidLaunchController.java:755)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launch(AndroidLaunchController.java:372)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.doLaunch(LaunchConfigDelegate.java:330)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.launch(LaunchConfigDelegate.java:246)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2019-05-14 10:04:29.190 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.8.0_192
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2019-05-14 10:11:25.996
+!MESSAGE LayoutLibrary initialization failed
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2019-05-14 10:11:26.164
+!MESSAGE fragment_alert.xml: The SDK layoutlib version is not supported
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2019-05-14 10:12:16.947
+!MESSAGE NewXmlFile wizard: no data for target Android 5.1.1, project SubstationTemperature
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2019-05-14 10:12:16.953
+!MESSAGE NewXmlFile wizard: no data for target Android 5.1.1, project SubstationTemperature
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2019-05-14 10:12:16.954
+!MESSAGE NewXmlFile wizard: no data for target Android 5.1.1, project SubstationTemperature
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2019-05-14 10:12:16.955
+!MESSAGE NewXmlFile wizard: no data for target Android 5.1.1, project SubstationTemperature
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2019-05-14 10:12:16.956
+!MESSAGE NewXmlFile wizard: no data for target Android 5.1.1, project SubstationTemperature
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2019-05-14 10:12:16.957
+!MESSAGE NewXmlFile wizard: no data for target Android 5.1.1, project SubstationTemperature
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2019-05-14 10:12:16.961
+!MESSAGE NewXmlFile wizard: no data for target Android 5.1.1, project SubstationTemperature
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2019-05-14 10:12:16.965
+!MESSAGE NewXmlFile wizard: no data for target Android 5.1.1, project SubstationTemperature
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2019-05-14 10:12:48.933
+!MESSAGE Failed to update a TargetChangeListener.
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.RenderService.<init>(RenderService.java:131)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.RenderService.create(RenderService.java:228)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.renderWithBridge(GraphicalEditorPart.java:1578)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.recomputeLayout(GraphicalEditorPart.java:1309)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.changed(GraphicalEditorPart.java:725)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.onTargetChange(GraphicalEditorPart.java:1196)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.onDescriptorsChanged(LayoutEditorDelegate.java:916)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.delegateInitUiRootNode(LayoutEditorDelegate.java:835)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart$TargetListener.updateEditor(GraphicalEditorPart.java:953)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart$TargetListener.onTargetLoaded(GraphicalEditorPart.java:917)
+	at com.android.ide.eclipse.adt.AdtPlugin$11.run(AdtPlugin.java:1749)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4140)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2019-05-14 10:13:01.751
+!MESSAGE LayoutLibrary initialization failed
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2019-05-14 10:13:01.761
+!MESSAGE fragment_realwarning.xml: The SDK layoutlib version is not supported
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2019-05-14 10:55:37.575
+!MESSAGE NewXmlFile wizard: no data for target Android 5.1.1, project SubstationTemperature
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2019-05-14 10:55:37.575
+!MESSAGE NewXmlFile wizard: no data for target Android 5.1.1, project SubstationTemperature
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2019-05-14 10:55:37.576
+!MESSAGE NewXmlFile wizard: no data for target Android 5.1.1, project SubstationTemperature
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2019-05-14 10:55:37.576
+!MESSAGE NewXmlFile wizard: no data for target Android 5.1.1, project SubstationTemperature
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2019-05-14 10:55:37.576
+!MESSAGE NewXmlFile wizard: no data for target Android 5.1.1, project SubstationTemperature
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2019-05-14 10:55:37.576
+!MESSAGE NewXmlFile wizard: no data for target Android 5.1.1, project SubstationTemperature
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2019-05-14 10:55:37.576
+!MESSAGE NewXmlFile wizard: no data for target Android 5.1.1, project SubstationTemperature
+!SESSION 2019-05-14 13:57:55.790 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.8.0_192
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-05-14 13:57:59.183
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2019-05-14 13:59:35.235 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.8.0_192
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-05-14 13:59:38.116
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2019-05-15 08:31:47.584 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.8.0_192
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-05-15 08:31:51.229
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2019-05-15 08:53:01.445 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.8.0_192
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jdt.debug 4 125 2019-05-15 10:19:56.032
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1010)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:700)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1058)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:362)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 100 2019-05-15 10:19:56.033
+!MESSAGE Invalid stack frame
+
+!ENTRY org.eclipse.jdt.debug 4 125 2019-05-15 10:20:00.591
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1010)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:700)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1058)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:362)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 100 2019-05-15 10:20:00.591
+!MESSAGE Invalid stack frame
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2019-05-15 10:49:07.910
+!MESSAGE No command output when running: 'am start -n com.example.substationtemperature/com.example.substationtemperature.MainActivity -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' on device 0123456789ABCDEF
+!STACK 0
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:430)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:347)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:610)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(ActivityLaunchAction.java:67)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(ActivityLaunchAction.java:109)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.doLaunchAction(AndroidLaunchController.java:1293)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.doLaunchAction(AndroidLaunchController.java:1305)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launchApp(AndroidLaunchController.java:1277)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.simpleLaunch(AndroidLaunchController.java:913)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.continueLaunch(AndroidLaunchController.java:755)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launch(AndroidLaunchController.java:372)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.doLaunch(LaunchConfigDelegate.java:330)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.launch(LaunchConfigDelegate.java:246)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2019-05-21 16:50:22.765 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.8.0_192
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-05-21 16:50:26.028
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2019-05-22 08:04:28.519 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.8.0_192
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-05-22 10:05:40.747
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 2 1 2019-05-22 10:05:40.751
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-05-22 10:05:40.751
+!MESSAGE The project description file (.project) for 'AChartEngineDemo' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-05-22 10:05:40.751
+!MESSAGE The project description file (.project) for 'CheckAmeterClient' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-05-22 10:05:40.751
+!MESSAGE The project description file (.project) for 'LauncherActivity' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-05-22 10:05:40.752
+!MESSAGE The project description file (.project) for 'MyAnjoyoLiuxiaowei' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-05-22 10:05:40.752
+!MESSAGE The project description file (.project) for 'SubstationTemperature' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-05-22 10:05:40.752
+!MESSAGE The project description file (.project) for 'SwipeMenuListView' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-05-22 10:05:40.752
+!MESSAGE The project description file (.project) for 'javaapk.com' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-05-22 10:05:40.752
+!MESSAGE The project description file (.project) for 'library' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-05-22 10:05:40.752
+!MESSAGE The project description file (.project) for 'slidingmenu_library' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.

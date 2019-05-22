@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 左侧侧滑菜单 热点连接子布局北京 -->
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <stroke android:width="0.5dip" android:color="#88888888" />
+            <solid android:color="#ffffff" />
+            <corners android:radius="1dp" />
+        </shape>
+    </item>
+    
+</selector>

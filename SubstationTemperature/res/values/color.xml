@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color android:layout_height="wrap_content" android:id="@+id/color1" android:layout_width="wrap_content" name="lx_dark_green">#416c50</color>
+    
+    <color name="lx_light_gray">#ebebeb</color> <!-- 浅灰色 -->
+    
+    <!-- 标题栏文本颜色 -->
+    <color name="title_text_color">#ffffff</color> <!-- 白色 -->
+    
+    <!-- 菜单颜色 -->
+    <color name="left_menu_item_text_normal">#000000</color>
+    <color name="left_menu_item_text_pressed">#ffffff</color>
+    <color name="left_menu_item_bg_normal">#ffffff</color>
+    <color name="left_menu_item_bg_pressed">@color/lx_dark_green</color>
+    <color name="left_menu_item_line">@color/lx_light_gray</color>
+    
+    <color name="lx_white_color">#FFffffff</color> <!-- 橘黄色 -->
+    
+    <color name="state_green_color">#FF00706B</color>
+    <color name="oranger">#ffF55A06</color>
+    <color name="colorAccent">#ff483444</color>
+    <!-- 隔离线颜色 -->
+    <color name="separate_line_color">#979797</color>
+    
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_conner">#ff0000ff</color>
+    <color name="viewfinder_mask">#80000000</color>
+    <color name="result_view">#c0000000</color>
+    <color name="possible_result_points">#c0ff2400</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="baseBlack">#000000</color>
+
+    <color name="pull_down_bg">#F7F7F7</color>
+    <color name="pull_down_text">#EAEAEA</color>
+    <color name="bg_00FFFF">#FF00FFFF</color>
+    <color name="orange_bg">#FFffA500</color>
+    
+</resources>

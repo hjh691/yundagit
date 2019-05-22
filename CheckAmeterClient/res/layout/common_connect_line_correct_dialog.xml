@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 照相取证 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip"
+            android:background="@drawable/ca_view_container_dark_bg"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/ca_label_dark_style_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="向量图设置" />
+            <!-- *****************正方向设置**************** -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.1dip"
+                android:background="#979797" >
+            </LinearLayout>
+
+            <TextView
+                style="@style/ca_label_dark_style_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="正方向设置" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <RadioGroup
+                        android:id="@+id/positiveOritationSettingRG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/clockwiseRB"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5.0dip"
+                            android:checked="true"
+                            android:text="顺时针" />
+
+                        <RadioButton
+                            android:id="@+id/anticlockwiseRB"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5.0dip"
+                            android:text="逆时针" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+            <!-- *****************零度设置**************** -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.1dip"
+                android:background="#979797" >
+            </LinearLayout>
+
+            <TextView
+                style="@style/ca_label_dark_style_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="零度设置" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <RadioGroup
+                        android:id="@+id/zeroSettingRG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/twelveClockRB"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5.0dip"
+                            android:checked="true"
+                            android:text="十二点钟" />
+
+                        <RadioButton
+                            android:id="@+id/threeClockRB"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5.0dip"
+                            android:text="三点钟" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- *****************下标设置**************** -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.1dip"
+                android:background="#979797" >
+            </LinearLayout>
+
+            <TextView
+                style="@style/ca_label_dark_style_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="下标设置" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <RadioGroup
+                        android:id="@+id/subscriptSettingRG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/abcRB"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5.0dip"
+                            android:checked="true"
+                            android:text="A,B,C" />
+
+                        <RadioButton
+                            android:id="@+id/number123RB"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5.0dip"
+                            android:text="1,2,3" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- *****************向量标签内容**************** -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.1dip"
+                android:background="#979797" >
+            </LinearLayout>
+
+            <TextView
+                style="@style/ca_label_dark_style_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="向量标签内容" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <RadioGroup
+                    android:id="@+id/vectorLabelRG"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/defaultRB"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:checked="true"
+                        android:text="默认" />
+
+                    <RadioButton
+                        android:id="@+id/angleRB"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:text="角度" />
+
+                    <RadioButton
+                        android:id="@+id/amplitudeRB"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5.0dip"
+                        android:layout_weight="1.0"
+                        android:text="幅值" />
+
+                    <RadioButton
+                        android:id="@+id/allRB"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5.0dip"
+                        android:layout_weight="1.0"
+                        android:text="全部" />
+                    <!-- </LinearLayout> -->
+                </RadioGroup>
+            </LinearLayout>
+
+            <!-- *****************向量标签内容**************** -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.1dip"
+                android:background="#979797" >
+            </LinearLayout>
+
+            <TextView
+                style="@style/ca_label_dark_style_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="电流电压半径比" />
+
+            <TextView
+                android:id="@+id/currentRatioTV"
+                style="@style/ca_label_dark_style_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:text="当前比值：0.50" />
+
+            <SeekBar
+                android:id="@+id/currentRatioSeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <!--
+                 <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5.0dip"
+                    android:orientation="horizontal"
+                     >
+
+                    <Button
+                         android:layout_width="0.0dip"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1.0"
+                        style="@style/button_green_style"
+                        android:text="设置" />
+                    
+                    <Button
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        style="@style/button_green_style"
+                        android:text="取消" />
+                </LinearLayout>
+            -->
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

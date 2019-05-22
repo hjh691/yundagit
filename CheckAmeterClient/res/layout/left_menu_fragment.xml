@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/leftMenuTitleBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="84.0dip"
+            android:background="#4da36b"
+            android:gravity="center"
+            android:text="三相用电检查仪"
+            android:textColor="#ffffff"
+            android:textSize="18.0sp" />
+    </LinearLayout>
+
+        <ScrollView
+        android:id="@+id/leftMenuItemScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/leftMenuTitleBar" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <!-- 变比测试 -->
+
+           <ImageView style="@style/left_menu_item_line" />
+
+            <RelativeLayout
+                android:id="@+id/testRatioItem"
+                style="@style/left_menu_item_layout" >
+
+                <ImageView
+                    android:id="@+id/testRatioIcon"
+                    style="@style/left_menu_item_image"
+                    android:src="@drawable/varioscale_testing_icon" />
+
+                <TextView
+                    style="@style/left_menu_item_text"
+                    android:layout_toRightOf="@id/testRatioIcon"
+                    android:text="变比测试" />
+            </RelativeLayout>
+            
+            <ImageView style="@style/left_menu_item_line" />
+
+            <!-- 数据管理 -->
+
+            <RelativeLayout
+                android:id="@+id/manageDataItem"
+                style="@style/left_menu_item_layout" >
+
+                <ImageView
+                    android:id="@+id/manageDataIcon"
+                    style="@style/left_menu_item_image"
+                    android:src="@drawable/manage_data_icon" />
+
+                <TextView
+                    style="@style/left_menu_item_text"
+                    android:layout_toRightOf="@id/manageDataIcon"
+                    android:text="管理数据" />
+            </RelativeLayout>
+
+            <ImageView style="@style/left_menu_item_line" />
+
+            <!-- 设备调试 -->
+
+            <RelativeLayout
+                android:id="@+id/debugDeviceItem"
+                style="@style/left_menu_item_layout" >
+
+                <ImageView
+                    android:id="@+id/debugDeviceIcon"
+                    style="@style/left_menu_item_image"
+                    android:src="@drawable/debug_device_icon" />
+
+                <TextView
+                    style="@style/left_menu_item_text"
+                    android:layout_toRightOf="@id/debugDeviceIcon"
+                    android:text="调试设备" />
+            </RelativeLayout>
+
+            <ImageView style="@style/left_menu_item_line" />
+
+             <!-- 设备调试 -->
+
+            <RelativeLayout
+                android:id="@+id/guidePageSwitchItem"
+                style="@style/left_menu_item_layout" >
+
+                <ImageView
+                    android:id="@+id/guidePageSwitchIcon"
+                    style="@style/left_menu_item_image"
+                    android:src="@drawable/guide_icon" />
+
+                <TextView
+                    android:id="@+id/guidePageSwitchTextView"
+                    style="@style/left_menu_item_text"
+                    android:layout_toRightOf="@id/guidePageSwitchIcon"
+                    android:text="启动向导" />
+            </RelativeLayout>
+
+            <ImageView style="@style/left_menu_item_line" />
+            <!-- 帮助文件 -->
+
+            <RelativeLayout
+                android:id="@+id/helpItem"
+                style="@style/left_menu_item_layout" >
+
+                <ImageView
+                    android:id="@+id/helpIcon"
+                    style="@style/left_menu_item_image"
+                    android:src="@drawable/help_icon" />
+
+                <TextView
+                    style="@style/left_menu_item_text"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/helpIcon"
+                    android:text="查看帮助" />
+            </RelativeLayout>
+
+            <ImageView style="@style/left_menu_item_line" />
+
+            <RelativeLayout
+                android:id="@+id/BluetoothItem"
+                style="@style/left_menu_item_layout"
+                android:layout_width="match_parent" >
+
+                <ImageView
+                    android:id="@+id/BluetoothIcon"
+                    style="@style/left_menu_item_image"
+                    android:src="@drawable/help_icon" />
+
+                <TextView
+                    style="@style/left_menu_item_text"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/BluetoothIcon"
+                    android:text="打开蓝牙" />
+            </RelativeLayout>
+
+            <ImageView style="@style/left_menu_item_line" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- 侧滑菜单中的登录布局 -->
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/leftMenuItemScrollView"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10.0dip"
+        android:background="@drawable/left_menu_connect_bg"
+        android:padding="5.0dip" >
+
+        <!--
+        <TableRow style="@style/left_menu_connect_table_row" >
+
+            <TextView
+               style="@style/left_menu_connect_text"
+               android:background="#88888888"
+                android:text="热点设置" />
+        </TableRow>
+        -->
+
+        <TableRow style="@style/left_menu_connect_table_row" >
+
+            <TextView
+                style="@style/left_menu_connect_text"
+                android:text="热点名称" />
+
+            <EditText
+                style="@style/left_menu_connect_text"
+                android:id="@+id/wifi_ssid"
+                android:text="lxdz1619" />
+        </TableRow>
+
+        <TableRow
+            style="@style/left_menu_connect_table_row"
+            android:visibility="gone" >
+
+            <TextView
+                style="@style/left_menu_connect_text"
+                android:text="密        码" />
+
+            <EditText
+                style="@style/left_menu_connect_text"
+                android:id="@+id/wifi_password"
+                android:inputType="textPassword"
+                android:text="87654321" />
+        </TableRow>
+
+        <TableRow style="@style/left_menu_connect_table_row" >
+
+            <Button
+                android:id="@+id/connectHotSpotBtn"
+                style="@style/left_menu_connect_button"
+                android:text="连          接" />
+        </TableRow>
+
+        <TableRow style="@style/left_menu_connect_table_row" >
+
+            <Button
+                android:id="@+id/btn_smzl"
+                style="@style/left_menu_connect_button"
+                android:text="扫码连接" />
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

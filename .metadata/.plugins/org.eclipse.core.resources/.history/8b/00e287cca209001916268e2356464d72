@@ -1,0 +1,213 @@
+package com.example.substationtemperature;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.net.URLEncoder;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import com.example.substationtemperature.base.Declare;
+import com.example.substationtemperature.base.ReturnData;
+import com.example.substationtemperature.network.ClientService;
+import com.example.substationtemperature.network.UserHttpClient;
+import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
+import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu.OnClosedListener;
+import com.zxing.activity.CaptureActivity;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Message;
+import android.util.Log;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+
+
+
+public class SlidingMenuControlller implements OnClickListener{
+
+	private final Activity activity;
+	SlidingMenu mSlidingMenu;
+	private Intent intent;
+	
+	EditText home_url;
+	
+	public SlidingMenuControlller(Activity activity){
+		this.activity=activity;
+	}
+	
+	public SlidingMenu initSlidingMenu(){
+		Log.d("tag","initslidingmenu");
+		
+		mSlidingMenu=new SlidingMenu(activity);
+		mSlidingMenu.setMode(SlidingMenu.LEFT);//设置左或右侧滑菜单
+		mSlidingMenu.setTouchModeAbove(SlidingMenu.SLIDING_WINDOW);// 设置要使菜单滑动，触碰屏幕的范围
+		// mSlidingMenu.setTouchModeBehind(SlidingMenu.SLIDING_CONTENT);//设置了这个会获取不到菜单里面的焦点，所以先注释掉
+		mSlidingMenu.setShadowWidthRes(R.dimen.shadow_width);//设置阴影的宽
+		mSlidingMenu.setShadowDrawable(R.drawable.shadow);//设置阴影图片
+		mSlidingMenu.setBehindOffsetRes(R.dimen.slidingmenu_offset);
+		mSlidingMenu.setFadeDegree(0.35F);// SlidingMenu滑动时的渐变程度
+		mSlidingMenu.attachToActivity(activity, SlidingMenu.RIGHT);// 使SlidingMenu附加在Activity右边
+		// mSlidingMenu.setBehindWidthRes(R.dimen.left_drawer_avatar_size);//设置SlidingMenu菜单的宽度
+		mSlidingMenu.setMenu(R.layout.left_menu_fragment);// 设置menu的布局文件
+		// mSlidingMenu.toggle();//动态判断自动关闭或开启SlidingMenu
+
+		// mSlidingMenu.setSecondaryMenu(R.layout.profile_drawer_right);
+		// mSlidingMenu.setSecondaryShadowDrawable(R.drawable.shadowright);
+		
+		Log.d("tag", "initSlidingMenu....middle.");
+		mSlidingMenu.setOnOpenListener(new SlidingMenu.OnOpenListener() {
+			public void onOpen() {
+				initView();
+			}
+		});
+		mSlidingMenu.setOnOpenedListener(new SlidingMenu.OnOpenedListener() {
+			public void onOpened() {
+			}
+		});
+		mSlidingMenu.setOnClosedListener(new OnClosedListener() {
+
+			@Override
+			public void onClosed() {
+				// TODO Auto-generated method stub
+
+			}
+		});
+		Log.d("tag", "initSlidingMenu....end.");
+
+		initView();
+		return mSlidingMenu;
+		
+	}
+	private void initView() {
+		// TODO Auto-generated method stub
+		RelativeLayout userlogin=(RelativeLayout)activity.findViewById(R.id.lay_userlogin);
+		userlogin.setOnClickListener(this);
+		TextView username=(TextView)activity.findViewById(R.id.txt_user);
+		username.setText(Declare.username);//显示用户名称或未登录
+		RelativeLayout bg_img=(RelativeLayout)activity.findViewById(R.id.lay_backgroud_img);
+		bg_img.setOnClickListener(this);
+		RelativeLayout help=(RelativeLayout)activity.findViewById(R.id.lay_help);
+		help.setOnClickListener(this);
+		RelativeLayout quit=(RelativeLayout)activity.findViewById(R.id.lay_exit);
+		quit.setOnClickListener(this);
+		
+		home_url=(EditText)activity.findViewById(R.id.home_url);
+		home_url.setText(Declare.home_url);
+		Button smzl=(Button)activity.findViewById(R.id.btn_smzl);
+		smzl.setOnClickListener(this);
+		Button btn_login=(Button)activity.findViewById(R.id.connecthomeBtn);
+		btn_login.setOnClickListener(this);
+	}
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		switch (v.getId()){
+		case R.id.lay_userlogin://修改用户信息
+			if((Declare.username.equals("未登录"))&&(!Declare.islogin)){
+				intent=new Intent(activity,Login.class);
+				activity.startActivityForResult(intent,1);
+				activity.overridePendingTransition(R.anim.fade, R.anim.hold);
+			}else{
+				intent=new Intent(activity,Regist.class);
+				activity.startActivity(intent);
+				activity.overridePendingTransition(R.anim.fade, R.anim.hold);
+			}
+			mSlidingMenu.toggle(true);
+			break;
+		case R.id.lay_backgroud_img://设置背景图片
+			//do nothing
+			break;
+		case R.id.lay_help://操作说明
+			
+			break;
+		case R.id.lay_exit://退出当前登录
+			Logout();
+			mSlidingMenu.toggle(true);
+			break;
+		case R.id.btn_smzl://调用摄像头扫描条码或二维码识别主站地址
+			Intent openCameraIntent = new Intent(activity,CaptureActivity.class);
+			openCameraIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);  
+            activity.startActivityForResult(openCameraIntent, 0);
+			break;
+		case R.id.connecthomeBtn://点击登录按钮，使用新主站地址调出登录界面。进行登录
+			Declare.home_url=home_url.getText().toString();
+			intent=new Intent(activity,Login.class);
+			activity.startActivityForResult(intent,1);
+			activity.overridePendingTransition(R.anim.fade, R.anim.hold);
+			mSlidingMenu.toggle(true);
+			break;
+		}
+	}
+
+	private void Logout() {
+		// TODO Auto-generated method stub
+		new Thread(new Runnable() {
+	         @Override
+	         public void run() {
+	        	 try {
+	        	 ReturnData iis = ClientService.sendpost("Logout");
+	        	 if(iis.mark.equals("ok")){
+		        	 // 使用BufferedReader对象读取返回的数据流
+				     // 按行读取，存储在StringBuider对象response中
+				     BufferedReader reader = new BufferedReader(new InputStreamReader(iis.is));
+				     //StringBuilder response = new StringBuilder();
+				     String line;
+				     JSONObject result = null;
+				     while ((line = reader.readLine()) != null) {
+				    	 try {
+				    		 result = new JSONObject( line);
+				    	 } catch (JSONException e) {
+				    			// TODO 自动生成的 catch 块
+				    		 e.printStackTrace();
+				    	 }
+				      }
+				      String errorcode=result.getString("Error");
+				      if(errorcode.equals("null")){
+				    	  if(result.getBoolean("Result")){
+					    	  Declare.islogin=false;
+					    	  Message msg = new Message();
+				              msg.what = 0;
+				              MainActivity.handler.sendMessage(msg);
+			              }
+					      //
+				      }else{
+				    	  Message msg = new Message();
+			              msg.what = 1;
+			              msg.obj=errorcode;
+			              MainActivity.handler.sendMessage(msg);
+				      }
+	        	 }else if(iis.mark.equals("outtime")){
+	        		  Message msg = new Message();
+		              msg.what = 1;
+		              msg.obj="连接超时";
+		              MainActivity.handler.sendMessage(msg);
+	        	 }else if(iis.mark.equals("error")){
+	        		  Message msg = new Message();
+		              msg.what = 1;
+		              msg.obj="连接错误";
+		              MainActivity.handler.sendMessage(msg);
+	        	 }else if(iis.mark.equals("未授权")){
+	        		  Message msg = new Message();
+		              msg.what = 1;
+		              msg.obj="未授权";
+		              MainActivity.handler.sendMessage(msg);
+	        	 }
+			  //..........
+			  // 此处省略处理数据的代码
+			  // 若需要更新UI，需将数据传回主线程，具体可搜索android多线程编程
+	        } catch (Exception e){
+	             e.printStackTrace();
+	        }// finally {}
+	     }
+	}).start();
+	}
+
+
+}

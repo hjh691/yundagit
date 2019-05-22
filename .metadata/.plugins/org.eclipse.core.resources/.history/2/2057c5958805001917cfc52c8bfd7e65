@@ -1,0 +1,183 @@
+package com.example.substationtemperature;
+
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+
+import com.example.substationtemperature.adapter.ListItemAdapter_xinxi;
+import com.example.substationtemperature.base.AlertInfo;
+import com.example.substationtemperature.base.Declare;
+import com.example.substationtemperature.base.MeasureData;
+
+import DateTimePickDialogUtil.DateTimeControl;
+import DateTimePickDialogUtil.DateTimePickDialogUtil;
+import android.app.Activity;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ListView;
+import android.widget.Spinner;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.AdapterView.OnItemSelectedListener;
+import android.widget.TextView;
+
+public class FragmentDailyrecord extends Fragment implements OnClickListener{
+	private Activity activity;
+	private View view;
+	
+	private Spinner spn_daily_zhan;
+	private String[] zhanArray={"35kV站","110kV站1"}; 
+	private ArrayAdapter<String> zhanAdapter;
+	private TextView txt_startdate_daily,txt_enddate_daily;
+	private Button btn_query_daily;
+	
+	private ArrayList<AlertInfo> xinxis;
+	private Calendar calendar = Calendar.getInstance();
+	private SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+	private String currentDateTimeStr = sdf.format(calendar.getTime());
+	private ListItemAdapter_xinxi mAdapter=null;
+	private ListView list_daily;
+	
+	public FragmentDailyrecord(){
+		
+	}
+	
+	@Override
+	public View onCreateView(LayoutInflater inflater,ViewGroup container,
+			Bundle saveInstanceState){
+		view=inflater.inflate(R.layout.fragment_daily_record, container,false);		
+		initview();
+		return view;
+		
+	}
+	private void initview() {
+		// TODO Auto-generated method stub
+		spn_daily_zhan=(Spinner)view.findViewById(R.id.spn_dailyrecord_zhandian);
+		//zhanArray[2]="110kV站5";
+        zhanAdapter=new ArrayAdapter<String>(activity,R.layout.item_select,zhanArray);
+		zhanAdapter.setDropDownViewResource(R.layout.item_dropdown);
+		spn_daily_zhan.setPrompt("请选择站点名称");
+		spn_daily_zhan.setAdapter(zhanAdapter);
+		spn_daily_zhan.setSelection(zhanAdapter.getPosition(Declare.zhan));
+		spn_daily_zhan.setOnItemSelectedListener(new zhanSelectedListener());
+		
+		txt_startdate_daily=(TextView)view.findViewById(R.id.dailyrecord_startDatePickerTV);
+		txt_startdate_daily.setOnClickListener(this);
+		txt_enddate_daily=(TextView)view.findViewById(R.id.dailyrecord_endDatePickerTV);
+		txt_enddate_daily.setOnClickListener(this);
+		btn_query_daily=(Button)view.findViewById(R.id.dailyrecord_queryDataBtn);
+		btn_query_daily.setOnClickListener(this);
+		list_daily=(ListView)view.findViewById(R.id.listview_dailyrecord);
+		mAdapter=new ListItemAdapter_xinxi(activity,xinxis);
+		if (Declare.islogin){
+			list_daily.setAdapter(mAdapter);
+		}
+		list_daily.setOnItemClickListener(new ItemClickListener());
+		
+	}
+
+	@Override
+	public void onAttach(Activity activity){
+		super.onAttach(activity);
+		this.activity=activity;
+	}
+	
+	private void loadData() {
+		// TODO Auto-generated method stub
+		xinxis = new ArrayList<AlertInfo>();
+		Date time=new Date();
+		for(int i=0;i<20;i++){
+			AlertInfo currdata=new AlertInfo();
+			currdata.setStation(spn_daily_zhan.getSelectedItem().toString());
+			currdata.setAlerttime(currentDateTimeStr);
+			currdata.setDetail("23."+i);
+			xinxis.add(currdata);
+			currdata=null;
+		}
+	}
+	
+	private final class ItemClickListener implements OnItemClickListener {
+		public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            //需要把表号等参数传递过去，显示此表号对应的数据。2016-03-12h注。
+			AlertInfo item = xinxis.get(position);
+			//Intent intent=new Intent(activity, ManageDataDetailActivity.class);
+			//Bundle bd=new Bundle();
+			Declare.zhan=spn_daily_zhan.getSelectedItem().toString();
+			//Declare.celiangdian=item.getDetail();
+			Declare.time=DateTimeControl.strToDateLong(item.getAlerttime());
+			//intent.putExtra("ameterno", bd);
+			//startActivity(intent);
+			//startActivity(new Intent(ManageDataActivity.this, ManageDataDetailActivity.class));
+			// activity切换过场动画
+			//overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+			MainActivity.selectNavigationItem(4);
+    		MainActivity.mViewPager.setCurrentItem(4);
+		}
+	}
+	
+	//站点选择项操作
+			private class zhanSelectedListener implements OnItemSelectedListener{
+
+				@Override
+				public void onItemSelected(AdapterView<?> parent, View view,
+						int position, long id) {
+					// TODO Auto-generated method stub
+					
+				}
+
+				@Override
+				public void onNothingSelected(AdapterView<?> parent) {
+					// TODO Auto-generated method stub
+					
+				}
+				
+			}
+			//测量点选择项的操作内容
+			private class cldSelectedListener implements OnItemSelectedListener{
+
+				@Override
+				public void onItemSelected(AdapterView<?> parent, View view,
+						int position, long id) {
+					// TODO Auto-generated method stub
+					
+				}
+
+				@Override
+				public void onNothingSelected(AdapterView<?> parent) {
+					// TODO Auto-generated method stub
+					
+				}
+				
+			}
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Calendar calendar = Calendar.getInstance();
+				SimpleDateFormat sdf = new SimpleDateFormat("yyyy年MM月dd日 HH:mm");
+				final String currentDateTimeStr = sdf.format(calendar.getTime());
+				switch(v.getId()){
+				case R.id.dailyrecord_startDatePickerTV:
+					DateTimePickDialogUtil dateTimePicKDialog = new DateTimePickDialogUtil(activity,
+							currentDateTimeStr);
+					dateTimePicKDialog.dateTimePicKDialog(txt_startdate_daily);
+					break;
+				case R.id.dailyrecord_endDatePickerTV:
+					dateTimePicKDialog = new DateTimePickDialogUtil(activity,
+							currentDateTimeStr);
+					dateTimePicKDialog.dateTimePicKDialog(txt_enddate_daily);
+					break;
+				case R.id.dailyrecord_queryDataBtn:
+					
+					break;
+				
+				}
+			}
+
+}

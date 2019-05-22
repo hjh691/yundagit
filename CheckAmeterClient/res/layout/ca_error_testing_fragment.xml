@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 误差测试 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <!-- 第一组和第二组容器布局使用误差校验的公共布局 -->
+
+    <include layout="@layout/common_error_testing_layout" />
+
+    <!-- 第三组容器 -->
+
+    <LinearLayout
+        android:id="@+id/layout_sdkg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1.0dip"
+        android:background="@drawable/ca_view_container_dark_bg"
+        android:orientation="vertical" >
+
+        <!-- 分割线 -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Switch
+                android:id="@+id/checkSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/row_height_1"
+                android:layout_alignParentRight="true"
+                android:layout_margin="2.0dip"
+                android:checked="false"
+                android:textOff="启动"
+                android:textOn="关闭" />
+
+            <TextView
+                android:id="@+id/checkSwitchTV"
+                style="@style/ca_label_dark_style_common"
+                android:layout_width="wrap_content"
+                android:layout_toLeftOf="@id/checkSwitch"
+                android:text="校验" />
+
+            <!-- 校验状态显示标签 -->
+
+            <TextView
+                android:id="@+id/stateInfoTV"
+                style="@style/ca_label_dark_style_common"
+                android:layout_width="match_parent"
+                android:layout_toLeftOf="@id/checkSwitchTV"
+                android:background="#7a7c82"
+                android:gravity="left|center_vertical"
+                android:text="状态："
+                android:textColor="@color/phase_a_yellow" />
+        </RelativeLayout>
+
+        <LinearLayout style="@style/separate_line_horizontal_style" />
+
+        <LinearLayout
+            android:id="@+id/lay_sdkg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.lx.checkameterclient.view.SegmentControl
+                xmlns:segmentcontrol="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/errorTestingSegment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/text_size_commom"
+                segmentcontrol:colors="#4da36b"
+                segmentcontrol:cornerRadius="1dip"
+                segmentcontrol:direction="horizon"
+                segmentcontrol:horizonGap="8dip"
+                segmentcontrol:texts="自动|手动|软手动"
+                segmentcontrol:verticalGap="8dip" />
+
+            <Button
+                android:id="@+id/softSwitchBtn"
+                style="@style/button_green_style"
+                android:layout_width="match_parent"
+                android:text="软手动开关" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button 
+        android:id="@+id/btn_savewc"
+        style="@style/button_green_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</LinearLayout>
