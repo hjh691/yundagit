@@ -500,7 +500,7 @@ public class FragmentChar extends Fragment implements OnClickListener{
 	    //
 	        
 	    LinearLayout barchart = (LinearLayout)view.findViewById(R.id.layout_chart); 
-	    mChartView = ChartFactory.getTimeChartView(activity, dataset, renderer,"YYYY-MM-DD HH:mm:ss"); 
+	    mChartView = ChartFactory.getTimeChartView(activity, dataset, renderer,"yyyy-MM-dd HH:mm:ss"); 
 	    //mChartView = ChartFactory.getLineChartView(activity, dataset, renderer);           
 	    barchart.addView(mChartView, new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT));
 	    mChartView.invalidate();
@@ -763,7 +763,7 @@ public class FragmentChar extends Fragment implements OnClickListener{
 		currentDateTimeStr=(txt_startDatepicker.getText().toString().substring(0,4)+"年");
 		currentDateTimeStr=currentDateTimeStr+txt_startDatepicker.getText().toString().substring(5,7)+"月";
 		currentDateTimeStr=currentDateTimeStr+txt_startDatepicker.getText().toString().substring(8,10)+"日";
-		currentDateTimeStr=currentDateTimeStr+txt_startDatepicker.getText().toString().substring(10,15);
+		currentDateTimeStr=currentDateTimeStr+txt_startDatepicker.getText().toString().substring(11,16);
 		
 		if(v.getId()==R.id.txt_histraychar_startdate){
 			DateTimePickDialogUtil dateTimePicKDialog = new DateTimePickDialogUtil(activity,
@@ -773,7 +773,7 @@ public class FragmentChar extends Fragment implements OnClickListener{
 			currentDateTimeStr=(txt_endDatepicker.getText().toString().substring(0,4)+"年"+
 					txt_endDatepicker.getText().toString().substring(5, 7)+"月"+
 					txt_endDatepicker.getText().toString().substring(8,10)+"日"+
-					txt_endDatepicker.getText().toString().substring(10,15));
+					txt_endDatepicker.getText().toString().substring(11,16));
 			DateTimePickDialogUtil dateTimePicKDialog = new DateTimePickDialogUtil(activity,
 					currentDateTimeStr);
 			dateTimePicKDialog.dateTimePicKDialog(txt_endDatepicker);

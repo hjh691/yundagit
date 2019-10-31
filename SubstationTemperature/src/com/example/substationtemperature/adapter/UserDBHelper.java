@@ -93,9 +93,9 @@ public class UserDBHelper extends SQLiteOpenHelper{
 			//Android 的ALERT 命令不支持一次添加多列，只能分多次添加
 			String alter_sql="ALTER TABLE"+TABLE_NAME+"ADD COLUMN"+"phone VARCHAR;";
 			db.execSQL(alter_sql);
-			alter_sql="LATER TABLE"+TABLE_NAME+"ADD COLUMN"+"danwei VARCHAR;";
+			alter_sql="ALTER TABLE"+TABLE_NAME+"ADD COLUMN"+"danwei VARCHAR;";
 			db.execSQL(alter_sql);
-			alter_sql="LATER TABLE"+TABLE_NAME+"ADD COLUMN"+"e_mail VARCHAR;";
+			alter_sql="ALTER TABLE"+TABLE_NAME+"ADD COLUMN"+"e_mail VARCHAR;";
 			db.execSQL(alter_sql);
 		}
 	}

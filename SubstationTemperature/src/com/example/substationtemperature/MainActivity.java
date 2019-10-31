@@ -25,6 +25,7 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
 import android.view.Window;
+import android.view.animation.ScaleAnimation;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -80,7 +81,7 @@ public class MainActivity extends FragmentActivity {
 	
 	//private static TextView title_ver;
 	public static  Handler handler=null;
-	
+	public ScaleAnimation scale;
 	public static UserInfo userinfo=new UserInfo();
 	public  static UserDBHelper mUserHelper=null;//new UserDBHelper(dbcontext);
 	@Override

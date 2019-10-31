@@ -10,9 +10,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.examlpe.substationtemperature.MainActivity" >
 
-	<!--标题栏  -->
+    <!-- 标题栏 -->
+
     <include layout="@layout/main_title_bar" />
-	<!-- 导航条：导航栏项目，这里多套了一层LinearLayout，允许将来在里面放置一些动画效果的图片，或者其它组件，方便扩展 -->
+    <!-- 导航条：导航栏项目，这里多套了一层LinearLayout，允许将来在里面放置一些动画效果的图片，或者其它组件，方便扩展 -->
 
     <LinearLayout
         android:id="@+id/mNavigationBarTopContainer"
@@ -21,12 +22,12 @@
         android:background="#fff3f3f3"
         android:orientation="horizontal" >
 
-         <!--导航栏控件，自定义控件，需要在view包中声明-->
+        <!-- 导航栏控件，自定义控件，需要在view包中声明 -->
 
         <com.example.substationtemperature.view.NavigationBarHScrollView
             android:id="@+id/mNavigationBarHScrollView"
             style="@style/navigation_bar_style" >
- 
+
             <!-- 导航容器布局 -->
 
             <LinearLayout
@@ -40,15 +41,63 @@
                 android:paddingRight="10.0dip" />
         </com.example.substationtemperature.view.NavigationBarHScrollView>
     </LinearLayout>
-	 <android.support.v4.view.ViewPager
-        
+
+    <android.support.v4.view.ViewPager
         android:id="@+id/mViewPager"
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
-    <!--   <android.support.v4.view.PagerTabStrip
+
+        <!--
+           <android.support.v4.view.PagerTabStrip
             android:id="@+id/pts_title"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>-->
+            android:layout_height="wrap_content"/>
+        -->
     </android.support.v4.view.ViewPager>
+
+<TabHost
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </TabWidget>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:id="@+id/tab1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                 android:orientation="horizontal" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tab2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                 android:orientation="horizontal" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tab3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                 android:orientation="horizontal" >
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</TabHost>
 
 </LinearLayout>

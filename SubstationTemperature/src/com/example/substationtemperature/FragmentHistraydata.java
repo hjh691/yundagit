@@ -234,7 +234,7 @@ public class FragmentHistraydata extends Fragment implements OnClickListener{
 			currentDateTimeStr=(txt_startDatepicker.getText().toString().substring(0,4)+"年"+
 					txt_startDatepicker.getText().toString().substring(5, 7)+"月"+
 					txt_startDatepicker.getText().toString().substring(8,10)+"日"+
-					txt_startDatepicker.getText().toString().substring(10,15));
+					txt_startDatepicker.getText().toString().substring(11,16));
 			DateTimePickDialogUtil dateTimePicKDialog = new DateTimePickDialogUtil(activity,
 					currentDateTimeStr);
 			dateTimePicKDialog.dateTimePicKDialog(txt_startDatepicker);
@@ -243,7 +243,7 @@ public class FragmentHistraydata extends Fragment implements OnClickListener{
 			currentDateTimeStr=(txt_endDatepicker.getText().toString().substring(0,4)+"年"+
 					txt_endDatepicker.getText().toString().substring(5, 7)+"月"+
 					txt_endDatepicker.getText().toString().substring(8,10)+"日"+
-					txt_endDatepicker.getText().toString().substring(10,15));
+					txt_endDatepicker.getText().toString().substring(11,16));
 			dateTimePicKDialog = new DateTimePickDialogUtil(activity,
 					currentDateTimeStr);
 			dateTimePicKDialog.dateTimePicKDialog(txt_endDatepicker);

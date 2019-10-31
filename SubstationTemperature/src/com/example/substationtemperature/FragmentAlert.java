@@ -340,7 +340,7 @@ public class FragmentAlert extends Fragment implements OnClickListener {
 			currentDateTimeStr=(txt_startdate.getText().toString().substring(0,4)+"年"+
 					txt_startdate.getText().toString().substring(5, 7)+"月"+
 					txt_startdate.getText().toString().substring(8,10)+"日"+
-					txt_startdate.getText().toString().substring(10,15));
+					txt_startdate.getText().toString().substring(11,16));
 			DateTimePickDialogUtil dateTimePicKDialog = new DateTimePickDialogUtil(activity,
 					currentDateTimeStr);
 			dateTimePicKDialog.dateTimePicKDialog(txt_startdate);
@@ -349,7 +349,7 @@ public class FragmentAlert extends Fragment implements OnClickListener {
 			currentDateTimeStr=(txt_enddate.getText().toString().substring(0,4)+"年"+
 					txt_enddate.getText().toString().substring(5, 7)+"月"+
 					txt_enddate.getText().toString().substring(8,10)+"日"+
-					txt_enddate.getText().toString().substring(10,15));
+					txt_enddate.getText().toString().substring(11,16));
 			dateTimePicKDialog = new DateTimePickDialogUtil(activity,
 					currentDateTimeStr);
 			dateTimePicKDialog.dateTimePicKDialog(txt_enddate);
